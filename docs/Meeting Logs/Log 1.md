@@ -18,7 +18,7 @@ __Location__: Virtual (Discord voice call)
 
 <br>
 
-<!-ATTENDANCE-->
+<!--ATTENDANCE-->
 
 ## __Attendance__
 
