@@ -1,14 +1,24 @@
+<!--MEETING 1-->
+
 # __Meeting 1__
 
 <br>
 
+<!--DATE-->
+
 __Date__: February 17, 2026
 
+<!--TIME-->
+
 __Time__: 6:00 p.m. - 6:23 p.m.
+
+<!--LOCATION-->
 
 __Location__: Virtual (Discord voice call)
 
 <br>
+
+<!-ATTENDANCE-->
 
 ## __Attendance__
 
@@ -21,11 +31,17 @@ __Location__: Virtual (Discord voice call)
 
 <br>
 
+<!--PURPOSE-->
+
 __Purpose__: Getting to know each other and assign roles
 
 <br>
 
+<!--ROLES INFO-->
+
 ## __Roles Info__
+
+<!--ASSIGNED ROLES-->
 
 ### <ins>Assigned Roles</ins>
 * __Aaron Trites__: QA Testing Leader
@@ -53,6 +69,8 @@ __Purpose__: Getting to know each other and assign roles
 
 <br>
 
+<!--ROLES RESPONSIBILITY-->
+
 ### <ins>Roles Responsibilities</ins>
 
 * __QA Testing Leader__: Develops test plan and test cases, compares expected and actual results and ensures any issues/defects are resolved
@@ -79,12 +97,15 @@ __Purpose__: Getting to know each other and assign roles
 
 <br>
 
+<!--TEAM NAME-->
+
 ### __Team Name__
 
 - [ ] Team 3
 
 <br><br>
 
+<!--NEXT MEETING'S INFO-->
 
 ## __Next Meeting's Info__
 
