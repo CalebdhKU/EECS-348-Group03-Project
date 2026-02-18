@@ -3,9 +3,13 @@
   <p align="center">
     Arithmetic Expression Evaluator
     <br />
-    <a href="https://github.com/CalebdhKU/EECS-348-Group03-Project"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/CalebdhKU/EECS-348-Group03-Project/tree/main/docs"><strong>Explore the docs »</strong></a>
     <br />
-
+    <a href="https://github.com/CalebdhKU/EECS-348-Group03-Project/tree/main/src"><strong>See the code »</strong></a>
+    <br />
+    <a href="https://github.com/CalebdhKU/EECS-348-Group03-Project/tree/main/test"><strong>Check out tests »</strong></a>
+    <br />
+    
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
@@ -109,14 +113,14 @@ Distributed under the project_license. See [redacted] for more information.
 <!-- CONTACT -->
 ## Contacts
 
-Aaron - atrites92@ku.edu<br />
-Maha - M130j132@ku.edu<br />
-Greeshma - g675k904@ku.edu<br />
-Ivan - ivan.kullaya@ku.edu<br />
-Jerry - j675m841@ku.edu<br />
-Caleb - 
+Aaron Trites - atrites92@ku.edu<br />
+Maha Jornaz - M130j132@ku.edu<br />
+Greeshma Kunduri - g675k904@ku.edu<br />
+Ivan Kullaya - ivan.kullaya@ku.edu<br />
+Jerry Marveille - j675m841@ku.edu<br />
+Caleb Harmsen - charmsen@ku.edu<br />
 
-Project Link: [https://github.com/CalebdhKU/EECS-348-Group03-Project](https://github.com/CalebdhKU/EECS-348-Group03-Project)
+Project Link: [Group03 Project](https://github.com/CalebdhKU/EECS-348-Group03-Project)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
