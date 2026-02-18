@@ -27,7 +27,7 @@ __Purpose__: Getting to know each other and assign roles
 
 ## __Roles Info__
 
-### Assigned Roles
+### <ins>Assigned Roles</ins>
 * __Aaron Trites__: QA Testing Leader
 
 <br>
@@ -53,7 +53,7 @@ __Purpose__: Getting to know each other and assign roles
 
 <br>
 
-### Roles Responsibilities
+### <ins>Roles Responsibilities</ins>
 
 * __QA Testing Leader__: Develops test plan and test cases, compares expected and actual results and ensures any issues/defects are resolved
   
