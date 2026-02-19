@@ -48,7 +48,7 @@ This is a group project for EECS348 - Software Engineering to learn how coding p
 ## Meet the Team
 
 | Team Member | Role | Responsibilities | Programming Experience | Computing Platform Experience |
-| :--- | :---: | :---: | :---: | ---: |
+| :---: | :---: | :---: | :---: | :---: |
 | Aaron Trites | QA Testing Leader | Develops test plan and test cases, compares expected and actual results and ensures any issues/defects are resolved  |
 | Caleb Harmsen | GitHub Manager | Creates and manages the repository, maintains folder structure, handles merges and version history |
 | Greeshma Kunduri | Requirements Leader | Defines scope, objectives, constraints, prevents scope creep and ensures requirements are aligned with project deadline  |
