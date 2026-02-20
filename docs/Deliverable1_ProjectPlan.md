@@ -156,7 +156,21 @@ The Software Development Plan will be revised prior to the start of each Iterati
 # 3. Project Organization
 
 ## 3.1 Organizational Structure
-[Describe the organizational structure of the project team, including management and other review authorities.]
+
+The project team consists of six members, each assigned a leadership role to ensure structured execution and accountability throughout the project lifecycle. While each member has defined responsibilities, collaboration is encouraged and team members may contribute beyond their assigned roles when necessary. <br><br>
+The division of roles and section responsibilities is as follows:
+
+*	__Aaron Trites (QA Testing Leader)__:  Develops testing strategies, identifies any defects or issues in the code, and compares expected vs actual results. Assigned sections 4.5 - 4.7.
+
+*	__Caleb Harmsen (GitHub Manager)__: Manages the project repository, maintains folder structure, and oversees merges and version history. Assigned section 4.8.
+ 
+*	__Greeshma Kunduri (Requirements Leader)__: Defines project scope, objectives, and constraints, and ensures requirements align with project timeline. Assigned sections 1.1 – 1.2, 2.1 – 2.3.
+  
+*	__Ivan Kullaya (Documentation Leader)__: Manages the UPEDU template, consolidates team contributions and ensures clarity and consistency to prevent point loss. Assigned sections 1.3 – 1.5. 
+
+*	__Jerry Marveille (Technical Leader)__: Provides technical direction, recommended tools and implementation approaches, and ensures technical practicality. Assigned sections 4.1 – 4.2, 4.4. 
+
+*	__Maha Jornaz (Project Leader)__: Oversees the project coordination, schedules the meetings, records the meeting logs, and submits the project. Assigned sections 3.1 – 3.3, 2.4, 4.3.
 
 ---
 
@@ -165,8 +179,8 @@ The Software Development Plan will be revised prior to the start of each Iterati
 
 ---
 
-## 3.3 Roles and Responsibilities [the more details here, the easier your job; include contact info, availability info, expertise, …]
-[Identify the project organizational units that will be responsible for each of the disciplines, workflow details, and supporting processes. The text below is provided as an example.]
+## 3.3 Roles and Responsibilities 
+
 
 | Person | Unified Process for EDUcation Role | Contact Info |
 |--------|----------------| -------- |
