@@ -22,7 +22,7 @@
 ---
 
 # Table of Contents
-[keep this; say N/A when inapplicable]
+
 
 1. Introduction  
    - 1.1 Purpose  
@@ -161,7 +161,7 @@ The Software Development Plan will be revised prior to the start of each Iterati
 
 ## 3.1 Organizational Structure
 
-The project team consists of six members, each assigned a leadership role to ensure structured execution and accountability throughout the project lifecycle. While each member has defined responsibilities, collaboration is encouraged and team members may contribute beyond their assigned roles when necessary. <br><br>
+The project team consists of six members, each assigned a leadership role to ensure structured execution and accountability throughout the project's timeline. While each member has defined responsibilities, collaboration is encouraged and team members may contribute beyond their assigned roles when necessary. <br><br>
 The division of roles and section responsibilities is as follows:
 
 *	__Aaron Trites (QA Testing Leader)__:  Develops testing strategies, identifies any defects or issues in the code, and compares expected vs actual results. Assigned sections 4.5 - 4.7.
