@@ -147,9 +147,13 @@ Constraints:
 ---
 
 ## 2.4 Evolution of the Software Development Plan
-[A table of proposed versions of the Software Development Plan, and the criteria for the unscheduled revision and reissue of this plan. The text below is provided as an example.]
+The Software Development Plan will be revised prior to the start of each Iteration phase. In addition to scheduled updates, unscheduled revisions are allowed as needed to improve clarity and formatting.
 
-The Software Development Plan will be revised prior to the start of each Iteration phase.
+| Software Development Plan Version | Date | Description of Changes |
+| ----------- | ------ | ------------- |
+| 1.0 | 2/10/26 | Initial Software Development |
+| 1.1 | 2/17/26 | Updated plan to reflect reassignment of team section responsibilities |
+
 
 ---
 
