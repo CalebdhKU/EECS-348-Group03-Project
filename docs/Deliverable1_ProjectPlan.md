@@ -1,4 +1,4 @@
-# Group 3
+<img width="468" height="32" alt="image" src="https://github.com/user-attachments/assets/b1e62795-122c-479f-aed2-2c68b3cb90ce" /># Group 3
 
 # Arithmetic Expression Evaluator in C++
 **Version:** 1.0  
@@ -168,9 +168,15 @@ The Software Development Plan will be revised prior to the start of each Iterati
 ## 3.3 Roles and Responsibilities [the more details here, the easier your job; include contact info, availability info, expertise, …]
 [Identify the project organizational units that will be responsible for each of the disciplines, workflow details, and supporting processes. The text below is provided as an example.]
 
-| Person | Unified Process for EDUcation Role |
-|--------|----------------|
-| Name | Role Title/Description |
+| Person | Unified Process for EDUcation Role | Contact Info |
+|--------|----------------| -------- |
+| Aaron Trites | QA Testing Leader | atrites92@ku.edu |
+| Caleb Harmsen | GitHub Manager | charmsen@ku.edu |
+| Greeshma Kunduri | Requirements Leader | g675k904@ku.edu |
+| Ivan Kullaya | Documentation Leader | ivan.kullaya@ku.edu |
+| Jerry Marveille | Technical Leader | j675m841@ku.edu |
+| Maha Jornaz | Project Leader | m130j132@ku.edu |
+
 
 Anyone on the project can perform Any Role activities.
 
