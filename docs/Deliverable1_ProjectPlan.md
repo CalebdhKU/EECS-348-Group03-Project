@@ -151,7 +151,7 @@ The Software Development Plan will be revised prior to the start of each Iterati
 
 | Software Development Plan Version | Date | Description of Changes |
 | ----------- | ------ | ------------- |
-| 1.0 | 2/10/26 | Initial Software Development |
+| 1.0 | 2/10/26 | Initial Download of Software Development Plan |
 | 1.1 | 2/17/26 | Updated plan to reflect reassignment of team section responsibilities |
 
 
