@@ -56,23 +56,25 @@
 [The introduction of the Software Development Plan provides an overview of the entire document. It includes the purpose, scope, definitions, acronyms, abbreviations, references, and overview of this Software Development Plan.]
 
 ## 1.1 Purpose
-[Specify the purpose of this Software Development Plan. The text below is provided as an example. ]
 
-The purpose of the Software Development Plan is to gather all information necessary to control the project. It describes the approach to the development of the software and is the top-level plan generated and used by managers to direct the development effort.  of individual iterations will be described in Iteration Plans.  
-
-The following people use the Software Development Plan:
-- The project manager uses it to plan the project schedule and resource needs, and to track progress against the schedule.
-- Project team members use it to understand what they need to do, when they need to do it, and what other activities they are dependent upon.
+The purpose of this Software Development Plan is to provide a clear roadmap for developing an Arithmetic Expression Parser built in C++. This document defines how the project will be planned, executed, and monitored, ensuring that the team delivers a functional, reliable, and well-documented parser.
+The following people use the Software Development Plan: 
+•	The project manager uses it to plan the project schedule and resource needs, and to track progress against the schedule. 
+•	Project team members use it to understand what they need to do, when they need to do it, and what other activities they are dependent         upon. 
 
 ---
 
 ## 1.2 Scope
 [A brief description of the scope of this Software Development Plan; what Project(s) it is associated with and anything else that is affected or influenced by this document. The text below is provided as an example.]
 
-This Software Development Plan describes the overall plan to be used by the <project name> project, including deployment of the product. The details of the individual iterations will be described in the Iteration Plans.
+This plan covers all phases, from planning and requirements gathering to design, implementation, testing, and final delivery. The parser will support arithmetic expressions with operators (+, -, *, /, %, **), parentheses, and unary operators, following standard precedence and associativity rules.
 
-The plans as outlined in this document are based upon the product requirements as defined in the Vision Document.
-
+Included in scope:
+•	Defining project goals, deliverables, and key milestones.
+•	Outlining development processes, schedules, and resource requirements.
+•	Following quality, testing, and documentation standards. 
+Excluded from scope:
+•	Detailed iteration-level task assignments, which are documented separately in the Iteration Plans.
 ---
 
 ## 1.3 Definitions, Acronyms, and Abbreviations
@@ -110,17 +112,37 @@ This Software Development Plan contains the following information:
 ## 2.1 Project Purpose, Scope, and Objectives
 [A brief description of the purpose and objectives of this project and a brief description of what deliverables the project is expected to deliver.]
 
+This project aims to develop a C++ arithmetic expression parser for integration into a larger compiler. It will evaluate expressions with operators (+, -, *, /, %, **), parentheses, and unary operators according to standard precedence. 
+Objectives:
+•	Build a parser that correctly evaluates arithmetic expressions.
+•	Handle errors such as division by zero or invalid syntax.
+•	Produce clear documentation and a user-friendly interface.
+•	Keep the parser modular and ready to integrate into a larger compiler system.
 ---
 
 ## 2.2 Assumptions and Constraints
 [A list of assumptions that this plan is based and any constraints, for example. staff, equipment, schedule, that apply to the project.]
+Assumptions:
+•	Initial input will use integers; floating-point support may be added later.
+•	Required tools and resources will be available throughout the project.
+Constraints:
+•	Must be completed within the Spring 2026 term.
+•	Team availability may be limited by other commitments.
+•	Must run across Windows, Linux, iOS, and Android.
+•	Integration with the larger compiler may impose design limits.
 
 ---
 
 ## 2.3 Project Deliverables
 [A list of the artifacts to be created during the project, including target delivery dates. The text below is provided as an example.] Requirements, design specs, test cases, code  
 
-Deliverables for each project phase are identified in the Development Case.  Deliverables are delivered towards the end of the iteration, as specified in section 4.2.4 Project Schedule.
+•	Project Management Plan: Timeline, milestones, and roles.
+•	Requirements Document: Functional and non-functional requirements.
+•	Design Document: System architecture and algorithms.
+•	Test Suite: Test cases and results for valid and invalid expressions.
+•	C++ Source Code: Clean, modular, and documented code.
+•	User Manual/README: Instructions with examples for using the parser.
+•	Iteration Reports: Progress summaries at the end of each iteration.
 
 ---
 
