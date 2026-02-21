@@ -172,7 +172,7 @@ The division of roles and section responsibilities is as follows:
   
 *	__Ivan Kullaya (Documentation Leader)__: Manages the UPEDU template, consolidates team contributions and ensures clarity and consistency to prevent point loss. Assigned sections 1.3 – 1.5. 
 
-*	__Jerry Marveille (Technical Leader)__: Provides technical direction, recommended tools and implementation approaches, and ensures technical practicality. Assigned sections 4.1 – 4.2, 4.4. 
+*	__Jerry Merveille (Technical Leader)__: Provides technical direction, recommended tools and implementation approaches, and ensures technical practicality. Assigned sections 4.1 – 4.2, 4.4. 
 
 *	__Maha Jornaz (Project Leader)__: Oversees the project coordination, schedules the meetings, records the meeting logs, and submits the project. Assigned sections 3.1 – 3.3, 2.4, 4.3.
 
