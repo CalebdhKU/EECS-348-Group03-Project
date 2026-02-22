@@ -207,19 +207,58 @@ N/A
 ---
 
 ## 4.2 Project Plan
-[This section contains the schedule and resources for the project.]Project artifact as well as iteration schedules] 
+This section contains the schedule and resources for the project. Project artifact as well as iteration schedules
 
 ### 4.2.1 Phase Plan
 N/A
 
 ### 4.2.2 Iteration Objectives
-[Briefly list the objectives to be accomplished for each of the iterations and Refer to the related Iteration Plan Documents for more details.]
+
+#### Iteration 1 – Requirements Specifications (Weeks 6–8)
+-	Define the supported operators.
+-	Specify precedence and associativity rules (PEMDAS).
+-	Identify required features such as tokenizing, parsing, unary operators, parentheses, and error handling.
+-	Document functional and non-functional requirements.
+-	Identify risks or complexity.
+
+#### Iteration 2 – Architecture & Design (Weeks 9–10/11)
+-	Select parsing strategy.
+-	Implement/design a class diagram using OOP principles.
+-	Define the data structures for tokens, stacks, or expression trees.
+-	Create UML diagrams.
+
+#### Iteration 3 – Implementation (Weeks 10/11–14)
+-	Implement the tokenizer for numbers, operators, and parentheses.
+-	Implement the parser with precedence and associativity logic.
+-	Implement an evaluation logic (tree or stack‑based).
+-	Add unary operator support.
+-	Add error handling (division by zero, invalid expressions).
+
+#### Iteration 4 – Testing, Validation & Finalization (Weeks 13–15)
+-	Develop a full unit test suite (valid, invalid, edge cases).
+-	Fix bugs and/or refine the evaluation logic.
+-	Finalize the user-friendly and legible command-line interface (CLI).
+-	Complete test cases, documentation, and user manual.
 
 ### 4.2.3 Releases
-[A brief description of each software release and whether it’s demo, beta, and so on.]
+
+#### Release 1 – Requirements Documentation (Preliminary)
+-	The complete documentation of the requirements defining operators, precedence, unary operators cases, parentheses handling, numeric constants, and error conditions.
+#### Release 2 – Architecture & Design (Beta)
+-	UML diagrams, class structure, chosen data structures, and parsing strategy.
+#### Release 3 – Implementation/Functional Build (Demo) 
+-	A working arithmetic expression evaluator supporting all operators, parentheses, unary operators, and error handling. A basic CLI prototype is included.
+#### Release 4 – Final Release (Final) 
+-	Fully tested C++ program with complete documentation and a user manual.
 
 ### 4.2.4 Project Schedule
-[Diagrams or tables showing target dates for completion of iterations and phases, release points, demos, and other milestones.] [Limit to major project milestone, e.g., requirements, design, implementaiotn, and testing]
+| Phases |	Milestone |	Target Week	| Description |
+|--------|-----------| -------- | ------- |
+| Inception	| Requirements completed | Week 8 | Operators, precedence, unary operators rules, and error cases are documented
+| Elaboration | Architecture & Design completed	| Week 10 | A parsing strategy has been chosen, and UML diagrams have been implemented
+| Construction	| Core Implementation completed | Week 13	| A fully functional evaluator and CLI are ready
+| Transition | Testing & Improvement | Week 14 | Unit tests, bug fixes, and the CLI have been polished
+| Transition | Final Release & Documentation	| Week 15 | Final build, test results, and user manual released
 
 ### 4.2.5 Project Resourcing
 N/A
@@ -235,8 +274,12 @@ N/A
 - Configuration Management: Describe the process by which problems and changes are submitted, reviewed, and dispositioned. Describe how project or product artifacts are to be named, marked, and numbered, including  system software, plans, models, components, test software, results and data, executables, and so on. Describe retention policies, and the back-up, disaster, and recovery plans.  OR if Available, Refer to the Configuration Management Plan document
 The text that follows is provided as an example.]
 
+---
+
 ### 4.4 Requirements Management
-The requirements for this system are captured in the Vision document. Requested changes to requirements are captured in Change Requests, and are approved as part of the Configuration Management process.
+N/A
+
+---
 
 ### 4.5 Quality Control
 Defects will be recorded and tracked as Change Requests, and defect metrics will be gathered (see Reporting and Measurement below).
@@ -245,13 +288,19 @@ All deliverables are required to go through the appropriate review process, as d
 
 Any defects found during review which are not corrected prior to releasing for integration must be captured as Change Requests so that they are not forgotten. 
 
+---
+
 ### 4.6 Reporting and Measurement
 N/A
+
+---
 
 ### 4.7 Risk Management
 Risks will be identified in Inception Phase using the steps identified in the RUP for Small Projects activity “Identify and Assess Risks”. Project risk is evaluated at least once per iteration and documented in this table.
 
 Refer to the Project Measurements Document (AAA-BBB-X.Y.doc) for detailed information.
+
+---
 
 ### 4.8 Configuration Management
 Appropriate tools will be selected which provide a database of Change Requests and a controlled versioned repository of project artifacts.
