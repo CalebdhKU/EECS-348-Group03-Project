@@ -342,8 +342,17 @@ Refer to the Project Measurements Document (AAA-BBB-X.Y.doc) for detailed inform
 ---
 
 ### 4.8 Configuration Management
+Configuration Management ensures that all project artifacts are properly controlled, versioned, and traceable throughout the development of the Arithmetic Expression Evaluator. This process helps maintain consistency between requirements, design, implementation, and testing while allowing the team to manage changes in an organized and structured manner.
 
-
+- All source code, documentation, and test artifacts will be stored in a shared Git repository (e.g., GitHub), which will serve as the central version control system. Team members will commit changes regularly using clear and meaningful commit messages.
+- The repository will use a simple branching strategy:
+  - **main** – stable, tested versions of the project  
+  - **development** – integration of completed features  
+  - **feature branches** – implementation of individual components such as tokenization, operator precedence, and error handling  
+- All changes to requirements, design, or implementation must be discussed and documented in a Change Log. Major changes require updates to the requirements and design documents before implementation.
+- Bugs and defects will be tracked using an issue tracking system. Each issue will include a description, expected versus actual results, the assigned team member, and its status (Open, In Progress, Resolved, Closed).
+- Version numbers will follow the **Major.Minor** format (e.g., 1.0, 1.1). Project baselines will be established at major milestones such as requirements completion, design completion, implementation completion, and final release.
+- The remote repository provides backup and recovery through version history, allowing previous versions of files to be restored if necessary.
 
 ---
 
