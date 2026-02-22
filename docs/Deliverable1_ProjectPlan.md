@@ -266,13 +266,7 @@ N/A
 ---
 
 ## 4.3 Project Monitoring and Control
-[The following is a checklist of items to consider:
-- Requirements Management: Specify the information and control mechanisms which will be collected and used for measuring, reporting, and controlling changes to the product requirements.
-- Quality Control: Describe the timing and methods to be used to control the quality of the project deliverables and how to take corrective action when required. Include techniques, metrics, criteria, and procedures used for evaluation— this will include walkthroughs, inspections, and reviews. Note that this is in addition to the Test Plan, which is not enclosed in the Software Development Plan.
-- Reporting and Measurement: Describe reports to be generated. Specify which metrics should be collected and why. OR if available, refer to the Project Measurements and Project Measurements document
-- Risk Management: Describe the approach that will be used to identify, analyze, prioritize, monitor and mitigate risks.  If available, refer to the Risk List document.
-- Configuration Management: Describe the process by which problems and changes are submitted, reviewed, and dispositioned. Describe how project or product artifacts are to be named, marked, and numbered, including  system software, plans, models, components, test software, results and data, executables, and so on. Describe retention policies, and the back-up, disaster, and recovery plans.  OR if Available, Refer to the Configuration Management Plan document
-The text that follows is provided as an example.]
+The following sections describe the processes used to monitor and control the project, including qualtiy control, risk management, and configuration management.
 
 ---
 
@@ -344,6 +338,12 @@ Requirement changes (such as allowing floating point constants) |	Low |	Low |	En
 Risks will be identified in Inception Phase using the steps identified in the RUP for Small Projects activity “Identify and Assess Risks”. Project risk is evaluated at least once per iteration and documented in this table.
 
 Refer to the Project Measurements Document (AAA-BBB-X.Y.doc) for detailed information.
+
+---
+
+### 4.8 Configuration Management
+
+
 
 ---
 
