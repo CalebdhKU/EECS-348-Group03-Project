@@ -53,7 +53,7 @@
 ---
 
 # 1. Introduction
-[The introduction of the Software Development Plan provides an overview of the entire document. It includes the purpose, scope, definitions, acronyms, abbreviations, references, and overview of this Software Development Plan.]
+
 
 ## 1.1 Purpose
 
@@ -65,16 +65,16 @@ The following people use the Software Development Plan:
 ---
 
 ## 1.2 Scope
-[A brief description of the scope of this Software Development Plan; what Project(s) it is associated with and anything else that is affected or influenced by this document. The text below is provided as an example.]
+
 
 This plan covers all phases, from planning and requirements gathering to design, implementation, testing, and final delivery. The parser will support arithmetic expressions with operators (+, -, *, /, %, **), parentheses, and unary operators, following standard precedence and associativity rules.
 
 Included in scope:
-•	Defining project goals, deliverables, and key milestones.
-•	Outlining development processes, schedules, and resource requirements.
-•	Following quality, testing, and documentation standards. 
+*	Defining project goals, deliverables, and key milestones.
+*	Outlining development processes, schedules, and resource requirements.
+*	Following quality, testing, and documentation standards. 
 Excluded from scope:
-•	Detailed iteration-level task assignments, which are documented separately in the Iteration Plans.
+*	Detailed iteration-level task assignments, which are documented separately in the Iteration Plans.
 ---
 
 ## 1.3 Definitions, Acronyms, and Abbreviations
@@ -110,39 +110,38 @@ This Software Development Plan contains the following information:
 # 2. Project Overview
 
 ## 2.1 Project Purpose, Scope, and Objectives
-[A brief description of the purpose and objectives of this project and a brief description of what deliverables the project is expected to deliver.]
 
 This project aims to develop a C++ arithmetic expression parser for integration into a larger compiler. It will evaluate expressions with operators (+, -, *, /, %, **), parentheses, and unary operators according to standard precedence. 
 Objectives:
-•	Build a parser that correctly evaluates arithmetic expressions.
-•	Handle errors such as division by zero or invalid syntax.
-•	Produce clear documentation and a user-friendly interface.
-•	Keep the parser modular and ready to integrate into a larger compiler system.
+*	Build a parser that correctly evaluates arithmetic expressions.
+*	Handle errors such as division by zero or invalid syntax.
+*	Produce clear documentation and a user-friendly interface.
+*	Keep the parser modular and ready to integrate into a larger compiler system.
 ---
 
 ## 2.2 Assumptions and Constraints
-[A list of assumptions that this plan is based and any constraints, for example. staff, equipment, schedule, that apply to the project.]
+
 Assumptions:
-•	Initial input will use integers; floating-point support may be added later.
-•	Required tools and resources will be available throughout the project.
+*	Initial input will use integers; floating-point support may be added later.
+*	Required tools and resources will be available throughout the project.
 Constraints:
-•	Must be completed within the Spring 2026 term.
-•	Team availability may be limited by other commitments.
-•	Must run across Windows, Linux, iOS, and Android.
-•	Integration with the larger compiler may impose design limits.
+*	Must be completed within the Spring 2026 term.
+*	Team availability may be limited by other commitments.
+*	Must run across Windows, Linux, iOS, and Android.
+*	Integration with the larger compiler may impose design limits.
 
 ---
 
 ## 2.3 Project Deliverables
-[A list of the artifacts to be created during the project, including target delivery dates. The text below is provided as an example.] Requirements, design specs, test cases, code  
+ 
 
-•	Project Management Plan: Timeline, milestones, and roles.
-•	Requirements Document: Functional and non-functional requirements.
-•	Design Document: System architecture and algorithms.
-•	Test Suite: Test cases and results for valid and invalid expressions.
-•	C++ Source Code: Clean, modular, and documented code.
-•	User Manual/README: Instructions with examples for using the parser.
-•	Iteration Reports: Progress summaries at the end of each iteration.
+*	Project Management Plan: Timeline, milestones, and roles.
+*	Requirements Document: Functional and non-functional requirements.
+*	Design Document: System architecture and algorithms.
+*	Test Suite: Test cases and results for valid and invalid expressions.
+*	C++ Source Code: Clean, modular, and documented code.
+*	User Manual/README: Instructions with examples for using the parser.
+*	Iteration Reports: Progress summaries at the end of each iteration.
 
 ---
 
