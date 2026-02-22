@@ -1,14 +1,22 @@
-<img width="468" height="32" alt="image" src="https://github.com/user-attachments/assets/b1e62795-122c-479f-aed2-2c68b3cb90ce" /># Group 3
+---
+
+<div align="right">
+
+## Group 3
+
+</div>
+
+---
 
 # Arithmetic Expression Evaluator in C++
-**Version:** 1.0  
+**Version:** 1.12  
 **Date:** 02/19/2026  
 **Document Identifier:** Software Development Plan
 
 ---
 
 # Software Development Plan  
-## Version 1.0
+## Version 1.12
 
 ---
 
@@ -16,8 +24,19 @@
 
 | Date | Version | Description | Author |
 |------|---------|------------|--------|
-| 02/19/2026 | 1.0 | Initial creation and conversion of Deliverable 1 into GitHub using Markdown format | Ivan Kullaya|
-| <dd/mmm/yy> | <x.x> | <details> | <name> |
+| 02/19/2026 | 1.0 | Initial creation and conversion of Deliverable 1 into GitHub using Markdown format | Ivan Kullaya |
+| 02/20/2026 | 1.1 | Addition of Sections 1.1-1.3 & 2.2-2.3 | Greeshma Kunduri |
+| 02/20/2026 | 1.2 | Addition of Sections 3.3, 3.1 & 2.4 | Maha Jornaz |
+| 02/20/2026 | 1.3 | Revision of Sections 3.1 & 2.4 | Maha Jornaz |
+| 02/21/2026 | 1.4 | Revision of Section 3.1 | Jerry Merveille |
+| 02/21/2026 | 1.5 | Removal of Sections 3.2, 4.1, 4.2.1, 4.2.5, 4.6 | Maha Jornaz |
+| 02/21/2026 | 1.6 | Revision of Sections 1.1-1.2, 2.2-2.3, & 3.3 | Maha Jornaz |
+| 02/21/2026 | 1.7 | Addition of Sections 4.2 (including subsections) & 4.4 | Jerry Merveille |
+| 02/22/2026 | 1.8 | Addition of Sections 4.5 & 4.7 | Aaron Trites |
+| 02/22/2026 | 1.9 | Addition of Section 4.3 | Maha Jornaz |
+| 02/22/2026 | 1.10 | Addition of Section 4.8 | Caleb Harmsen |
+| 02/22/2026 | 1.11 | Addition of Sections 1.3-1.5 & Section 5 | Ivan Kullaya |
+| 02/22/2026 | 1.12 | Revision of Group Title, Revision History, & Formatting | Ivan Kullaya |
 
 ---
 
