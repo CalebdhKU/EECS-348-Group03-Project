@@ -2,8 +2,8 @@
 
 # Arithmetic Expression Evaluator in C++
 **Version:** 1.0  
-**Date:** <02/19/2026>  
-**Document Identifier:** <document identifier>
+**Date:** 02/19/2026  
+**Document Identifier:** Software Development Plan
 
 ---
 
