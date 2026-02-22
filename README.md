@@ -3,12 +3,15 @@
   <p align="center">
     Arithmetic Expression Evaluator
     <br />
+    C++ Parser & Evaluator Supporting PEMDAS, Unary Operators, and Error Handling
+    <br />
     <a href="https://github.com/CalebdhKU/EECS-348-Group03-Project/tree/main/docs"><strong>Explore the docs »</strong></a>
     <br />
     <a href="https://github.com/CalebdhKU/EECS-348-Group03-Project/tree/main/src"><strong>See the code »</strong></a>
     <br />
     <a href="https://github.com/CalebdhKU/EECS-348-Group03-Project/tree/main/test"><strong>Check out tests »</strong></a>
     <br />
+
     
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -18,7 +21,7 @@
       <a href="#about-the-project">About The Project</a>
     </li>
 <li>
-      <a href=“#meet-the-team”>Meet the Team</a>
+      <a href="#meet-the-team">Meet the Team</a>
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
@@ -36,18 +39,18 @@
 </details>
 
 
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This is a group project for EECS348 - Software Engineering to learn how coding projects are built using UPEDU project management plan.
+This project is developed as part of EECS 348 – Software Engineering and focuses on building an Arithmetic Expression Evaluator in C++ using the Unified Process for EDUcation (UPEDU) framework. The project emphasizes structured planning, requirements analysis, design documentation, implementation, and testing.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- MEET THE TEAM -->
 ## Meet the Team
 
-| Team Member | Role | Responsibilities | Availabilty | Programming Experience | Computing Platform Experience |
+| Team Member | Role | Responsibilities | Availability | Programming Experience | Computing Platform Experience |
 | :---: | :---: | :---: | :---: | :---: | :---: |
 | Aaron Trites | QA Testing Leader | Develops test plan and test cases, compares expected and actual results and ensures any issues/defects are resolved  | Monday-Thursday after 3:30 p.m. | Python/C# | Arduino and RaspberryPi |
 | Caleb Harmsen | GitHub Manager | Creates and manages the repository, maintains folder structure, handles merges and version history | Monday - Friday after 5:30 p.m. | C#/C++/Python | Arduino |
@@ -58,6 +61,7 @@ This is a group project for EECS348 - Software Engineering to learn how coding p
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
 <!-- GETTING STARTED -->
 ## Getting Started
 
@@ -65,49 +69,75 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-Have a computer!
+- C++ compiler
+- Git
+- Bash or compatible shell
 
 ### Installation
 
-1. Clone the repo
-2. Do something
-3. Install
-4. Profit???
+1. Clone the repository
+2. Navigate into the project directory
+3. Compile the program
+4. Run the program
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Calculate stuff!
+Enter an arithmetic expression into the command-line interface.
+
+**Example:**
+
+Input: 
+
+3 + 4 * (2 - 1)
+
+Output: 
+
+7
+
+
+The program supports:
+- +, -, *, /, %, **
+- Unary operators (+, -)
+- Nested parentheses
+- Error handling for invalid expressions
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+- [x] Project Plan
+- [ ] Software Requirements Specifications
+- [ ] Software Architecture Design
+- [ ] Test Cases
+- [ ] User Manual
 
 See the [open issues](https://github.com/CalebdhKU/EECS-348-Group03-Project) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
+<!-- REPO STRUCTURE -->
+## Repository Structure
+
+- `/docs` – Project documentation (Project Plan, Requirements, Design, Meeting Logs)
+- `/src` – Source code
+- `/test` – Test cases and validation scripts
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- LICENSE -->
 ## License
 
-Distributed under the project_license. See [redacted] for more information.
+This project is developed for academic purposes as part of EECS 348 – Software Engineering.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- CONTACT -->
@@ -125,9 +155,8 @@ Project Link: [Group03 Project](https://github.com/CalebdhKU/EECS-348-Group03-Pr
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
-- [ ] Professor Saiedian
+The team acknowledges Professor Hossein Saiedian for defining the project objectives and providing instructional guidance within the EECS 348 – Software Engineering course.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
