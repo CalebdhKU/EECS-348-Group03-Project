@@ -191,7 +191,7 @@ N/A
 | Caleb Harmsen | GitHub Manager | charmsen@ku.edu |
 | Greeshma Kunduri | Requirements Leader | g675k904@ku.edu |
 | Ivan Kullaya | Documentation Leader | ivan.kullaya@ku.edu |
-| Jerry Marveille | Technical Leader | j675m841@ku.edu |
+| Jerry Merveille | Technical Leader | j675m841@ku.edu |
 | Maha Jornaz | Project Leader | m130j132@ku.edu |
 
 
