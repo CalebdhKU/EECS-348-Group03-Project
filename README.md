@@ -54,7 +54,7 @@ This is a group project for EECS348 - Software Engineering to learn how coding p
 | Greeshma Kunduri | Requirements Leader | Defines scope, objectives, constraints, prevents scope creep and ensures requirements are aligned with project deadline  | Tuesday-Wednesday after 5:30 p.m. | Python, C/C++ | Arduino |
 | Ivan Kullaya | Documentation Leader | Manages the UPEDU template, merges contributions and ensures clarity and consistency | Monday-Friday after 5 p.m. | C/C++, Python, HTML/CSS | Arduino |
 | Jerry Merveille | Technical Leader | Provides technical direction, tool recommendations, realistic timelines and will lead future implementation of projects | Tuesday after 5:30 p.m., Friday until 5:00 p.m | Python, Java, C/C++, HTML/CSS, React, SQL | Arduino |
-| Maha Jornaz | Project Leader | Coordinates team meetings, records the team meeting logs, verifies all milestones are completed and is responsible for final submission | Monday-Wednesday after 4:00 p.m. | Python, C++, JavaScript, and HTML | Arduino |
+| Maha Jornaz | Project Leader | Coordinates team meetings, records the team meeting logs, verifies all milestones are completed and is responsible for final submission | Monday-Wednesday after 4:00 p.m. | Python, C++, JavaScript/HTML | Arduino |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
