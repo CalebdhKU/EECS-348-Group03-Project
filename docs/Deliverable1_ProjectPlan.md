@@ -203,7 +203,7 @@ Anyone on the project can perform Any Role activities.
 # 4. Management Process
 
 ## 4.1 Project Estimates
-[Provide the estimated cost and schedule for the project, as well as the basis for those estimates, and the points and circumstances in the project when re-estimation will occur.] 
+N/A
 
 ---
 
@@ -211,11 +211,7 @@ Anyone on the project can perform Any Role activities.
 [This section contains the schedule and resources for the project.]Project artifact as well as iteration schedules] 
 
 ### 4.2.1 Phase Plan
-[Include the following:
-- a Gantt chart showing the allocation of time to the project phases (Not necessarily detailed to the activity level; this type of Gantt Chart is providing along with the Iteration Plans themselves; Provide an Overview of the project Timeline with the major miles stones]
-- identify major milestones with their achievement criteria
-Define any important release points and demos.]
-[If available, refer to the related Iteration Plan Documents for more details]
+N/A
 
 ### 4.2.2 Iteration Objectives
 [Briefly list the objectives to be accomplished for each of the iterations and Refer to the related Iteration Plan Documents for more details.]
