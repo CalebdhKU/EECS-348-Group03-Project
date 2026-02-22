@@ -33,7 +33,7 @@ __Location__: Virtual (Discord voice call)
 
 <!--PURPOSE-->
 
-__Purpose__: Getting to know each other and assign roles
+__Purpose__: Getting to know each other and assign roles/sections
 
 <br>
 
@@ -43,28 +43,28 @@ __Purpose__: Getting to know each other and assign roles
 
 <!--ASSIGNED ROLES-->
 
-### <ins>Assigned Roles</ins>
-* __Aaron Trites__: QA Testing Leader
+### <ins>Assigned Roles/sections</ins>
+* __Aaron Trites__: QA Testing Leader/Sections 4.5 - 4.7
 
 <br>
 
-* __Caleb Harmsen__: GitHub Manager
+* __Caleb Harmsen__: GitHub Manager/Section 4.8
 
 <br>
 
-* __Greeshma Kunduri__: Requirements Leader
+* __Greeshma Kunduri__: Requirements Leader/Sections 1.1 - 1.2, 2.1 - 2.3
 
 <br>
 
-* __Ivan Kullaya__: Documentation Leader
+* __Ivan Kullaya__: Documentation Leader/Sections 1.3 - 1.5, 5
 
 <br>
 
-* __Jerry Marveille__: Technical Leader
+* __Jerry Marveille__: Technical Leader/Sections 4.1 - 4.2, 4.4
 
 <br>
 
-* __Maha Jornaz__: Project Leader
+* __Maha Jornaz__: Project Leader/Sections 2.4, 3.1 - 3.3, 4.3
 
 
 <br>
