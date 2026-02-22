@@ -58,9 +58,9 @@
 ## 1.1 Purpose
 
 The purpose of this Software Development Plan is to provide a clear roadmap for developing an Arithmetic Expression Parser built in C++. This document defines how the project will be planned, executed, and monitored, ensuring that the team delivers a functional, reliable, and well-documented parser.
-The following people use the Software Development Plan: 
-•	The project manager uses it to plan the project schedule and resource needs, and to track progress against the schedule. 
-•	Project team members use it to understand what they need to do, when they need to do it, and what other activities they are dependent         upon. 
+The following people use the Software Development Plan: <br>
+*	The project manager uses it to plan the project schedule and resource needs, and to track progress against the schedule. 
+*	Project team members use it to understand what they need to do, when they need to do it, and what other activities they are dependent         upon. 
 
 ---
 
