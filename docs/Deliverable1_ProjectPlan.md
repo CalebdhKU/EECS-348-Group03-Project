@@ -282,6 +282,40 @@ N/A
 ---
 
 ### 4.5 Quality Control
+The goal for quality control in this project is to make sure our Arithmetic Expression Evaluator works correctly and handles both valid and invalid input(s) without crashing. Rather awaiting the end to test our program, we will be checking correctness throughout development so problems can be caught early in the process and fixed before they become bigger issues.
+
+We will use the following methods to verify the correctness of quality.
+
+   -	Peer Reviews: Before code is added to the main project, at least one other team member will look over it. We will check for logic mistakes, incorrect operator precedence, unclear or missing comments. This will help catch simple mistakes. If issues are found, they will be corrected before merging with the main branch.<br />
+   -	Coding Style and Documentation: All code will have clear comments so that other team members understand how it works and what the code is being used to accomplish. We will also try to keep formatting and naming conventions consistent to make debugging easier.<br />
+   -	Unit Testing: Each part of the program will be tested separately before combining everything together. This includes, but is not limited to: <br />
+      -	Tokenizing the input expression<br />
+      -	Parsing operators (including unary operators)<br />
+      -	Operator precedence<br />
+      -	Handling parentheses<br />
+      -	Final evaluation<br />
+      -	User interface<br />
+Each component will be given test inputs and checked against expected outputs. Each of these parts must pass their test(s) before moving on.<br />
+   -	Integration Testing: After individual parts work, we will connect them together and make sure they still function correctly as a complete system. We will focus on operator precedence and nested parentheses since those are the easiest places for bugs to occur.<br />
+   -	System Testing: Once we believe the units have been integrated properly, we will run the program against many expressions through a shell script. These tests will include: <br />
+      -	Normal, valid expressions<br />
+      -	Complex expressions with nested parentheses<br />
+      -	Edge cases<br />
+      -	Invalid inputs<br />
+   -	Error Handling: The program should never crash when the user enters bad input. We will need to ensure the program can handle:<br />
+      -	Division by zero<br />
+      -	Missing operands<br />
+      -	Invalid characters<br />
+      -	Mismatched parentheses<br />
+      -	Incorrect operator placement<br />
+The program should print a clear error message instead of terminating unexpectedly.<br />
+   -	Acceptance Criteria: Our program will be considered fully operational and working when:<br />
+      -	All test cases produce correct results<br />
+      -	Invalid inputs show useful error messages<br />
+      -	The program never crashes during testing<br />
+If any bugs are found, they will be fixed and retested.<br />
+
+
 Defects will be recorded and tracked as Change Requests, and defect metrics will be gathered (see Reporting and Measurement below).
 
 All deliverables are required to go through the appropriate review process, as described in the Development Case. The review is required to ensure that each deliverable is of acceptable quality, using guidelines and checklists. 
@@ -296,18 +330,18 @@ N/A
 ---
 
 ### 4.7 Risk Management
+There are several things that could go wrong while developing an Arithmetic Expression Evaluator. We will keep track of the following risks and try to reduce their impact as much as possible. Risks will be discussed during team meetings and addressed when necessary. The QA/Testing lead will mainly monitor testing-related risks.
+|Risk|Impact|Likelihood|Mitigation|
+|:--:|:--:|:--:|:--:|
+|Incorrect code implementation | High | Medium | Peer reviews with possibly more than two team members|
+Invalid inputs not handled correctly | High | Medium | Create many negative test cases and validate input before evaluating|
+Modules do not work together |	High | Medium | Perform integration testing and debugging whenever a new part is added |
+Program crashes | High | Low | Add input checking and error handling after investigation root cause|
+Team member availability conflicts | Medium | High| Communicate as openly and regularly as possible, ensure responsibilities are not too heavily placed on one individual|
+Running out of time before deadlines |	High | Medium |	Begin testing early and test continuously throughout development cycle|
+Requirement changes (such as allowing floating point constants) |	Low |	Low |	Ensure parsing method can easily accommodate more than just integers|
+
 Risks will be identified in Inception Phase using the steps identified in the RUP for Small Projects activity “Identify and Assess Risks”. Project risk is evaluated at least once per iteration and documented in this table.
-
-Refer to the Project Measurements Document (AAA-BBB-X.Y.doc) for detailed information.
-
----
-
-### 4.8 Configuration Management
-Appropriate tools will be selected which provide a database of Change Requests and a controlled versioned repository of project artifacts.
-
-All source code, test scripts, and data files are included in baselines. Documentation related to the source code is also included in the baseline, such as design documentation. All customer deliverable artifacts are included in the final baseline of the iteration, including executables.
-
-The Change Requests are reviewed and approved by one member of the project, the Change Control Manager role.
 
 Refer to the Project Measurements Document (AAA-BBB-X.Y.doc) for detailed information.
 
