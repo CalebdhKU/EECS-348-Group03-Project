@@ -78,32 +78,29 @@ Excluded from scope:
 ---
 
 ## 1.3 Definitions, Acronyms, and Abbreviations
-[This subsection provides the definitions of all terms, acronyms, and abbreviations required to properly interpret the Software Development Plan. This information may be provided by reference to the project’s Glossary.]
 
-See the Project Glossary.
+- **Binary Operator** - An operator that operates on two operands (e.g., 1 + 2).
+- **CLI (Command-Line Interface)** - A text-based interface used for entering program input.
+- **Expression Evaluator** - A program that computes the result of a mathematical expression.
+- **OOP (Object-Oriented Programming)** - A programming paradigm based on objects, classes, and encapsulation.
+- **Parser** - A software component that analyzes input text according to a defined grammar and structure.
+- **PEMDAS** - Order of operations: Parentheses, Exponents, Multiplication/Division, Addition/Subtraction.
+- **Unary Operator** - An operator that operates on a single operand (e.g., +9, -5)
 
 ---
 
 ## 1.4 References
-[This subsection provides a complete list of all documents referenced elsewhere in the Software Development Plan. Identify each document by title, report number if applicable, date, and publishing organization. Specify the sources from which the references can be obtained. This information may be provided by reference to an appendix or to another document.
 
-For the Software Development Plan, the list of referenced artifacts includes:
-- Iteration Plans  
-- Development Case  
-- Vision [you may prepare a vision statement of your own: what your vision for the project is]  
-- Glossary  
-- Any other supporting plans or documentation.  
+- EECS348: Term Project in C++ - Arithmetic Expression Evaluator in C++, Professor Hossein Saiedian, Spring 2026
+- Unified Process for Education (UPEDU) Template - Software Development Plan, Professor Hossein Saiedian, Spring 2026
 
 ---
 
 ## 1.5 Overview
-[This subsection describes what the rest of the Software Development Plan contains and explains how the document is organized. The text below is provided as an example.]
 
-This Software Development Plan contains the following information:
-- **Project Overview** – provides a description of the project's purpose, scope, and objectives.  It also defines the deliverables that the project is expected to deliver.
-- **Project Organization** – describes the organizational structure of the project team.
-- **Management Process** – explains the estimated cost and schedule, defines the major phases and milestones for the project, and describes how the project will be monitored.
-- **Applicable Plans and Guidelines** – provide an overview of the software development process, including methods, tools and techniques to be followed.
+This Software Development Plan outlines the management, organization, and development strategy for the Arithmetic Expression Evaluator project in C++. The document describes the project’s purpose, scope, objectives, and deliverables, as well as the organizational structure and roles of team members.
+
+The plan further defines the project timeline, major milestones, risk management strategy, quality control processes, and configuration management procedures. This document serves as the primary management reference for guiding development activities throughout the semester.
 
 ---
 
@@ -357,11 +354,16 @@ Configuration Management ensures that all project artifacts are properly control
 ---
 
 # 5. Annexes
-[Additional material of use to the reader of the Software Development Plan. Reference or include any project technical standards and plans which apply to this project. This typically includes the Programming Guidelines, Design Guidelines, and other process guidelines. The text that follows is provided as an example.]
+The following supporting materials may be included as annexes or referenced as separate documents:
+- Project Description (EECS348 Deliverable 00)
+- Project Plan (EECS348 Deliverable 01)
+- Software Requirements Specifications (to be developed in subsequent deliverables)
+- Software Architecture Design (to be developed in subsequent deliverables)
+- Test Cases (to be developed in subsequent deliverables)
+- User Manual (to be developed in subsequent deliverables)
+- Meeting Logs (Maintained in project repository)
 
 The project will follow the UPEDU process. 
-
-Other applicable process plans are listed in the references section, including Programming Guidelines.
 
 ---
 
