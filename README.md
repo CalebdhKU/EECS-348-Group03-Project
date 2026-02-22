@@ -117,7 +117,7 @@ Aaron Trites - atrites92@ku.edu<br />
 Maha Jornaz - M130j132@ku.edu<br />
 Greeshma Kunduri - g675k904@ku.edu<br />
 Ivan Kullaya - ivan.kullaya@ku.edu<br />
-Jerry Marveille - j675m841@ku.edu<br />
+Jerry Merveille - j675m841@ku.edu<br />
 Caleb Harmsen - charmsen@ku.edu<br />
 
 Project Link: [Group03 Project](https://github.com/CalebdhKU/EECS-348-Group03-Project)
