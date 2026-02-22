@@ -179,7 +179,7 @@ The division of roles and section responsibilities is as follows:
 ---
 
 ## 3.2 External Interfaces
-[Describe how the project interfaces with external groups. For each external group, identify the internal and external contact names. This should include responsibilities related to deployment and acceptance of the product.]
+N/A
 
 ---
 
@@ -223,9 +223,7 @@ N/A
 [Diagrams or tables showing target dates for completion of iterations and phases, release points, demos, and other milestones.] [Limit to major project milestone, e.g., requirements, design, implementaiotn, and testing]
 
 ### 4.2.5 Project Resourcing
-[Identify the numbers and type of staff required here, including any special skills or experience, scheduled by project phase or iteration.
-
-List any special training project team members will require, with target dates for when this training should be completed.]
+N/A
 
 ---
 
@@ -249,17 +247,7 @@ All deliverables are required to go through the appropriate review process, as d
 Any defects found during review which are not corrected prior to releasing for integration must be captured as Change Requests so that they are not forgotten. 
 
 ### 4.6 Reporting and Measurement
-Updated schedule estimates, and metrics summary reports, will be generated at the end of each iteration. 
-
-The Minimal Set of Metrics, as described in the RUP Guidelines: Metrics will be gathered on a weekly basis.  These include: 
-
-Earned value for completed tasks. This is used to re-estimate the schedule and budget for the remainder of the project, and/or to identify need for scope changes. 
-
-Total defects open and closed – shown as a trend graph. This is used to help estimate the effort remaining to correct defects. 
-
-Acceptance test cases passing – shown as a trend graph. This is used to demonstrate progress to stakeholders.
-
-Refer to the Project Measurements Document (AAA-BBB-X.Y.doc) for detailed information.
+N/A
 
 ### 4.7 Risk Management
 Risks will be identified in Inception Phase using the steps identified in the RUP for Small Projects activity “Identify and Assess Risks”. Project risk is evaluated at least once per iteration and documented in this table.
