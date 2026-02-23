@@ -9,14 +9,14 @@
 ---
 
 # Arithmetic Expression Evaluator in C++
-**Version:** 1.14   
+**Version:** 1.15   
 **Date:** 02/19/2026  
 **Document Identifier:** Software Development Plan
 
 ---
 
 # Software Development Plan  
-## Version 1.14
+## Version 1.15
 
 ---
 
