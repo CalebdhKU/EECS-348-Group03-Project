@@ -210,20 +210,27 @@ N/A
 | Jerry Merveille | Technical Leader | j675m841@ku.edu |
 | Maha Jornaz | Project Leader | m130j132@ku.edu |
 
-
-Anyone on the project can perform Any Role activities.
+Each team member’s availability, programming experience, and computing platform experience are documented in the project README within the GitHub repository. These details assist in resource allocation and task delegation. Team members may support responsibilities outside their primary assigned role when necessary.
 
 ---
 
 # 4. Management Process
 
 ## 4.1 Project Estimates
-N/A
+
+The project is scheduled to be completed within the Spring 2026 semester. The total development effort is distributed across four primary phases: Requirements, Design, Implementation, and Testing.
+
+Effort estimates are based on:
+- Academic semester timeline (15 weeks)
+- Six team members contributing weekly
+- Increasing technical complexity during implementation
+
+Re-estimation will occur at the end of each iteration to adjust for schedule deviations, technical challenges, or scope changes.
 
 ---
 
 ## 4.2 Project Plan
-This section contains the schedule and resources for the project. Project artifact as well as iteration schedules
+This section contains the schedule and resources for the project. This section includes the project schedule and iteration plans.
 
 ### 4.2.1 Phase Plan
 N/A
@@ -282,7 +289,7 @@ N/A
 ---
 
 ## 4.3 Project Monitoring and Control
-The following sections describe the processes used to monitor and control the project, including qualtiy control, risk management, and configuration management.
+The following sections describe the processes used to monitor and control the project, including quality control, risk management, and configuration management.
 
 ---
 
@@ -292,7 +299,7 @@ N/A
 ---
 
 ### 4.5 Quality Control
-The goal for quality control in this project is to make sure our Arithmetic Expression Evaluator works correctly and handles both valid and invalid input(s) without crashing. Rather awaiting the end to test our program, we will be checking correctness throughout development so problems can be caught early in the process and fixed before they become bigger issues.
+The goal for quality control in this project is to make sure our Arithmetic Expression Evaluator works correctly and handles both valid and invalid input(s) without crashing. Rather than waiting until the end to test our program, we will be checking correctness throughout development so problems can be caught early in the process and fixed before they become bigger issues.
 
 We will use the following methods to verify the correctness of quality.
 
@@ -328,14 +335,20 @@ If any bugs are found, they will be fixed and retested.<br />
 
 Defects will be recorded and tracked as Change Requests, and defect metrics will be gathered (see Reporting and Measurement below).
 
-All deliverables are required to go through the appropriate review process, as described in the Development Case. The review is required to ensure that each deliverable is of acceptable quality, using guidelines and checklists. 
-
 Any defects found during review which are not corrected prior to releasing for integration must be captured as Change Requests so that they are not forgotten. 
 
 ---
 
 ### 4.6 Reporting and Measurement
-N/A
+
+Progress will be reported during weekly team meetings. The following metrics will be monitored:
+
+- Completion of planned iteration objectives
+- Number of open and resolved defects
+- Successful execution of unit and integration tests
+- Milestone completion status
+
+Updates to schedule and deliverables will be reflected in GitHub commits and meeting logs. Any deviations from planned milestones will be documented and discussed for corrective action.
 
 ---
 
@@ -352,8 +365,6 @@ Running out of time before deadlines |	High | Medium |	Begin testing early and t
 Requirement changes (such as allowing floating point constants) |	Low |	Low |	Ensure parsing method can easily accommodate more than just integers|
 
 Risks will be identified in Inception Phase using the steps identified in the RUP for Small Projects activity “Identify and Assess Risks”. Project risk is evaluated at least once per iteration and documented in this table.
-
-Refer to the Project Measurements Document (AAA-BBB-X.Y.doc) for detailed information.
 
 ---
 
