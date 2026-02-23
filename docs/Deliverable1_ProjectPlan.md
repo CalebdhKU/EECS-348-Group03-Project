@@ -179,7 +179,7 @@ The Software Development Plan will be revised prior to the start of each Iterati
 The project team consists of six members, each assigned a leadership role to ensure structured execution and accountability throughout the project's timeline. While each member has defined responsibilities, collaboration is encouraged and team members may contribute beyond their assigned roles when necessary. <br><br>
 The division of roles and section responsibilities is as follows:
 
-*  __Abina Arshad (Integration Leader)__: Ensures code from different team members integrates properly, prevents merge conflicts, and makes sure the program compiles and runs correctly across different systems.
+*  __Abina Arshad (Integration Leader)__: Ensures code from different team members integrates properly, prevents merge conflicts, and makes sure the program compiles and runs correctly across different systems. Assigned sections N/A
 *	__Aaron Trites (QA Testing Leader)__:  Develops testing strategies, identifies any defects or issues in the code, and compares expected vs actual results. Assigned sections 4.5 - 4.7.
 
 *	__Caleb Harmsen (GitHub Manager)__: Manages the project repository, maintains folder structure, and oversees merges and version history. Assigned section 4.8.
