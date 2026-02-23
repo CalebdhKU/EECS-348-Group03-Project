@@ -51,7 +51,7 @@
    - 2.6 Requirements subsets  
 3. Specific Requirements  
    - 3.1 Functionality
-     - 3.1.1 <Functional Requirement One>
+     - 3.1.1 \<Functional Requirement One\>
    - 3.2 Use-Case Specifications  
    - 3.3 Supplementary Requirements
 4. Classification of Functional Requirements  
@@ -162,7 +162,7 @@ employed to capture the functionality, this section of the document would refer 
 data, indicating the location and name of the tool used to capture the data.]
 
 
-### 3.1.1 <Functional Requirement One>
+### 3.1.1 \<Functional Requirement One\>
 [The requirement description.]
 
 
