@@ -9,14 +9,14 @@
 ---
 
 # Arithmetic Expression Evaluator in C++
-**Version:** 1.12  
+**Version:** 1.14   
 **Date:** 02/19/2026  
 **Document Identifier:** Software Development Plan
 
 ---
 
 # Software Development Plan  
-## Version 1.12
+## Version 1.14
 
 ---
 
@@ -37,6 +37,9 @@
 | 02/22/2026 | 1.10 | Addition of Section 4.8 | Caleb Harmsen |
 | 02/22/2026 | 1.11 | Addition of Sections 1.3-1.5 & Section 5 | Ivan Kullaya |
 | 02/22/2026 | 1.12 | Revision of Group Title, Revision History, & Formatting | Ivan Kullaya |
+| 02/22/2026 | 1.13 | Addition of New Team Member Role/Contact Info | Maha Jornaz |
+| 02/22/2026 | 1.14 | Improved formatting consistency prior to submission | Ivan Kullaya |
+| 02/22/2026 | 1.15 | Submission version of Deliverable 01 | Maha Jornaz |
 
 ---
 
@@ -57,7 +60,7 @@
 3. Project Organization  
    - 3.1 Organizational Structure  
    - 3.2 External Interfaces  
-   - 3.3 Roles and Responsibilities  
+   - 3.3 Roles and Responsibilities
 4. Management Process  
    - 4.1 Project Estimates  
    - 4.2 Project Plan  
@@ -77,23 +80,24 @@
 ## 1.1 Purpose
 
 The purpose of this Software Development Plan is to provide a clear roadmap for developing an Arithmetic Expression Parser built in C++. This document defines how the project will be planned, executed, and monitored, ensuring that the team delivers a functional, reliable, and well-documented parser.
-The following people use the Software Development Plan: <br>
-*	The project manager uses it to plan the project schedule and resource needs, and to track progress against the schedule. 
-*	Project team members use it to understand what they need to do, when they need to do it, and what other activities they are dependent         upon. 
+The following people use the Software Development Plan:
+- The project manager uses it to plan the project schedule and resource needs, and to track progress against the schedule.
+- Project team members use it to understand what they need to do, when they need to do it, and what other activities they are dependent         upon. 
 
 ---
 
 ## 1.2 Scope
 
-
 This plan covers all phases, from planning and requirements gathering to design, implementation, testing, and final delivery. The parser will support arithmetic expressions with operators (+, -, *, /, %, **), parentheses, and unary operators, following standard precedence and associativity rules.
 
 Included in scope:
-*	Defining project goals, deliverables, and key milestones.
-*	Outlining development processes, schedules, and resource requirements.
-*	Following quality, testing, and documentation standards. 
+- Defining project goals, deliverables, and key milestones.
+- Outlining development processes, schedules, and resource requirements.
+- Following quality, testing, and documentation standards. 
+
 Excluded from scope:
-*	Detailed iteration-level task assignments, which are documented separately in the Iteration Plans.
+- Detailed iteration-level task assignments, which are documented separately in the Iteration Plans.
+
 ---
 
 ## 1.3 Definitions, Acronyms, and Abbreviations
@@ -110,8 +114,8 @@ Excluded from scope:
 
 ## 1.4 References
 
-- EECS348: Term Project in C++ - Arithmetic Expression Evaluator in C++, Professor Hossein Saiedian, Spring 2026
-- Unified Process for Education (UPEDU) Template - Software Development Plan, Professor Hossein Saiedian, Spring 2026
+- EECS348: Term Project in C++ -- Arithmetic Expression Evaluator in C++, Professor Hossein Saiedian, Spring 2026
+- Unified Process for Education (UPEDU) Template -- Software Development Plan, Professor Hossein Saiedian, Spring 2026
 
 ---
 
@@ -125,43 +129,46 @@ The plan further defines the project timeline, major milestones, risk management
 
 # 2. Project Overview
 
+
 ## 2.1 Project Purpose, Scope, and Objectives
 
 This project aims to develop a C++ arithmetic expression parser for integration into a larger compiler. It will evaluate expressions with operators (+, -, *, /, %, **), parentheses, and unary operators according to standard precedence. 
 Objectives:
-*	Build a parser that correctly evaluates arithmetic expressions.
-*	Handle errors such as division by zero or invalid syntax.
-*	Produce clear documentation and a user-friendly interface.
-*	Keep the parser modular and ready to integrate into a larger compiler system.
+- Build a parser that correctly evaluates arithmetic expressions.
+- Handle errors such as division by zero or invalid syntax.
+- Produce clear documentation and a user-friendly interface.
+- Keep the parser modular and ready to integrate into a larger compiler system.
+
 ---
 
 ## 2.2 Assumptions and Constraints
 
 Assumptions:
-*	Initial input will use integers; floating-point support may be added later.
-*	Required tools and resources will be available throughout the project.
+- Initial input will use integers; floating-point support may be added later.
+- Required tools and resources will be available throughout the project.
+
 Constraints:
-*	Must be completed within the Spring 2026 term.
-*	Team availability may be limited by other commitments.
-*	Must run across Windows, Linux, and macOS, (or major desktop platforms).
-*	Integration with the larger compiler may impose design limits.
+- Must be completed within the Spring 2026 term.
+- Team availability may be limited by other commitments.
+- Must run across Windows, Linux, and macOS (or major desktop platforms).
+- Integration with the larger compiler may impose design limits.
 
 ---
 
 ## 2.3 Project Deliverables
  
-
-*	Project Management Plan: Timeline, milestones, and roles.
-*	Requirements Document: Functional and non-functional requirements.
-*	Design Document: System architecture and algorithms.
-*	Test Suite: Test cases and results for valid and invalid expressions.
-*	C++ Source Code: Clean, modular, and documented code.
-*	User Manual/README: Instructions with examples for using the parser.
-*	Iteration Reports: Progress summaries at the end of each iteration.
+- Project Management Plan: Timeline, milestones, and roles.
+- Requirements Document: Functional and non-functional requirements.
+- Design Document: System architecture and algorithms.
+- Test Suite: Test cases and results for valid and invalid expressions.
+- C++ Source Code: Clean, modular, and documented code.
+- User Manual/README: Instructions with examples for using the parser.
+- Iteration Reports: Progress summaries at the end of each iteration.
 
 ---
 
 ## 2.4 Evolution of the Software Development Plan
+
 The Software Development Plan will be revised prior to the start of each Iteration phase. In addition to scheduled updates, unscheduled revisions are allowed as needed to improve clarity and formatting.
 
 | Software Development Plan Version | Date | Description of Changes |
@@ -176,22 +183,23 @@ The Software Development Plan will be revised prior to the start of each Iterati
 
 ## 3.1 Organizational Structure
 
-The project team consists of six members, each assigned a leadership role to ensure structured execution and accountability throughout the project's timeline. While each member has defined responsibilities, collaboration is encouraged and team members may contribute beyond their assigned roles when necessary. <br><br>
+The project team consists of seven members, each assigned a leadership role to ensure structured execution and accountability throughout the project's timeline. While each member has defined responsibilities, collaboration is encouraged and team members may contribute beyond their assigned roles when necessary.
+
 The division of roles and section responsibilities is as follows:
 
-*  __Abina Arshad (Integration Leader)__: Ensures code from different team members integrates properly, prevents merge conflicts, and makes sure the program compiles and runs correctly across different systems. Assigned sections N/A (late addition)
-*  
-*	__Aaron Trites (QA Testing Leader)__:  Develops testing strategies, identifies any defects or issues in the code, and compares expected vs actual results. Assigned sections 4.5 - 4.7.
-
-*	__Caleb Harmsen (GitHub Manager)__: Manages the project repository, maintains folder structure, and oversees merges and version history. Assigned section 4.8.
+- __Abina Arshad (Integration Leader)__: Ensures code from different team members integrates properly, prevents merge conflicts, and makes sure the program compiles and runs correctly across different systems. Assigned sections: N/A (late addition)
  
-*	__Greeshma Kunduri (Requirements Leader)__: Defines project scope, objectives, and constraints, and ensures requirements align with project timeline. Assigned sections 1.1 – 1.2, 2.1 – 2.3.
+- __Aaron Trites (QA Testing Leader)__:  Develops testing strategies, identifies any defects or issues in the code, and compares expected vs actual results. Assigned sections: 4.5 - 4.7.
+
+- __Caleb Harmsen (GitHub Manager)__: Manages the project repository, maintains folder structure, and oversees merges and version history. Assigned section: 4.8.
+ 
+- __Greeshma Kunduri (Requirements Leader)__: Defines project scope, objectives, and constraints, and ensures requirements align with project timeline. Assigned sections: 1.1 – 1.2, 2.1 – 2.3.
   
-*	__Ivan Kullaya (Documentation Leader)__: Manages the UPEDU template, consolidates team contributions and ensures clarity and consistency to prevent point loss. Assigned sections 1.3 – 1.5. 
+- __Ivan Kullaya (Documentation Leader)__: Manages the UPEDU template, consolidates team contributions and ensures clarity and consistency to prevent point loss. Assigned sections: 1.3 – 1.5, 5. 
 
-*	__Jerry Merveille (Technical Leader)__: Provides technical direction, recommended tools and implementation approaches, and ensures technical practicality. Assigned sections 4.1 – 4.2, 4.4. 
+- __Jerry Merveille (Technical Leader)__: Provides technical direction, recommended tools and implementation approaches, and ensures technical practicality. Assigned sections: 4.1 – 4.2, 4.4. 
 
-*	__Maha Jornaz (Project Leader)__: Oversees the project coordination, schedules the meetings, records the meeting logs, and submits the project. Assigned sections 3.1 – 3.3, 2.4, 4.3.
+- __Maha Jornaz (Project Leader)__: Oversees the project coordination, schedules the meetings, records the meeting logs, and submits the project. Assigned sections: 3.1 – 3.3, 2.4, 4.3.
 
 ---
 
@@ -201,7 +209,6 @@ N/A
 ---
 
 ## 3.3 Roles and Responsibilities 
-
 
 | Person | Unified Process for EDUcation Role | Contact Info |
 |--------|----------------| -------- |
@@ -219,13 +226,14 @@ Each team member’s availability, programming experience, and computing platfor
 
 # 4. Management Process
 
+
 ## 4.1 Project Estimates
 
 The project is scheduled to be completed within the Spring 2026 semester. The total development effort is distributed across four primary phases: Requirements, Design, Implementation, and Testing.
 
 Effort estimates are based on:
 - Academic semester timeline (15 weeks)
-- Six team members contributing weekly
+- Seven team members contributing weekly
 - Increasing technical complexity during implementation
 
 Re-estimation will occur at the end of each iteration to adjust for schedule deviations, technical challenges, or scope changes.
@@ -270,14 +278,18 @@ The project follows the UPEDU lifecycle consisting of Inception, Elaboration, Co
 
 #### Release 1 – Requirements Documentation (Preliminary)
 -	The complete documentation of the requirements defining operators, precedence, unary operators cases, parentheses handling, numeric constants, and error conditions.
+
 #### Release 2 – Architecture & Design (Beta)
 -	UML diagrams, class structure, chosen data structures, and parsing strategy.
+
 #### Release 3 – Implementation/Functional Build (Demo) 
 -	A working arithmetic expression evaluator supporting all operators, parentheses, unary operators, and error handling. A basic CLI prototype is included.
+
 #### Release 4 – Final Release (Final) 
 -	Fully tested C++ program with complete documentation and a user manual.
 
 ### 4.2.4 Project Schedule
+
 | Phases |	Milestone |	Target Week	| Description |
 |--------|-----------| -------- | ------- |
 | Inception	| Requirements completed | Week 8 | Operators, precedence, unary operators rules, and error cases are documented
@@ -292,16 +304,17 @@ N/A
 ---
 
 ## 4.3 Project Monitoring and Control
-Project progress will be monitored through weekly meetings, milestone tracking, and GitHub activity (commits, pull requests, and issues). The Project Leader will verify completion of assigned tasks and ensure milestones remain aligned with the course timeline. If delays occur, corrective actions may include reassigning tasks, adjusting intermediate deadlines, or increasing meeting frequency.
+
+Project progress will be monitored through weekly team meetings, milestone tracking, and GitHub activity (commits, pull requests, and issues). The team meets weekly to review progress, discuss risks, and assign upcoming tasks. Meetings are conducted virtually using Discord voice channels. The Project Leader records meeting minutes and posts them in the Meeting Logs directory within the repository. Communication between meetings occurs through Discord. Task assignments and updates are tracked using GitHub commits, pull requests, and issue discussions. The Project Leader verifies completion of assigned tasks and ensures milestones remain aligned with the course timeline. If delays occur, corrective actions may include reassigning tasks, adjusting intermediate deadlines, or increasing meeting frequency.
 
 ---
 
-### 4.4 Requirements Management
+## 4.4 Requirements Management
 Requirements will be documented formally in the Software Requirements Specification (the next Deliverable). Any proposed requirement changes must be reviewed by the Requirements Leader and approved by the Project Leader before implementation. All changes will be tracked through GitHub and reflected in revision history updates.
 
 ---
 
-### 4.5 Quality Control
+## 4.5 Quality Control
 The goal for quality control in this project is to make sure our Arithmetic Expression Evaluator works correctly and handles both valid and invalid input(s) without crashing. Rather than waiting until the end to test our program, we will be checking correctness throughout development so problems can be caught early in the process and fixed before they become bigger issues.
 
 We will use the following methods to verify the correctness of quality.
@@ -342,11 +355,9 @@ We will use the following methods to verify the correctness of quality.
 
 Defects will be recorded and tracked as Change Requests, and defect metrics will be gathered (see Reporting and Measurement below).
 
-Any defects found during review which are not corrected prior to releasing for integration must be captured as Change Requests so that they are not forgotten. 
-
 ---
 
-### 4.6 Reporting and Measurement
+## 4.6 Reporting and Measurement
 
 Progress will be reported during weekly team meetings. The following metrics will be monitored:
 
@@ -366,13 +377,11 @@ Defects and enhancement requests will be tracked as Change Requests using GitHub
 - Status (Open / In Progress / Resolved / Closed)
 - Link to related commits or pull requests (when applicable)
 
-During each weekly meeting, the team will review active Change Requests and confirm priorities for the next work period. Resolved Change Requests will be verified through re-testing before being closed.
-
-Updates to schedule and deliverables will be reflected in GitHub commits and meeting logs. Any deviations from planned milestones will be documented and discussed for corrective action.
+During each weekly meeting, the team will review active Change Requests and confirm priorities for the next work period. Resolved Change Requests will be verified through re-testing before being closed. Updates to schedule and deliverables will be reflected in GitHub commits and meeting logs. Any deviations from planned milestones will be documented and discussed for corrective action.
 
 ---
 
-### 4.7 Risk Management
+## 4.7 Risk Management
 There are several things that could go wrong while developing an Arithmetic Expression Evaluator. We will keep track of the following risks and try to reduce their impact as much as possible. Risks will be discussed during team meetings and addressed when necessary. The QA/Testing lead will mainly monitor testing-related risks.
 |Risk|Impact|Likelihood|Mitigation|
 |:--:|:--:|:--:|:--:|
@@ -388,7 +397,7 @@ Risks will be identified in Inception Phase using the steps identified in the RU
 
 ---
 
-### 4.8 Configuration Management
+## 4.8 Configuration Management
 Configuration Management ensures that all project artifacts are properly controlled, versioned, and traceable throughout the development of the Arithmetic Expression Evaluator. This process helps maintain consistency between requirements, design, implementation, and testing while allowing the team to manage changes in an organized and structured manner.
 
 - All source code, documentation, and test artifacts will be stored in a shared Git repository (e.g., GitHub), which will serve as the central version control system. Team members will commit changes regularly using clear and meaningful commit messages.
