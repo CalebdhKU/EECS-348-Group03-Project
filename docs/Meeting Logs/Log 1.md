@@ -22,6 +22,7 @@ __Location__: Virtual (Discord voice call)
 
 ## __Attendance__
 
+- [ ] Abina Arshad (Abina was added on the day the project was due)
 - [x] Aaron Trites
 - [x] Caleb Harmsen
 - [x] Greeshma Kunduri
@@ -44,6 +45,9 @@ __Purpose__: Getting to know each other and assign roles/sections
 <!--ASSIGNED ROLES-->
 
 ### <ins>Assigned Roles/sections</ins>
+* __Abina Arshad__: /Sections N/A
+
+<br>
 * __Aaron Trites__: QA Testing Leader/Sections 4.5 - 4.7
 
 <br>
