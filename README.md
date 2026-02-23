@@ -150,6 +150,7 @@ Greeshma Kunduri - g675k904@ku.edu<br />
 Ivan Kullaya - ivan.kullaya@ku.edu<br />
 Jerry Merveille - j675m841@ku.edu<br />
 Caleb Harmsen - charmsen@ku.edu<br />
+Abina Arshad - abina.arshad@ku.edu<br />
 
 Project Link: [Group03 Project](https://github.com/CalebdhKU/EECS-348-Group03-Project)
 
