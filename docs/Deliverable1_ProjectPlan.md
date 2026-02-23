@@ -143,7 +143,7 @@ Assumptions:
 Constraints:
 *	Must be completed within the Spring 2026 term.
 *	Team availability may be limited by other commitments.
-*	Must run across Windows, Linux, iOS, and Android.
+*	Must run across Windows, Linux, and macOS, (or major desktop platforms).
 *	Integration with the larger compiler may impose design limits.
 
 ---
@@ -179,7 +179,8 @@ The Software Development Plan will be revised prior to the start of each Iterati
 The project team consists of six members, each assigned a leadership role to ensure structured execution and accountability throughout the project's timeline. While each member has defined responsibilities, collaboration is encouraged and team members may contribute beyond their assigned roles when necessary. <br><br>
 The division of roles and section responsibilities is as follows:
 
-*  __Abina Arshad (Integration Leader)__: Ensures code from different team members integrates properly, prevents merge conflicts, and makes sure the program compiles and runs correctly across different systems. Assigned sections N/A
+*  __Abina Arshad (Integration Leader)__: Ensures code from different team members integrates properly, prevents merge conflicts, and makes sure the program compiles and runs correctly across different systems. Assigned sections N/A (late addition)
+*  
 *	__Aaron Trites (QA Testing Leader)__:  Develops testing strategies, identifies any defects or issues in the code, and compares expected vs actual results. Assigned sections 4.5 - 4.7.
 
 *	__Caleb Harmsen (GitHub Manager)__: Manages the project repository, maintains folder structure, and oversees merges and version history. Assigned section 4.8.
@@ -204,7 +205,7 @@ N/A
 
 | Person | Unified Process for EDUcation Role | Contact Info |
 |--------|----------------| -------- |
-| Abina Arshad | Interation Leader | abina.arshad@ku.edu |
+| Abina Arshad | Integration Leader | abina.arshad@ku.edu |
 | Aaron Trites | QA Testing Leader | atrites92@ku.edu |
 | Caleb Harmsen | GitHub Manager | charmsen@ku.edu |
 | Greeshma Kunduri | Requirements Leader | g675k904@ku.edu |
@@ -235,7 +236,7 @@ Re-estimation will occur at the end of each iteration to adjust for schedule dev
 This section contains the schedule and resources for the project. This section includes the project schedule and iteration plans.
 
 ### 4.2.1 Phase Plan
-N/A
+The project follows the UPEDU lifecycle consisting of Inception, Elaboration, Construction, and Transition phases. Each phase aligns with the semester schedule and is mapped to iteration objectives and milestone deliverables as described in Sections 4.2.2 and 4.2.4.
 
 ### 4.2.2 Iteration Objectives
 
@@ -291,12 +292,12 @@ N/A
 ---
 
 ## 4.3 Project Monitoring and Control
-The following sections describe the processes used to monitor and control the project, including quality control, risk management, and configuration management.
+Project progress will be monitored through weekly meetings, milestone tracking, and GitHub activity (commits, pull requests, and issues). The Project Leader will verify completion of assigned tasks and ensure milestones remain aligned with the course timeline. If delays occur, corrective actions may include reassigning tasks, adjusting intermediate deadlines, or increasing meeting frequency.
 
 ---
 
 ### 4.4 Requirements Management
-N/A
+Requirements will be documented formally in the Software Requirements Specification (the next Deliverable). Any proposed requirement changes must be reviewed by the Requirements Leader and approved by the Project Leader before implementation. All changes will be tracked through GitHub and reflected in revision history updates.
 
 ---
 
@@ -350,9 +351,22 @@ Any defects found during review which are not corrected prior to releasing for i
 Progress will be reported during weekly team meetings. The following metrics will be monitored:
 
 - Completion of planned iteration objectives
+- Milestone completion status
 - Number of open and resolved defects
 - Successful execution of unit and integration tests
-- Milestone completion status
+
+**Change Requests and Defect Tracking**
+
+Defects and enhancement requests will be tracked as Change Requests using GitHub Issues. Each Change Request will include:
+- A short title and description of the issue
+- Steps to reproduce (if applicable)
+- Expected vs. actual behavior
+- Severity (Low / Medium / High)
+- Assigned owner
+- Status (Open / In Progress / Resolved / Closed)
+- Link to related commits or pull requests (when applicable)
+
+During each weekly meeting, the team will review active Change Requests and confirm priorities for the next work period. Resolved Change Requests will be verified through re-testing before being closed.
 
 Updates to schedule and deliverables will be reflected in GitHub commits and meeting logs. Any deviations from planned milestones will be documented and discussed for corrective action.
 
@@ -403,5 +417,4 @@ The project will follow the UPEDU process.
 
 ---
 
-# Confidential  
 © Group 3, 2026
