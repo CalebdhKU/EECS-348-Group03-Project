@@ -45,9 +45,10 @@ __Purpose__: Getting to know each other and assign roles/sections
 <!--ASSIGNED ROLES-->
 
 ### <ins>Assigned Roles/sections</ins>
-* __Abina Arshad__: /Sections N/A
+* __Abina Arshad__: Integration Leader/Sections N/A
 
 <br>
+
 * __Aaron Trites__: QA Testing Leader/Sections 4.5 - 4.7
 
 <br>
