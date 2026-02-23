@@ -305,35 +305,39 @@ The goal for quality control in this project is to make sure our Arithmetic Expr
 
 We will use the following methods to verify the correctness of quality.
 
-   -	Peer Reviews: Before code is added to the main project, at least one other team member will look over it. We will check for logic mistakes, incorrect operator precedence, unclear or missing comments. This will help catch simple mistakes. If issues are found, they will be corrected before merging with the main branch.<br />
-   -	Coding Style and Documentation: All code will have clear comments so that other team members understand how it works and what the code is being used to accomplish. We will also try to keep formatting and naming conventions consistent to make debugging easier.<br />
-   -	Unit Testing: Each part of the program will be tested separately before combining everything together. This includes, but is not limited to: <br />
-      -	Tokenizing the input expression<br />
-      -	Parsing operators (including unary operators)<br />
-      -	Operator precedence<br />
-      -	Handling parentheses<br />
-      -	Final evaluation<br />
-      -	User interface<br />
-Each component will be given test inputs and checked against expected outputs. Each of these parts must pass their test(s) before moving on.<br />
-   -	Integration Testing: After individual parts work, we will connect them together and make sure they still function correctly as a complete system. We will focus on operator precedence and nested parentheses since those are the easiest places for bugs to occur.<br />
-   -	System Testing: Once we believe the units have been integrated properly, we will run the program against many expressions through a shell script. These tests will include: <br />
-      -	Normal, valid expressions<br />
-      -	Complex expressions with nested parentheses<br />
-      -	Edge cases<br />
-      -	Invalid inputs<br />
-   -	Error Handling: The program should never crash when the user enters bad input. We will need to ensure the program can handle:<br />
-      -	Division by zero<br />
-      -	Missing operands<br />
-      -	Invalid characters<br />
-      -	Mismatched parentheses<br />
-      -	Incorrect operator placement<br />
-The program should print a clear error message instead of terminating unexpectedly.<br />
-   -	Acceptance Criteria: Our program will be considered fully operational and working when:<br />
-      -	All test cases produce correct results<br />
-      -	Invalid inputs show useful error messages<br />
-      -	The program never crashes during testing<br />
-If any bugs are found, they will be fixed and retested.<br />
+- **Peer Reviews:** Before code is added to the main project, at least one other team member will look over it. We will check for logic mistakes, incorrect operator precedence, unclear or missing comments. This will help catch simple mistakes. If issues are found, they will be corrected before merging with the main branch.
 
+- **Coding Style and Documentation:** All code will have clear comments so that other team members understand how it works and what the code is being used to accomplish. We will also try to keep formatting and naming conventions consistent to make debugging easier.
+
+- **Unit Testing:** Each part of the program will be tested separately before combining everything together. Each of these parts must pass their test(s) before moving on. This includes, but is not limited to:
+   - Tokenizing the input expression
+   - Parsing operators (including unary operators)
+   - Operator precedence
+   - Handling parentheses
+   - Final evaluation
+   - User interface
+
+- **Integration Testing:** After individual parts work, we will connect them together and make sure they still function correctly as a complete system. We will focus on operator precedence and nested parentheses since those are the easiest places for bugs to occur.
+
+- **System Testing:** Once we believe the units have been integrated properly, we will run the program against many expressions through a shell script. These tests will include:
+   - Normal, valid expressions
+   - Complex expressions with nested parentheses
+   - Edge cases
+   - Invalid inputs
+
+- **Error Handling:** The program should never crash when the user enters bad input. We will need to ensure the program can handle:
+   - Division by zero
+   - Missing operands
+   - Invalid characters
+   - Mismatched parentheses
+   - Incorrect operator placement
+   The program should print a clear error message instead of terminating unexpectedly.
+
+- **Acceptance Criteria:** Our program will be considered fully operational and working when:
+   - All test cases produce correct results
+   - Invalid inputs show useful error messages
+   - The program never crashes during testing
+   If any bugs are found, they will be fixed and retested.
 
 Defects will be recorded and tracked as Change Requests, and defect metrics will be gathered (see Reporting and Measurement below).
 
