@@ -12,6 +12,7 @@ __Location__: Virtual (Discord voice call)
 
 ## __Attendance__
 
+- [ ] Abina Arshad (Abina was added on the day the project was due)
 - [x] Aaron Trites
 - [x] Caleb Harmsen
 - [x] Greeshma Kunduri
@@ -29,6 +30,7 @@ __Purpose__: Monitor team members’ progress on their assigned sections
 
 <br>
 
+* _Abina_ - N/A
 * _Aaron_ - Completed sections 4.5 and 4.7 
 * _Caleb_ - Created GitHub repository and started section 4.8
 * _Greeshma_ - Completed sections 1.1 - 1.2 and started section 2.1
