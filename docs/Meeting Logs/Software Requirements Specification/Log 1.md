@@ -12,13 +12,13 @@ __Location__: Virtual (Discord voice call)
 
 ## __Attendance__
 
-- [ ] Abina Arshad (Abina was added on the day the project was due)
-- [ ] Aaron Trites
-- [ ] Caleb Harmsen
-- [ ] Greeshma Kunduri
-- [ ] Ivan Kullaya
-- [ ] Jerry Marveille
-- [ ] Maha Jornaz
+- [x] Abina Arshad (Abina was added on the day the project was due)
+- [x] Aaron Trites
+- [x] Caleb Harmsen
+- [x] Greeshma Kunduri
+- [x] Ivan Kullaya
+- [x] Jerry Marveille
+- [x] Maha Jornaz
 
 <br>
 
