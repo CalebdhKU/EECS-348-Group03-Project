@@ -4,7 +4,7 @@
 
 __Date__: February 27, 2026
 
-__Time__: 6:00 p.m. - 6: p.m.
+__Time__: 6:00 p.m. - 6:26 p.m.
 
 __Location__: Virtual (Discord voice call)
 
@@ -14,8 +14,8 @@ __Location__: Virtual (Discord voice call)
 
 - [x] Abina Arshad (Abina was added on the day the project was due)
 - [x] Aaron Trites
-- [x] Caleb Harmsen
-- [x] Greeshma Kunduri
+- [ ] Caleb Harmsen
+- [ ] Greeshma Kunduri
 - [x] Ivan Kullaya
 - [x] Jerry Marveille
 - [x] Maha Jornaz
@@ -26,17 +26,21 @@ __Purpose__:
 
 <br>
 
+The prupose of this meeting is to distribute the sections to each team member, agree on a completion date for deliverable 2...
+
+<br>
+
 ## __Section Tasks__ 
 
 <br>
 
-* _Abina_ - 
-* _Aaron_ - 
-* _Caleb_ - 
-* _Greeshma_ - 
-* _Ivan_ - 
-* _Jerry_ - 
-* _Maha_ - 
+* _Abina_ - 2.1.1 - 2.1.4, 3.1
+* _Aaron_ - 2.1.7, 3.2, 3.3
+* _Caleb_ - 2.1.5 - 2.1.6, 2.6
+* _Greeshma_ - 1.2, 2.2, 3.1, section 4
+* _Ivan_ - Title, Revision History, Table of Contents, 1.3, 1.4, 2.3, section 5
+* _Jerry_ - 2.1, 2.4, 2.5
+* _Maha_ - 1.1 and 1.5
 
 <br>
 
@@ -44,7 +48,7 @@ __Purpose__:
 
 ## __Next Meeting's Info__
 
-__Next meeting's date__: February , 2026
+__Next meeting's date__: March 3, 2026
 
 __Next meeting's time__: 6:00 p.m. - 7:00 p.m.
 
