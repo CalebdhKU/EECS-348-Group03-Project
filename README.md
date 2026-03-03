@@ -66,7 +66,7 @@ This project is developed as part of EECS 348 – Software Engineering and focus
 <!-- GETTING STARTED -->
 ## Getting Started
 
-To get a local copy up and running follow these simple steps.
+Follow these steps to build and run the Arithmetic Expression Evaluator locally.
 
 ### Prerequisites
 
@@ -77,9 +77,21 @@ To get a local copy up and running follow these simple steps.
 ### Installation
 
 1. Clone the repository
+
+    - git clone https://github.com/CalebdhKU/EECS-348-Group03-Project.git
+
 2. Navigate into the project directory
+
+    - cd EECS-348-Group03-Project/src
+
 3. Compile the program
+
+    - g++ -o evaluator *.cpp
+
 4. Run the program
+
+    - ./evaluator
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
