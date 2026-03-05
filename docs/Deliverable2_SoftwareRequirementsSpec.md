@@ -9,21 +9,22 @@
 ---
 
 # Arithmetic Expression Evaluator in C++
-**Version:** 1.0   
+**Version:** 1.2   
 **Date:** 02/23/2026  
 **Document Identifier:** Software Requirements Specifications
 
 ---
 
 # Software Requirements Specifications 
-## Version 1.0
+## Version 1.2
 
 ---
 
 | Date | Version | Description | Author |
 |------|---------|------------|--------|
 | 02/23/2026 | 1.0 | Initial creation and conversion of Deliverable 2 into GitHub using Markdown format | Ivan Kullaya |
-| <dd/mm/yyyy> | x.x | <details> | <name> |
+| 03/05/2026 | 1.1 | Addition of sections 2.1.1-2.1.4 | Maha Jornaz |
+| 03/05/2026 | 1.2 | Addition of section 2.3 | Ivan Kullaya |
 
 ---
 
@@ -166,6 +167,20 @@ connectivity.
 
 ## 2.3 User characteristics
 
+The primary users of the Arithmetic Expression Evaluator are:
+- College students (primarily in EECS)
+- Software developers
+- Individuals with basic familiarity with arithmetic expressions
+- Users with experience using command-line interfaces
+
+Users are expected to:
+- Understand standard arithmetic operators (+, -, *, /, %, **)
+- Understand parentheses for grouping expressions
+- Enter expressions using proper mathematical syntax
+
+No advanced programming knowledge is required to operate the system; however, users should have basic familiarity with typing commands in a command-line environment.
+
+The system does not require specialized training, but users are expected to follow correct arithmetic formatting rules.
 
 ## 2.4 Constraints
 
