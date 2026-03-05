@@ -107,15 +107,50 @@ which are defined in detail in Section 3, and makes them easier to understand. I
 
 ### 2.1.1 System Interfaces
 
+The Arithmetic Expression Evaluator interfaces with the following external components:
+* __User (via Command-Line Interface)__: The system accepts a single-line arithmetic
+expression entered through standard input and returns either the evaluated result or
+an appropriate error message through standard output.
+* __Operating System__: The system relies on the host operating system to manage
+input/output operations and program execution.
+
+The system does not interface with external databases, network services, or third-party
+applications.
 
 ### 2.1.2 User Interfaces
 
+The system provides a text-based Command-Line Interface (CLI).
+User interaction shall follow this process:
+1. The user enters an arithmetic expression as a single line of text.
+2. The system processes the expression.
+3. The system displays:
+   * The computed numerical result if the expression is valid.
+   * A clear and descriptive error message if the expression is invalid.
+
+The interface shall be simple, readable, and easy to use.
+No graphical user interface (GUI) is required for this version of the system.
 
 ### 2.1.3 Hardware Interfaces
 
+The system does not require specialized hardware.
+The software shall operate on standard computing hardware, including:
+* Desktop computers
+* Laptop computers
+The system requires:
+* A keyboard for input
+* A monitor for output
+  
+No external devices or hardware integrations are required.
 
 ### 2.1.4 Software Interfaces
 
+The system shall be implemented in C++ and shall rely on:
+* The C++ Standard Library (e.g., input/output streams, strings, containers, stacks).
+* A standard C++ compiler (e.g., g++, clang++, or MSVC).
+* A desktop operating system such as Windows, macOS, or Linux.
+  
+The system does not require external libraries, databases, web services, or network
+connectivity.
 
 ### 2.1.5 Communication Interfaces
 
