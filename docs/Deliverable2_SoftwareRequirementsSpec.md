@@ -174,6 +174,11 @@ connectivity.
 
 
 ### 2.1.7 Operations
+The Arithmetic Expression Evaluator will run as a command-line program. This means the user will run the program from a terminal or command prompt and type in the arithmetic expressions for the program to evaluate.
+
+The general way the program works is straight forward. First the user runs the program. The program will then ask the user to enter an arithmetic expression. After the user enters the expression, the program will read the input and break it into tokens (numbers, operators, parentheses). 
+Once the input has been tokenized, the program will parse the expression based on normal mathematic precedence rules (PEMDAS). After evaluation, the program will display the result.
+If the user enters something invalid, such as bad characters or unbalanced parentheses, the program will display an error message without crashing. 
 
 
 ## 2.2 Product functions
@@ -273,13 +278,48 @@ The system shall:
 
 
 ## 3.2 Use-Case Specifications
-[In use-case modeling, the use cases often define the majority of the functional requirements of the system,
-along with some non-functional requirements.]
+The main use case for this system is when a user enters an arithmetic expression and the program calculates the results. 
+
+Use-Case: Arithmetic Expression Evaluator
+Actor: User
+Description: The user enters an arithmetic expressions containing numbers, operators, and parentheses and then the system processes the expression and returns a calculated result.
+Preconditions:
+- The program has been compiled successfully.
+- The user has access to a computer with terminal or command line access.
+Basic Flow:
+1. The user runs the program
+2. The program asks the user to enter an arithmetic expression
+3. The user types an expression
+4. The system reads and processes the input 
+5. The system evaluates the expression using correct operator precedence
+6. The result is displayed
+7. The user is asked if they have another expression or would like to end the program
+Alternative Flows:
+- Invalid input: If the user enters something that is not a valid expression, the program will show an error message explaining the problem with the input.
+- Division by Zero: If the user attempts to divide by zero, the system will display an error message instead of crashing.
+- Mismatched Parentheses: If parentheses are not balanced, the system will notify the user that the expressions is invalid.
+Post-conditions:
+- The correct result is displayed if the input expression is valid.
+- An error message is displayed if the expression cannot be evaluated.
 
 
 ## 3.3 Supplementary Requirements
-[Supplementary Specifications capture other requirements, e.g., non-functional requirements and
-development constraints, that are not included in the use cases and non-functional requirements.]
+Supplementary requirements describe additional system expectations that are not apart of the main use cases but are important for the program.
+
+Performance:
+The program should evaluate expressions quickly. Since the expressions are expected to be fairly small, results should appear almost instantly on most computers.
+
+Reliability:
+The system should not crash when a user enters bad input. Rather it should show clear error messages explaining what went wrong, and why.
+
+Usability:
+The program should be simple to use; the command line interface should clearly ask the user for input and display the results in a readable way.
+
+Portability:
+The program should work on any major operating systems, such as Windows, Linux, and MacOS. The program being written in C++ will help make this possible.
+
+Maintainability:
+The code should be organized and commented so it is easier for team members to understand and modify later, or to peer review other team members code. This will also make it easier to add desired features.
 
 ---
 
