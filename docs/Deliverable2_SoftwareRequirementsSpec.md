@@ -69,9 +69,10 @@
 
 
 ## 1.1 Purpose
-[Specify the purpose of this SRS. The SRS fully describes the external behavior of the application or
-subsystem identified. It also describes nonfunctional requirements, design constraints, and other factors
-necessary to provide a complete and comprehensive description of the requirements for the software.]
+The purpose of the SRS document is to identify the functional and non-functional conditions of the calculator system. It describes the external behavior of the system, such as how it performs calculations, returns results, and handles user interactions. It also outlines the design constraints and other factors that may influence the system.   
+
+
+Furthermore, this document provides the team with a reference that guides them in creating organized and clear requirements. This ensures that all team members comprehend the system’s functionality and requirements throughout the development process.
 
 
 ## 1.2 Scope
@@ -93,7 +94,20 @@ or to another document.]
 
 
 ## 1.5 Overview
-[This subsection describes what the rest of the SRS contains and explains how the document is organized.]
+The Software Requirements Specification is divided into five organized sections.    
+
+
+Section 1 contains the introduction, which includes the purpose, scope, definitions, references, and overview of the document.
+
+Section 2 provides the overall description of the system and includes product functions, user characteristics, constraints, assumptions, and requirements subsets.
+
+Section 3 establishes the specific requirements, including functionality, use-case specifications, and supplementary requirements.
+
+Section 4 contains the classification of functional requirements, where each requirement is categorized as Essential Desirable and Optional.
+
+Section 5 includes the appendices, which provide additional supporting information for the project.
+
+Together, these sections create a well-structured document that ensures consistency, clarity, and organization throughout the specification.
 
 ---
 
@@ -201,19 +215,61 @@ specifications may be inserted directly into this section, as shown below.]
 
 
 ## 3.1 Functionality
-[This section describes the functional requirements of the system for those requirements that are expressed
-in the natural language style. For many applications, this may constitute the bulk of the SRS package and
-thought should be given to the organization of this section. This section is typically organized by feature,
-but alternative organization methods may also be appropriate; for example, organization by user or
-organization by subsystem. Functional requirements may include feature sets, capabilities, and security.
+The Arithmetic Expression Evaluator shall provide the following functional capabilities.   
+### 3.1.1 \<Expression Processing\>
 
-Where application development tools, such as requirements tools, modeling tools, and the like, are
-employed to capture the functionality, this section of the document would refer to the availability of that
-data, indicating the location and name of the tool used to capture the data.]
+The system shall: 
+* Accept a single-line arithmetic expression entered through the command-line interface. * Interpret the input as a sequence of numeric constants, operators, and parentheses.
+* Produce either a computed result or an appropriate error message.
+
+### 3.1.2 \<Supported Operators\>
+
+The system shall support evaluation of the following operators: 
+* Addition (+) 
+* Subtraction (−) 
+* Multiplication (*)
+* Division (/)
+* Modulo (%)
+* Exponentiation (**)
+  
+The system shall support both binary and unary forms of the + and − operators.
+
+### 3.1.3 \<Precedence and Associativity Rules\>    
+
+The system shall evaluate expressions according to standard mathematical precedence rules: 
+
+1. Parentheses shall be evaluated first.
+2. Exponentiation (**) shall be evaluated with right-to-left associativity.
+3. Multiplication (*), Division (/), and Modulo (%) shall be evaluated left-to-right.
+4. Addition (+) and Subtraction (−) shall be evaluated left-to-right.
+
+### 3.1.4 \<Parenthesis Handling\>
+
+The system shall: 
+* Correctly evaluate nested and multiple levels of parentheses.
+* Detect and report mismatched or unbalanced parentheses.
 
 
-### 3.1.1 \<Functional Requirement One\>
-[The requirement description.]
+### 3.1.5 \<Numeric Support\>
+The system shall support integer numeric constants.   
+
+Support for floating-point values may be added in future revisions.    
+
+
+### 3.1.6 \<Error Detection and Reporting\>
+The system shall detect and report, at minimum, the following error conditions: 
+* Division by zero
+* Invalid or unsupported characters
+* Missing operands
+* Invalid operator placement
+* Mismatched parentheses The system shall display a clear error message and shall not terminate unexpectedly due to invalid input.
+
+
+### 3.1.7 \<Output Behavior\>
+The system shall: 
+* Display the correct numerical result for valid expressions.
+* Display a descriptive error message for invalid expressions. 
+
 
 
 ## 3.2 Use-Case Specifications
