@@ -23,7 +23,7 @@
 | Date | Version | Description | Author |
 |------|---------|------------|--------|
 | 02/23/2026 | 1.0 | Initial creation and conversion of Deliverable 2 into GitHub using Markdown format | Ivan Kullaya |
-| 03/05/2026 | 1.1 | Addition of sections 2.1.1-2.1.4 | Maha Jornaz |
+| 03/05/2026 | 1.1 | Addition of sections 2.1.1-2.1.4 | Maha Jornaz, Abina Arshad |
 | 03/05/2026 | 1.2 | Addition of section 2.3 | Ivan Kullaya |
 | 03/09/2026 | 1.3 | Addition of sections 2.4 and 2.5 | Jerry Merveille |
 | 03/9/2026 | 1.4 | Addition of section 1.2, 2.2, 3.1 | Greeshma Kunduri | 
@@ -172,7 +172,7 @@ The system does not require external libraries, databases, web services, or netw
 connectivity.
 
 ### 2.1.5 Communication Interfaces
-
+N/A
 
 ### 2.1.6 Memory Constraints
 
@@ -375,7 +375,7 @@ Optional) or by order of appearance in the document.]
 | Functionality | Type |
 |------------------------|-------|
 | Accepting arithmetic expressions from the user | Essential |
-| Tokenize the input expression  | Essesntial |
+| Tokenize the input expression  | Essential |
 | Support arithmetic operators (+, -, *, /, %, **) | Essential |
 | Evaluate expressions using correct operator precedence | Essential | 
 | Provide helpful error messages | Desirable | 
