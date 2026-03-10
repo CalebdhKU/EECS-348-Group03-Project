@@ -198,16 +198,41 @@ Users are expected to:
 - Enter expressions using proper mathematical syntax
 
 No advanced programming knowledge is required to operate the system; however, users should have basic familiarity with typing commands in a command-line environment.
-
 The system does not require specialized training, but users are expected to follow correct arithmetic formatting rules.
 
 ## 2.4 Constraints
 
+- The program must be completed within the Spring 2026 term.
+- The system must be implemented in C++, as required by the project description.
+- The program must operate as a simple, user-friendly command-line interface (CLI) application and run on Windows, Linux, and macOS (or other major desktop platforms).
+- Operator precedence must follow PEMDAS, with exponentiation evaluated right‑to‑left
+- The evaluator must initially support integer numeric constants only
+- The system must tokenize, parse, and evaluate expressions in accordance with the project tasks.
+- The evaluator must not rely on external libraries beyond the C++ Standard Library
+- All deliverables must follow the UPEDU development process to ensure consistency across requirements, design, implementation, and testing.
+- Team members may have conflicting schedules, limiting the time available for synchronous collaboration.
+- Workload should consider different skill levels in C++ and parsing techniques.
+- Team communication may be limited by availability, academic workload, and external commitments.
+- The team must use shared tools, such as GitHub and Discord, and any others announced throughout the project as needed, to ensure effective coordination. 
+- The integration with the larger compiler may impose design limits.
 
 ## 2.5 Assumptions and dependencies
 
+- Users will input expressions using valid characters (digits, operators, parentheses).
+- Expressions will be of reasonable length and adhere to standard memory limits.
+- A standard C++ compiler will be available in the execution environment.
+- Certain components depend on others being completed first.
+- Future changes may introduce support for floating-point operations, as stated in the project description.
+- The correctness of the evaluator depends on the tokenizer, parser, and evaluation logic functioning as designed.
+- The evaluator depends on the C++ standard library for input and output, string handling, and data structures.
+- Communication tools (Discord, email, GitHub) will be available and functional.
+- Team members will follow coding standards, maintain consistent documentation, and complete assigned tasks within agreed-upon deadlines.
+- Progress depends on timely communication among team members.
+- Team productivity may depend on members’ academic workload, employment, or personal obligations
+- The quality of the final product depends on peer review, code integration, and shared understanding of the requirements.
 
 ## 2.6 Requirements subsets
+N/A
 
 ---
 
