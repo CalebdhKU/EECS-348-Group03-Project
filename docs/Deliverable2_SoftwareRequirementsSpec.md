@@ -25,8 +25,9 @@
 | 02/23/2026 | 1.0 | Initial creation and conversion of Deliverable 2 into GitHub using Markdown format | Ivan Kullaya |
 | 03/05/2026 | 1.1 | Addition of sections 2.1.1-2.1.4 | Maha Jornaz |
 | 03/05/2026 | 1.2 | Addition of section 2.3 | Ivan Kullaya |
-| 03/9/2026 | 1.3 | Addition of section 1.2, 2.2, 3.1 | Greeshma Kunduri | 
-| 03/10/2026 | 1.4 | Addition of section 4 | Greeshma Kunduri | 
+| 03/05/2026 | 1.3 | Addition of sections 2.4 and 2.5 | Jerry Merveille |
+| 03/9/2026 | 1.4 | Addition of section 1.2, 2.2, 3.1 | Greeshma Kunduri | 
+| 03/10/2026 | 1.5 | Addition of section 4 | Greeshma Kunduri | 
 
 ---
 
