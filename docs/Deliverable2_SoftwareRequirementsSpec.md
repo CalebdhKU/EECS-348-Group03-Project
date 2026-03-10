@@ -25,7 +25,8 @@
 | 02/23/2026 | 1.0 | Initial creation and conversion of Deliverable 2 into GitHub using Markdown format | Ivan Kullaya |
 | 03/05/2026 | 1.1 | Addition of sections 2.1.1-2.1.4 | Maha Jornaz |
 | 03/05/2026 | 1.2 | Addition of section 2.3 | Ivan Kullaya |
-| 03/10/2026 | 1.3 | Addition of section 1.2, 2.2, 3.1 | Greeshma Kunduri | 
+| 03/9/2026 | 1.3 | Addition of section 1.2, 2.2, 3.1 | Greeshma Kunduri | 
+| 03/10/2026 | 1.4 | Addition of section 4 | Greeshma Kunduri | 
 
 ---
 
@@ -369,9 +370,11 @@ Optional) or by order of appearance in the document.]
 
 | Functionality | Type |
 |------------------------|-------|
-| ... | |
-| ... | |
-
+| Accepting arithmetic expressions from the user | Essential |
+| Tokenize the input expression  | Essesntial |
+| Support arithmetic operators (+, -, *, /, %, **) | Essential |
+| Evaluate expressions using correct operator precedence | Essential | 
+| Provide helpful error messages | Desirable | 
 ---
 
 # 5. Appendices
