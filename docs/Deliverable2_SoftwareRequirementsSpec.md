@@ -25,6 +25,7 @@
 | 02/23/2026 | 1.0 | Initial creation and conversion of Deliverable 2 into GitHub using Markdown format | Ivan Kullaya |
 | 03/05/2026 | 1.1 | Addition of sections 2.1.1-2.1.4 | Maha Jornaz |
 | 03/05/2026 | 1.2 | Addition of section 2.3 | Ivan Kullaya |
+| 03/10/2026 | 1.3 | Addition of section 1.2, 2.2, 3.1 | Greeshma Kunduri | 
 
 ---
 
@@ -76,9 +77,10 @@ Furthermore, this document provides the team with a reference that guides them i
 
 
 ## 1.2 Scope
-[A brief description of the software application that the SRS applies to, the feature or other subsystem
-grouping, what Use-Case model(s) it is associated with, and anything else that is affected or influenced by
-this document.]
+
+The Arithmetic Expression Evaluator is a C++ command-line application that parses and evaluates arithmetic expressions entered by a user. The system supports numeric constants, parentheses, and arithmetic operators including +, -, *, /, %, and **. The program evaluates expressions according to standard operator precedence and associativity rules and supports unary operators. It also detects and reports errors such as invalid expressions, division by zero, and mismatched parentheses.
+
+This document defines the functional requirements for the arithmetic expression parsing and evaluation system.
 
 
 ## 1.3 Definitions, Acronyms, and Abbreviations
@@ -183,6 +185,13 @@ If the user enters something invalid, such as bad characters or unbalanced paren
 
 ## 2.2 Product functions
 
+The main function of the system is to evaluate arithmetic expressions provided by the user. The program will accept an expression as input, break it into tokens such as numbers and operators, and then process the expression according to operator precedence rules.
+
+The system will support basic arithmetic operations, exponentiation, and parentheses for grouping. After evaluating the expression, the program will display the final result to the user.
+
+The program will also check for errors such as invalid characters, mismatched parentheses, and division by zero, and report these issues to the user when they occur.
+
+
 
 ## 2.3 User characteristics
 
@@ -245,7 +254,13 @@ specifications may be inserted directly into this section, as shown below.]
 
 
 ## 3.1 Functionality
-The Arithmetic Expression Evaluator shall provide the following functional capabilities.   
+
+The Arithmetic Expression Evaluator allows users to enter arithmetic expressions through a command-line interface. The program will process the input by identifying numbers, operators, and parentheses.
+
+The system will then evaluate the expression based on standard arithmetic precedence rules. Supported operations include addition, subtraction, multiplication, division, modulo, and exponentiation. The program must also correctly handle unary positive and negative values.
+
+If the input expression is invalid, the system will stop the evaluation and display an appropriate error message.
+
 ### 3.1.1 \<Expression Processing\>
 
 The system shall: 
