@@ -175,6 +175,9 @@ connectivity.
 
 ### 2.1.6 Memory Constraints
 
+The arithmetic expression evaluator is not expected to require a large amount of memory because it primarily processes short user-input expressions and basic numeric values. The program will store tokens, operators, and operands in simple data structures such as stacks or arrays during parsing and evaluation. Memory usage should remain small enough to run on a standard personal computer without special hardware requirements.
+
+Since the program evaluates one expression at a time, memory will be allocated only for the current expression and temporary data used during parsing. After evaluation is complete, this memory can be released or reused for the next input. The system should avoid unnecessary memory allocation and ensure that data structures remain efficient so the program performs reliably even when evaluating longer expressions with many operators and parentheses.
 
 ### 2.1.7 Operations
 The Arithmetic Expression Evaluator will run as a command-line program. This means the user will run the program from a terminal or command prompt and type in the arithmetic expressions for the program to evaluate.
