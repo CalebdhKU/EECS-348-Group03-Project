@@ -367,7 +367,7 @@ Post-conditions:
 
 ## 3.3 Supplementary Requirements
 
-Supplementary requirements describe additional system expectations that are not a part of the main use cases but are important for the program.
+Supplementary requirements (here, non-functional requirements) describe additional system expectations that are not a part of the main use cases but are important for the program.
 
 - **Performance**: The program shall evaluate expressions quickly. Since the expressions are expected to be fairly small, results should appear almost instantly on most computers.
 - **Reliability**: The system shall not crash when a user enters bad input. Instead, the system shall display clear error messages explaining what went wrong.
