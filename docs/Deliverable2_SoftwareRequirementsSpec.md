@@ -192,7 +192,7 @@ The Arithmetic Expression Evaluator will run as a command-line program. This mea
 
 The general way the program works is straightforward. First the user runs the program. The program will then ask the user to enter an arithmetic expression. After the user enters the expression, the program will read the input and break it into tokens (numbers, operators, parentheses). 
 
-Once the input has been tokenized, the program will parse the expression based on standard mathematic precedence rules (PEMDAS). After evaluation, the program will display the result.
+Once the input has been tokenized, the program will parse the expression based on standard mathematical precedence rules (PEMDAS). After evaluation, the program will display the result.
 
 If the user enters something invalid, such as bad characters or unbalanced parentheses, the program will display an error message without crashing. 
 
@@ -370,7 +370,7 @@ Post-conditions:
 Supplementary requirements describe additional system expectations that are not a part of the main use cases but are important for the program.
 
 - **Performance**: The program shall evaluate expressions quickly. Since the expressions are expected to be fairly small, results should appear almost instantly on most computers.
-- **Reliability**: The system shall not crash when a user enters bad input. Rather it will show a clear error messages explaining what went wrong, and why.
+- **Reliability**: The system shall not crash when a user enters bad input. Instead, the system shall display clear error messages explaining what went wrong.
 - **Usability**: The program shall be simple to use; the command line interface will clearly ask the user for input and display the results in a readable way.
 - **Portability**: The program shall work on any major operating systems, such as Windows, Linux, and macOS. The program being written in C++ will help make this possible.
 - **Maintainability**: The code shall be organized and commented so it is easier for team members to understand and modify later, or to peer review other team members code. This will also make it easier to add desired features.
