@@ -11,7 +11,7 @@
 # Arithmetic Expression Evaluator in C++
 **Version:** 1.9   
 **Date:** 02/23/2026  
-**Document Identifier:** Software Requirements Specifications
+**Document Identifier:** AEE-SRS-1.9
 
 ---
 
@@ -227,10 +227,10 @@ No advanced programming knowledge is required to operate the system; however, us
 - The program must be completed within the Spring 2026 term.
 - The system must be implemented in C++, as required by the project description.
 - The program must operate as a simple, user-friendly command-line interface (CLI) application and run on Windows, Linux, and macOS (or other major desktop platforms).
-- Operator precedence must follow PEMDAS, with exponentiation evaluated right‑to‑left
-- The evaluator must initially support integer numeric constants only
+- Operator precedence must follow PEMDAS, with exponentiation evaluated right‑to‑left.
+- The evaluator must initially support integer numeric constants only.
 - The system must tokenize, parse, and evaluate expressions in accordance with the project tasks.
-- The evaluator must not rely on external libraries beyond the C++ Standard Library
+- The evaluator must not rely on external libraries beyond the C++ Standard Library.
 - All deliverables must follow the UPEDU development process to ensure consistency across requirements, design, implementation, and testing.
 - Team members may have conflicting schedules, limiting the time available for synchronous collaboration.
 - Workload should consider different skill levels in C++ and parsing techniques.
@@ -251,7 +251,7 @@ No advanced programming knowledge is required to operate the system; however, us
 - Communication tools (Discord, email, GitHub) will be available and functional.
 - Team members will follow coding standards, maintain consistent documentation, and complete assigned tasks within agreed-upon deadlines.
 - Progress depends on timely communication among team members.
-- Team productivity may depend on members’ academic workload, employment, or personal obligations
+- Team productivity may depend on members’ academic workload, employment, or personal obligations.
 - The quality of the final product depends on peer review, code integration, and shared understanding of the requirements.
 
 
@@ -348,12 +348,12 @@ Preconditions:
 - The program has been compiled successfully.
 
 Basic Flow:
-1. The user runs the program
-2. The program asks the user to enter an arithmetic expression
-3. The user types an expression
-4. The system reads and processes the input 
-5. The system evaluates the expression using correct operator precedence
-6. The result is displayed
+1. The user runs the program.
+2. The program asks the user to enter an arithmetic expression.
+3. The user types an expression.
+4. The system reads and processes the input.
+5. The system evaluates the expression using correct operator precedence.
+6. The result is displayed.
 
 Alternative Flows:
 - **Invalid input**: If the user enters something that is not a valid expression, the program will show an error message explaining the problem with the input.
