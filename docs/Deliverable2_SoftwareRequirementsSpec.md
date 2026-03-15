@@ -375,6 +375,11 @@ Supplementary requirements (here, non-functional requirements) describe addition
 - **Portability**: The program shall work on any major operating systems, such as Windows, Linux, and macOS. The program being written in C++ will help make this possible.
 - **Maintainability**: The code shall be organized and commented so it is easier for team members to understand and modify later, or to peer review other team members code. This will also make it easier to add desired features.
 
+**Constraints:**
+   - The program has to be implemented in C++.
+   - The program must be developed and tested on a Linux machine.
+   - The program must use only standard libraries. 
+
 ---
 
 # 4. Classification of Functional Requirements
