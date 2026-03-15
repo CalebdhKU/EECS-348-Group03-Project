@@ -393,6 +393,7 @@ Supplementary requirements (here, non-functional requirements) describe addition
 | Provide descriptive error messages | Desirable |
 | Support floating-point numbers | Optional |
 | Support additional grouping symbols [ ] | Optional |
+| Support implicit multiplication | Optional |
 
 ---
 
