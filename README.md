@@ -125,7 +125,7 @@ The program supports:
 ## Roadmap
 
 - [x] Project Plan
-- [ ] Software Requirements Specifications
+- [x] Software Requirements Specifications
 - [ ] Software Architecture Design
 - [ ] Test Cases
 - [ ] User Manual
