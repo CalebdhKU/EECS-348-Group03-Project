@@ -9,20 +9,21 @@
 ---
 
 # Arithmetic Expression Evaluator in C++
-**Version:** 1.0   
+**Version:** 1.1   
 **Date:** 03/10/2026  
 **Document Identifier:** Software Architecture Document
 
 ---
 
 # Software Architecture Document
-## Version 1.0
+## Version 1.1
 
 ---
 
 | Date | Version | Description | Author |
 |------|---------|------------|--------|
 | 03/10/2026 | 1.0 | Initial creation and conversion of Deliverable 3 into GitHub using Markdown format | Ivan Kullaya |
+| 03/19/2026 | 1.1 | Addition of Sections 4, 4.1, & 8 | Ivan Kullaya |
 | <dd/mm/yyyy> | x.x | <details> | <name> |
 
 ---
@@ -105,14 +106,49 @@ development tools, team structure, schedule, legacy code, and so on.]
 ---
 
 # 4. Use-Case View
-[This section lists use cases or scenarios from the use-case model if they represent some significant, central
-functionality of the final system, or if they have a large architectural coverage—they exercise many architectural elements or if they stress or illustrate a specific, delicate point of the architecture.]
+The primary use case of the Arithmetic Expression Evaluator is the evaluation of arithmetic expressions entered by the user through a command-line interface. This use case is architecturally significant because it exercises the major components of the system, including input handling, tokenization, parsing, evaluation, and output generation.
+
+The UML use-case diagram below illustrates the central interaction between the user and the system.
+
+```mermaid
+flowchart LR
+    U[User]
+
+    subgraph S[Arithmetic Expression Evaluator in C++]
+
+        A((Evaluate Arithmetic Expression))
+        B((Display Result))
+        C((Handle Invalid Expression))
+    end
+
+    U --> A
+    A --> B
+    A --> C
+```
+
+**Actor**: User
+
+**Use Cases**:
+- Evaluate Arithmetic Expression
+- Display Result
+- Handle Invalid Expression
+
+The “Evaluate Arithmetic Expression” use case represents the main system functionality. Depending on whether the input is valid or invalid, the system either displays the computed result or generates the appropriate error message.
 
 
 ## 4.1 Use-Case Realizations
-[This section illustrates how the software actually works by giving a few selected use-case (or scenario)
-realizations, and explains how the various design model elements contribute to their functionality. If a Use-
-Case Realization Document is available, refer to it in this section.]
+The primary use-case realization for this system is the process of evaluating an arithmetic expression entered by the user.
+
+1. The user enters an arithmetic expression through the command-line interface.
+2. The input handler receives the expression as a text string.
+3. The tokenizer converts the input into a sequence of tokens such as numeric constants, operators, and parentheses.
+4. The parser processes the token stream according to operator precedence and associativity rules.
+5. The evaluator computes the result of the parsed expression.
+6. The output component displays either:
+   - The correct numerical result
+   - A descriptive error message if the expression is invalid.
+
+This realization demonstrates how the system components (input handler, tokenizer, parser, evaluator, and output handler) collaborate to implement the primary system functionality.
 
 ---
 
@@ -149,9 +185,18 @@ well as the target performance constraints.]
 ---
 
 # 8. Quality
-[A description of how the software architecture contributes to all capabilities (other than functionality) of
-the system: extensibility, reliability, portability, and so on. If these characteristics have special
-significance, such as safety, security or privacy implications, they must be clearly delineated.]
+The software architecture of the Arithmetic Expression Evaluator is designed to support key quality attributes beyond basic functionality.
+
+- **Reliability**: The system is designed to handle invalid input smoothly. It shall detect errors such as division by zero, invalid characters, and mismatched parentheses without crashing, and provide clear error messages to the user.
+- **Maintainability**: The system is structured into modular components (tokenizer, parser, evaluator), allowing developers to easily modify or extend functionality. This supports future enhancements such as floating-point support or additional operators.
+- **Portability**: The system is implemented in standard C++ and relies only on the C++ Standard Library. This ensures compatibility across multiple platforms, including Windows, macOS, and Linux.
+- **Usability**: The system uses a simple command-line interface with clear prompts and readable output. Users can easily enter expressions and interpret results without requiring specialized training.
+- **Extensibility**: The architecture allows for future expansion, such as:
+   - Support for floating-point numbers
+   - Additional operators
+   - Enhanced parsing capabilities
+- **Performance**: The system is expected to evaluate arithmetic expressions efficiently, with near-instant response time for typical input sizes on standard computing hardware.
+- **Robustness**: The system is designed to handle a wide range of valid and invalid inputs without failure, ensuring stable operation under different user scenarios.
 
 ---
 
