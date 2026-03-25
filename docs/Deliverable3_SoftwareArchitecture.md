@@ -172,8 +172,52 @@ of some of its major responsibilities, operations, and attributes.]
 ---
 
 # 6. Interface Description
-[A description of the major entity interfaces, including screen formats, valid inputs, and resulting outputs.
-If a User-Interface Prototype Document is available, refer to it in this section]
+The Arithmetic Expression Evaluator uses a command-line interface (CLI) as its main way of interacting with the user. This means the user simply types an arithmetic expression into the terminal, and the program evaluates it and returns either a result or an error message. The interface is designed to be simple and easy to use, so no additional setup or training is required.<br>
+
+The system accepts arithmetic expressions written in standard mathematical notation. Users can enter integers or decimal numbers, along with common operators such as +, -, *, /, %, and **. Parentheses can also be used to control the order of operations, and unary operators are supported.<br>
+
+Some examples of valid input include:<br>
+- 3 + 5<br>
+- (2 * 4) + 7<br>
+- 10 / (5 - 3)<br>
+- 2 ** 3<br>
+- -6 + 14<br>
+
+If the user enters something invalid, such as missing values, unsupported characters, or unbalanced parentheses, the program will not crash. Instead, it will detect the issue and return a helpful error message.<br>
+
+After the user enters an expression, the system processes it and displays the result directly in the terminal. If the expression is valid, the output will show the computed value. If not, an error message will explain what went wrong.<br>
+
+Examples of output include:<br>
+- Result: 8<br>
+- Result: 15<br>
+- Result: 5<br>
+
+And for errors:<br>
+- Error: Invalid expression<br>
+- Error: Division by zero<br>
+- Error: Unbalanced parentheses<br>
+- Error: Unsupported character detected<br>
+
+From a system perspective, the interaction follows a simple flow. The user inputs an expression, the program reads it, checks for correctness, evaluates it, and then prints either the result or an error. Internally, the program is organized into separate components such as input handling, parsing, evaluation, and error handling.<br>
+
+Below is a simple mockup of how the interface may look when the program is running:<br>
+----------------------------------------------<br>
+Arithmetic Expression Evaluator<br>
+Enter 'q' to Quit<br>
+----------------------------------------------<br>
+Enter an expression: (3 + 5) * 2<br>
+Result: 16<br>
+----------------------------------------------<br>
+Enter an expression: 10 / (4 - 4)<br>
+Error: Division by zero<br>
+----------------------------------------------<br>
+Enter an expression: 2 ** 3 + 1<br>
+Result: 9<br>
+----------------------------------------------<br>
+Enter an expression: q <br>
+Exiting program...<br>
+
+Overall, the interface is intentionally minimal. The goal is to make it easy for users to quickly enter expressions and get immediate feedback without any unnecessary complexity.
 
 ---
 
