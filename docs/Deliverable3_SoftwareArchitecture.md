@@ -9,14 +9,14 @@
 ---
 
 # Arithmetic Expression Evaluator in C++
-**Version:** 1.1   
+**Version:** 1.2   
 **Date:** 03/10/2026  
-**Document Identifier:** AEE-SA-1.1
+**Document Identifier:** AEE-SA-1.2
 
 ---
 
 # Software Architecture Document
-## Version 1.1
+## Version 1.2
 
 ---
 
@@ -24,6 +24,7 @@
 |------|---------|------------|--------|
 | 03/10/2026 | 1.0 | Initial creation and conversion of Deliverable 3 into GitHub using Markdown format | Ivan Kullaya |
 | 03/19/2026 | 1.1 | Addition of Sections 4, 4.1, & 8 | Ivan Kullaya |
+| 03/24/2026 | 1.2 | Addition of Section 6 | Aaron Trites |
 | <dd/mm/yyyy> | x.x | <details> | <name> |
 
 ---
