@@ -25,7 +25,7 @@
 | 03/10/2026 | 1.0 | Initial creation and conversion of Deliverable 3 into GitHub using Markdown format | Ivan Kullaya |
 | 03/19/2026 | 1.1 | Addition of Sections 4, 4.1, & 8 | Ivan Kullaya |
 | 03/24/2026 | 1.2 | Addition of Section 6 | Aaron Trites |
-| <dd/mm/yyyy> | x.x | <details> | <name> |
+| 03/31/2026 | 1.3 | Addition of Section 1.5, 7 | Greeshma Kunduri |
 
 ---
 
@@ -85,8 +85,12 @@ may be provided by reference to an appendix or to another document.]
 
 
 ## 1.5 Overview
-[This subsection describes what the rest of the Software Architecture Document contains and explains
-how the Software Architecture Document is organized.]
+
+This document explains how our Arithmetic Expression Evaluator works and how it’s structured. It starts with the purpose and scope, then introduces important terms and references needed to understand the system.
+
+The main part of the document shows the system from different angles. First, we explain the overall architecture and the goals and constraints that guided our design. Next, we describe the use-case view, showing how the user interacts with the program and how the system responds. Then, the logical view breaks down the system into the main modules, explains what each does, and shows how they work together.
+
+Finally, we cover the interface, performance expectations, and quality attributes like reliability, maintainability, and usability. The goal of this document is to give anyone reading it a clear picture of the system, how it works, and why it was designed this way.
 
 ---
 
