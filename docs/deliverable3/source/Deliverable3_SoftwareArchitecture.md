@@ -25,7 +25,7 @@
 | 03/10/2026 | 1.0 | Initial creation and conversion of Deliverable 3 into GitHub using Markdown format | Ivan Kullaya |
 | 03/19/2026 | 1.1 | Addition of Sections 4, 4.1, & 8 | Ivan Kullaya |
 | 03/24/2026 | 1.2 | Addition of Section 6 | Aaron Trites |
-| 03/31/2026 | 1.3 | Addition of Section 1.5 | Greeshma Kunduri |
+| 03/31/2026 | 1.3 | Addition of Section 1.4, 2 | Greeshma Kunduri |
 
 ---
 
