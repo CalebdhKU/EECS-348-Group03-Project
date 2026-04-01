@@ -84,14 +84,17 @@ Follow these steps to build and run the Arithmetic Expression Evaluator locally.
 
     - cd EECS-348-Group03-Project/src
 
-3. Compile the program
+3. Build the program using Make
 
-    - g++ -o evaluator *.cpp
+    - make
 
 4. Run the program
 
     - ./evaluator
 
+5. (Optional) Clean build files:
+
+    - make clean
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
