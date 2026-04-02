@@ -8,16 +8,16 @@ all: evaluator
 evaluator: $(OBJS)
 	$(CXX) -o evaluator $(OBJS)
 
-main.o: main.cpp
+main.o: main.cpp inputHandler.h tokenizer.h parser.h
 	$(CXX) $(CXXFLAGS) -c main.cpp
 
-InputHandler.o: inputHandler.cpp
+InputHandler.o: inputHandler.cpp inputHandler.h
 	$(CXX) $(CXXFLAGS) -c inputHandler.cpp
 
-Tokenizer.o: tokenizer.cpp
+Tokenizer.o: tokenizer.cpp tokenizer.h
 	$(CXX) $(CXXFLAGS) -c tokenizer.cpp
 
-Parser.o: parser.cpp
+Parser.o: parser.cpp parser.h
 	$(CXX) $(CXXFLAGS) -c parser.cpp
 
 clean:
