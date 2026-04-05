@@ -26,6 +26,7 @@
 | 03/19/2026 | 1.1 | Addition of Sections 4, 4.1, & 8 | Ivan Kullaya |
 | 03/24/2026 | 1.2 | Addition of Section 6 | Aaron Trites |
 | 03/31/2026 | 1.3 | Addition of Section 1.5 | Greeshma Kunduri |
+| 04/04/2026 | 1.4 | Addition of Sections 5 & 5.1 | Jerry Merveille |
 
 ---
 
@@ -157,15 +158,37 @@ This realization demonstrates how the system components (input handler, tokenize
 ---
 
 # 5. Logical View
-[This section describes the architecturally significant parts of the design model, such as its decomposition
-into subsystems and packages. And for each significant package, its decomposition into classes and class
-utilities. You should introduce architecturally significant classes and describe their responsibilities, as well
-as a few very important relationships, operations, and attributes.]
+This section provides an overview of the architecturally significant components of the design model, detailing its breakdown into subsystems and packages, along with a closer look at key classes, their responsibilities, and important relationships, operations, and attributes.
+#### Core Modules
+1.	Tokenizer  
+   Breaks the input string into tokens such as numbers, operators, and parentheses.
+2.	Parser  
+   Processes the token stream and builds an internal representation of the expression according to the rules of operator precedence and associativity.
+3.	AST (Abstract Syntax Tree)  
+   Represents the hierarchical structure of the expression. Each node corresponds to an operator or operand.
+4.	Evaluator  
+   Traverses the AST and computes the final numeric result.
+5.	Error Handler  
+   Detects and reports invalid syntax, division by zero, and invalid expressions.
+6.	CLI Interface  
+   Provides a simple command‑line interface for user input and displays results or error messages.
+
+#### Processing Sequence Diagram
+User Input (CLI) → Tokenizer → Parser → AST → Evaluator → Result → CLI
 
 
 ## 5.1 Overview
-[This subsection describes the overall decomposition of the design model in terms of its package hierarchy
-and layers.]
+This subsection outlines the fundamental structure of the design model, focusing on its package hierarchy and layered organization.
+At the highest level, the system consists of:
+
+•	**Presentation Layer** – Handles user interaction through the command‑line interface. It collects raw input expressions and displays results or error messages.
+
+•	**Processing Layer** – Responsible for transforming the input expression into clean, structured, actionable, and analysis-ready information suitable for further computation. This layer includes the Tokenizer, Parser, and Abstract Syntax Tree (AST) components.
+
+•	**Evaluation/Computation Layer** – Computes the final numeric result by traversing the AST and applying operator semantics and precedence rules.
+
+•	**Error Handling Component** – Operates across all layers to detect, classify, and report invalid input and expressions, or runtime errors such as division by zero.
+
 
 ## 5.2 Architecturally Significant Design Modules or Packages
 [For each significant package, include a subsection with its name, its brief description, and a diagram with
