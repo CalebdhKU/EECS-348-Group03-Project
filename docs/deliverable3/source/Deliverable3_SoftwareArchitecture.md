@@ -58,24 +58,31 @@ and overview of the Software Architecture Document.]
 
 
 ## 1.1 Purpose
-[This document provides a comprehensive architectural overview of the system, using a number of different
-architectural views to depict different aspects of the system. It is intended to capture and convey the
-significant architectural decisions which have been made on the system.]
+The purpose of the Software Architecture Document is to provide an overview of the structure and design for the evaluator. It describes the system’s components. 
 
-[This section defines the role or purpose of the Software Architecture Document, in the overall project
-documentation, and briefly describes the structure of the document. The specific audiences for the
-document are identified, with an indication of how they are expected to use the document.]
+The audience for this document includes project leader, QA testing leader, GitHub manager, requirements leader, documentation leader, technical leader, integration leader and instructors. It will be used as a reference for the team members to ensure consistency and organization. 
+
+
 
 
 ## 1.2 Scope
-[A brief description of what the Software Architecture Document applies to; what is affected or influenced
-by this document.]
+The Software Architecture Document is designed to be used as a guide for the team by providing structure and organization of the Arithmetic Expression Evaluator system. The system uses arithmetic expressions including these operators: +, -, *, /, %, and **. 
+
+This document covers the system’s input and error handling, parsing, tokenization, and expression evaluation. The components work together to evaluate the expressions.  
+
 
 
 ## 1.3 Definitions, Acronyms, and Abbreviations
-[This subsection provides the definitions of all terms, acronyms, and abbreviations required to properly
-interpret the Software Architecture Document. This information may be provided by reference to the
-project’s Glossary.]
+* Error Handling: Detects and manages errors that occur during program execution. 
+
+* Evaluator: Calculates the final result of the parsed expression. 
+
+* Parser: A component that takes the user’s input and organizes it according to the correct order of operations.
+ 
+* PEMDAS: The order of operations: parentheses, exponents, multiplication, division, addition, and subtraction.
+
+* Tokenizer: Converts user input into tokens such as numbers, operators, and parentheses.
+
 
 
 ## 1.4 References
