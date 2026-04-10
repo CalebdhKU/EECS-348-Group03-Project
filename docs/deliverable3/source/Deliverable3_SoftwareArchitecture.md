@@ -103,10 +103,34 @@ Finally, we cover the interface, performance expectations, and quality attribute
 ---
 
 # 2. Architectural Representation
-[This section describes what software architecture is for the current system, and how it is represented. It
-enumerates the views that are necessary, and for each view, explains what types of model elements it
-contains.]
 
+The Arithmetic Expression Evaluator is designed using a simple modular structure where each part of the program is responsible for a specific task. This makes the system easier to understand, test, and modify if changes are needed later.
+
+The architecture can be understood through a few main views that describe how the system works.
+
+(a) Use-Case View
+
+This view shows how the user uses the system. The user enters an arithmetic expression in the command line, and the program evaluates it and prints either the result or an error message.
+
+(b) Logical View
+
+The system is split into a few main parts:
+
+CLI (handles input and output)
+Tokenizer (splits the expression into tokens)
+Parser (handles operator precedence and parentheses)
+Evaluator (computes the final answer)
+Error handler (checks for invalid input)
+
+Each part does its own job, which keeps things organized.
+
+(c) Process View
+
+When the program runs, the expression goes through a simple flow: input → tokenize → parse → evaluate → output. If something is wrong (like bad syntax or division by zero), the program stops and shows an error message instead of crashing.
+
+(d) Development View
+
+The code is written in C++ and split into separate files/modules for each major part. We mainly use standard libraries like stacks and strings. This makes it easier to test and update each part separately.
 ---
 
 # 3. Architectural Goals and Constraints
