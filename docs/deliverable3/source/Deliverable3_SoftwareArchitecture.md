@@ -92,12 +92,12 @@ University of Kansas, Department of EECS
 Spring 2026
 Course materials (Canvas and lecture notes)
 - Software Development Plan (SDP) – Arithmetic Expression Evaluator
-Version 1.15, Document ID: SDP-AEE-1.15
+Version 1.15
 EECS 348 Project Team
 02/19/2026
 Project GitHub Repository
 - Software Requirements Specification (SRS) – Arithmetic Expression Evaluator
-Version 1.9, Document ID: AEE-SRS-1.9
+Version 1.9
 - EECS 348 Project Team
 02/23/2026
 Project GitHub Repository
