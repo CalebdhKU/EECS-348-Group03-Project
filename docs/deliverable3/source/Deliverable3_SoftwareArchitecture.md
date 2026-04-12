@@ -86,10 +86,28 @@ This document covers the system’s input and error handling, parsing, tokenizat
 
 
 ## 1.4 References
-[This subsection provides a complete list of all documents referenced elsewhere in the Software
-Architecture Document. Identify each document by title, report number (if applicable), date, and
-publishing organization. Specify the sources from which the references can be obtained. This information
-may be provided by reference to an appendix or to another document.]
+
+- EECS 348: Software Engineering – Project Description (Arithmetic Expression Evaluator)
+University of Kansas, Department of EECS
+Spring 2026
+Course materials (Canvas and lecture notes)
+- Software Development Plan (SDP) – Arithmetic Expression Evaluator
+Version 1.15, Document ID: SDP-AEE-1.15
+EECS 348 Project Team
+02/19/2026
+Project GitHub Repository
+- Software Requirements Specification (SRS) – Arithmetic Expression Evaluator
+Version 1.9, Document ID: AEE-SRS-1.9
+- EECS 348 Project Team
+02/23/2026
+Project GitHub Repository
+- UPEDU Software Architecture Document Template
+University of Kansas, EECS 348 Course Materials
+Spring 2026
+Provided by instructor (Hossein Saiedian)
+- C++ Standard Library Reference
+ISO C++ / cppreference
+https://en.cppreference.com
 
 
 ## 1.5 Overview
