@@ -172,6 +172,7 @@ The architecture of the Arithmetic Expression Evaluator is designed to meet both
 6. Input size assumptions The system is designed for typical single-line expressions. It is not intended for very large inputs or high-performance computing scenarios.
 
 **3.3 Design Rationale**
+
 A modular, layered structure was chosen because it matches how the system processes expressions step by step, starting from input, then tokenization, parsing, and finally evaluation.
 This approach makes the system easier to build and test since each component can be developed separately. It also improves readability and makes debugging more straightforward. For this project, it provides a good balance between simplicity and flexibility.
 
