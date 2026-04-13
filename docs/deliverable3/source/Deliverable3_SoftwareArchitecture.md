@@ -261,11 +261,15 @@ At the highest level, the system consists of:
 
 
 ## 5.2 Architecturally Significant Design Modules or Packages
-[For each significant package, include a subsection with its name, its brief description, and a diagram with
-all significant classes and packages contained within the package.
+The system is organized into several main packages, each responsible for a specific part of processing and evaluating expressions. This structure helps keep the design simple, modular, and easy to maintain.
 
-For each significant class in the package, include its name, brief description, and, optionally, a description
-of some of its major responsibilities, operations, and attributes.]
+The Tokenizer package handles breaking down the user’s input string into smaller pieces called tokens. These tokens represent numbers, operators, and parentheses. The main classes include a Tokenizer class, which reads the input and produces a list of tokens, and a Token class, which stores the type and value of each token.
+
+The Parser package takes the list of tokens and organizes them into a structured format based on rules like operator precedence and associativity. The main class, Parser, reads through the tokens and builds an Abstract Syntax Tree (AST). If the input is not valid, a parsing-related error can be raised.
+
+The Error Handling package is used throughout the system to catch and report problems. These include syntax errors from invalid input and runtime errors such as division by zero. This package ensures that errors are clearly communicated back to the user.
+
+All of these packages work together in a sequence, starting from user input and ending with a computed result, while the error handling component supports every step along the way.
 
 ---
 
