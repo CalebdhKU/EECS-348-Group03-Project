@@ -27,7 +27,8 @@
 | 03/24/2026 | 1.2 | Addition of Section 6 | Aaron Trites |
 | 03/31/2026 | 1.3 | Addition of Section 1.4, 2 | Greeshma Kunduri |
 | 04/04/2026 | 1.4 | Addition of Sections 5 & 5.1 | Jerry Merveille |
-| 04/12/2026 | 1.5 | Addition of Section 3 | Abina Arshad |
+| 04/12/2026 | 1.5 | Addition of Sections 5.2 | Caleb Harmsen |
+| 04/12/2026 | 1.6 | Addition of Section 3 | Abina Arshad |
 ---
 
 ## Table of Contents
@@ -266,7 +267,7 @@ This realization demonstrates how the system components (input handler, tokenize
 
 # 5. Logical View
 
-This section provides an overview of the architecturally significant components of the design model, detailing its breakdown into subsystems and packages, along with a closer look at key classes, their responsibilities, and important relationships, operations, and attributes.
+This section provides an overview of the architecturally significant components of the design model, detailing its breakdown into subsystems and packages, along with a closer look at key classes/packages, their responsibilities, and important relationships, operations, and attributes.
 #### Core Modules
 1.	Tokenizer  
    Breaks the input string into tokens such as numbers, operators, and parentheses.
