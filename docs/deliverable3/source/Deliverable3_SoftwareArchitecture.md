@@ -52,6 +52,7 @@
 ---
 
 # 1. Introduction
+
 [The introduction of the Software Architecture Document provides an overview of the entire Software
 Architecture Document. It includes the purpose, scope, definitions, acronyms, abbreviations, references,
 and overview of the Software Architecture Document.]
@@ -153,14 +154,33 @@ The code is written in C++ and split into separate files/modules for each major 
 ---
 
 # 3. Architectural Goals and Constraints
-[This section describes the software requirements and objectives that have some significant impact on the
-architecture; for example, safety, security, privacy, use of an off-the-shelf product, portability, distribution,
-and reuse. It also captures the special constraints that may apply: design and implementation strategy,
-development tools, team structure, schedule, legacy code, and so on.]
 
----
+The architecture of the Arithmetic Expression Evaluator is designed to meet both functional requirements and important quality attributes while staying within the limits of the project.
+
+3.1 Architectural Goals
+1. Modularity and separation of concerns The system is organized into clear components such as the Tokenizer, Parser, AST, Evaluator, and Error Handler. Each part has a specific role, which makes the system easier to understand, test, and debug.
+2. Maintainability and extensibility The design allows future improvements without major rewrites. For example, new operators can be added, parsing logic can be improved, or support for more complex expressions can be introduced without affecting the entire system.
+3. Correctness and reliability The system must correctly evaluate expressions using proper operator precedence rules (PEMDAS). It should also handle errors safely, including invalid syntax, division by zero, mismatched parentheses, and unsupported characters.
+4. Simplicity and clarity A simple modular structure is used instead of more complex architectures. This keeps the system easy to follow and aligns well with the learning goals of the project.
+5. Performance efficiency The evaluator is expected to produce results quickly for normal inputs. Efficient data structures such as stacks are used to ensure that expressions are processed without unnecessary overhead.
+6. Portability The program is written using standard C++ and only depends on the C++ Standard Library. This allows it to run on different operating systems like Windows, macOS, and Linux without changes.
+
+3.2 Architectural Constraints
+1. Programming language requirement The system must be implemented in C++, as specified by the project.
+2. Limited scope of functionality The evaluator only supports arithmetic expressions with operators like +, -, *, /, %, and **. It does not include variables, functions, or symbolic computation.
+3. Command-line interface requirement The system uses a command-line interface. No graphical interface is required, which keeps the design simple but limits user interaction features.
+4. Time constraints The project must be completed within a semester, so the design avoids overly complex solutions and focuses on core functionality.
+5. No external libraries Only the C++ Standard Library is used. This means that tokenization and parsing must be implemented manually rather than using third-party tools.
+6. Input size assumptions The system is designed for typical single-line expressions. It is not intended for very large inputs or high-performance computing scenarios.
+
+3.3 Design Rationale
+A modular, layered structure was chosen because it matches how the system processes expressions step by step, starting from input, then tokenization, parsing, and finally evaluation.
+This approach makes the system easier to build and test since each component can be developed separately. It also improves readability and makes debugging more straightforward. For this project, it provides a good balance between simplicity and flexibility.
+
+
 
 # 4. Use-Case View
+
 The primary use case of the Arithmetic Expression Evaluator is the evaluation of arithmetic expressions entered by the user through a command-line interface. This use case is architecturally significant because it exercises the major components of the system, including input handling, tokenization, parsing, evaluation, and output generation.
 
 The UML use-case diagram below illustrates the central interaction between the user and the system.
@@ -208,6 +228,7 @@ This realization demonstrates how the system components (input handler, tokenize
 ---
 
 # 5. Logical View
+
 This section provides an overview of the architecturally significant components of the design model, detailing its breakdown into subsystems and packages, along with a closer look at key classes, their responsibilities, and important relationships, operations, and attributes.
 #### Core Modules
 1.	Tokenizer  
@@ -250,6 +271,7 @@ of some of its major responsibilities, operations, and attributes.]
 ---
 
 # 6. Interface Description
+
 The Arithmetic Expression Evaluator uses a command-line interface (CLI) as its main way of interacting with the user. This means the user simply types an arithmetic expression into the terminal, and the program evaluates it and returns either a result or an error message. The interface is designed to be simple and easy to use, so no additional setup or training is required.<br>
 
 The system accepts arithmetic expressions written in standard mathematical notation. Users can enter integers or decimal numbers, along with common operators such as +, -, *, /, %, and **. Parentheses can also be used to control the order of operations, and unary operators are supported.<br>
@@ -300,12 +322,14 @@ Overall, the interface is intentionally minimal. The goal is to make it easy for
 ---
 
 # 7. Size and Performance
+
 [A description of the major dimensioning characteristics of the software that impact the architecture, as
 well as the target performance constraints.]
 
 ---
 
 # 8. Quality
+
 The software architecture of the Arithmetic Expression Evaluator is designed to support key quality attributes beyond basic functionality.
 
 - **Reliability**: The system is designed to handle invalid input smoothly. It shall detect errors such as division by zero, invalid characters, and mismatched parentheses without crashing, and provide clear error messages to the user.
