@@ -149,6 +149,7 @@ When the program runs, the expression goes through a simple flow: input → toke
 (d) Development View
 
 The code is written in C++ and split into separate files/modules for each major part. We mainly use standard libraries like stacks and strings. This makes it easier to test and update each part separately.
+
 ---
 
 # 3. Architectural Goals and Constraints
