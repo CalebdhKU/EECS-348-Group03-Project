@@ -117,7 +117,7 @@ The main part of the document shows the system from different angles. First, we 
 
 Finally, we cover the interface, performance expectations, and quality attributes like reliability, maintainability, and usability. The goal of this document is to give anyone reading it a clear picture of the system, how it works, and why it was designed this way.
 
----
+
 
 # 2. Architectural Representation
 
@@ -149,34 +149,60 @@ When the program runs, the expression goes through a simple flow: input → toke
 
 The code is written in C++ and split into separate files/modules for each major part. We mainly use standard libraries like stacks and strings. This makes it easier to test and update each part separately.
 
----
 
-# 3. Architectural Goals and Constraints
+## 3. Architectural Goals and Constraints
 
 The architecture of the Arithmetic Expression Evaluator is designed to meet both functional requirements and important quality attributes while staying within the limits of the project.
 
-**3.1 Architectural Goals**
-1. Modularity and separation of concerns The system is organized into clear components such as the Tokenizer, Parser, AST, Evaluator, and Error Handler. Each part has a specific role, which makes the system easier to understand, test, and debug.
-2. Maintainability and extensibility The design allows future improvements without major rewrites. For example, new operators can be added, parsing logic can be improved, or support for more complex expressions can be introduced without affecting the entire system.
-3. Correctness and reliability The system must correctly evaluate expressions using proper operator precedence rules (PEMDAS). It should also handle errors safely, including invalid syntax, division by zero, mismatched parentheses, and unsupported characters.
-4. Simplicity and clarity A simple modular structure is used instead of more complex architectures. This keeps the system easy to follow and aligns well with the learning goals of the project.
-5. Performance efficiency The evaluator is expected to produce results quickly for normal inputs. Efficient data structures such as stacks are used to ensure that expressions are processed without unnecessary overhead.
-6. Portability The program is written using standard C++ and only depends on the C++ Standard Library. This allows it to run on different operating systems like Windows, macOS, and Linux without changes.
+### 3.1 Architectural Goals
 
-**3.2 Architectural Constraints**
-1. Programming language requirement The system must be implemented in C++, as specified by the project.
-2. Limited scope of functionality The evaluator only supports arithmetic expressions with operators like +, -, *, /, %, and **. It does not include variables, functions, or symbolic computation.
-3. Command-line interface requirement The system uses a command-line interface. No graphical interface is required, which keeps the design simple but limits user interaction features.
-4. Time constraints The project must be completed within a semester, so the design avoids overly complex solutions and focuses on core functionality.
-5. No external libraries Only the C++ Standard Library is used. This means that tokenization and parsing must be implemented manually rather than using third-party tools.
-6. Input size assumptions The system is designed for typical single-line expressions. It is not intended for very large inputs or high-performance computing scenarios.
+**1. Modularity and separation of concerns**
+The system is organized into clear components such as the Tokenizer, Parser, AST, Evaluator, and Error Handler. Each part has a specific role, which makes the system easier to understand, test, and debug.
 
-**3.3 Design Rationale**
+**2. Maintainability and extensibility**
+The design allows future improvements without major rewrites. For example, new operators can be added, parsing logic can be improved, or support for more complex expressions can be introduced without affecting the entire system.
+
+**3. Correctness and reliability**
+The system must correctly evaluate expressions using proper operator precedence rules (PEMDAS). It should also handle errors safely, including invalid syntax, division by zero, mismatched parentheses, and unsupported characters.
+
+**4. Simplicity and clarity**
+A simple modular structure is used instead of more complex architectures. This keeps the system easy to follow and aligns well with the learning goals of the project.
+
+**5. Performance efficiency**
+The evaluator is expected to produce results quickly for normal inputs. Efficient data structures such as stacks are used to ensure that expressions are processed without unnecessary overhead.
+
+**6. Portability**
+The program is written using standard C++ and only depends on the C++ Standard Library. This allows it to run on different operating systems like Windows, macOS, and Linux without changes.
+
+
+
+### 3.2 Architectural Constraints
+
+**1. Programming language requirement**
+The system must be implemented in C++, as specified by the project.
+
+**2. Limited scope of functionality**
+The evaluator only supports arithmetic expressions with operators like +, -, *, /, %, and **. It does not include variables, functions, or symbolic computation.
+
+**3. Command-line interface requirement**
+The system uses a command-line interface. No graphical interface is required, which keeps the design simple but limits user interaction features.
+
+**4. Time constraints**
+The project must be completed within a semester, so the design avoids overly complex solutions and focuses on core functionality.
+
+**5. No external libraries**
+Only the C++ Standard Library is used. This means that tokenization and parsing must be implemented manually rather than using third-party tools.
+
+**6. Input size assumptions**
+The system is designed for typical single-line expressions. It is not intended for very large inputs or high-performance computing scenarios.
+
+
+
+### 3.3 Design Rationale
 
 A modular, layered structure was chosen because it matches how the system processes expressions step by step, starting from input, then tokenization, parsing, and finally evaluation.
+
 This approach makes the system easier to build and test since each component can be developed separately. It also improves readability and makes debugging more straightforward. For this project, it provides a good balance between simplicity and flexibility.
-
-
 
 # 4. Use-Case View
 
