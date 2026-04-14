@@ -259,15 +259,12 @@ To further define the internal structure of the system, the following classes ar
   - Responsibility: Detects and reports errors such as invalid syntax or division by zero.
 
 ### Relationships Between Components
-The Tokenizer produces Token objects that are used by the Parser.
 
-The Parser constructs an Abstract Syntax Tree (AST) using ASTNode objects.
-
-The Evaluator traverses the AST to compute the result.
-
-The errorHandler is utilized across all components to manage and report errors.
-
-The CLI Interface connects user input and system output to the processing pipeline.
+- The Tokenizer produces Token objects that are used by the Parser.
+- The Parser constructs an Abstract Syntax Tree (AST) using ASTNode objects.
+- The Evaluator traverses the AST to compute the result.
+- The errorHandler is utilized across all components to manage and report errors.
+- The CLI Interface connects user input and system output to the processing pipeline.
 
 
 ---
