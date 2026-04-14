@@ -78,13 +78,13 @@ This document covers the system’s input and error handling, parsing, tokenizat
 
 ## 1.3 Definitions, Acronyms, and Abbreviations
 
+- **AST (Abstract Syntax Tree)**: Represents the hierarchical structure of the expression. Each node corresponds to an operator or operand.
+- **CLI (Command-Line Interface)**: A text-based interface used for entering program input.
 - **Error Handling**: Detects and manages errors that occur during program execution. 
 - **Evaluator**: Calculates the final result of the parsed expression. 
 - **Parser**: A component that takes the user’s input and organizes it according to the correct order of operations.
 - **PEMDAS**: The order of operations: parentheses, exponents, multiplication, division, addition, and subtraction.
 - **Tokenizer**: Converts user input into tokens such as numbers, operators, and parentheses.
-- **AST (Abstract Syntax Tree)**: Represents the hierarchical structure of the expression. Each node corresponds to an operator or operand.
-- **CLI (Command-Line Interface)**: A text-based interface used for entering program input.
 
 
 ## 1.4 References
