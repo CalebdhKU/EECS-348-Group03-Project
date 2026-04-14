@@ -10,7 +10,7 @@
 
 # Arithmetic Expression Evaluator in C++
 **Version:** 1.10   
-**Date:** 03/10/2026  
+**Date:** 04/14/2026  
 **Document Identifier:** AEE-SA-1.10
 
 ---
@@ -92,8 +92,8 @@ This document covers the system’s input and error handling, parsing, tokenizat
 - EECS348: Term Project in C++ -- Arithmetic Expression Evaluator in C++, Professor Hossein Saiedian, Spring 2026
 - Unified Process for Education (UPEDU) Template -- Software Architecture Document, Professor Hossein Saiedian, Spring 2026
 - EECS 348 Course Materials -- Professor Saiedian, Spring 2026
-- Group 3 Software Development Plan (Version 1.15) -- Arithmetic Expression Evaluator in C++, Group 3, 02/19/2026
-- Group 3 Software Requirements Specifications (AEE-SRS-1.9) -- Arithmetic Expression Evaluator in C++, Group 3, 02/23/2026
+- Group 3 Software Development Plan (Version 1.15) -- Arithmetic Expression Evaluator in C++, Group 3, 02/22/2026
+- Group 3 Software Requirements Specifications (AEE-SRS-1.9) -- Arithmetic Expression Evaluator in C++, Group 3, 03/11/2026
 - C++ Standard Library Reference -- ISO C++ / cppreference (https://en.cppreference.com)
 
 
