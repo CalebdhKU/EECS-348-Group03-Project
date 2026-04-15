@@ -54,6 +54,7 @@
 5. Logical View
     - 5.1 Overview
     - 5.2 Architecturally Significant Classes
+       - 5.2.1 Relationships Between Components
 6. Interface Description
 7. Size and Performance
 8. Quality
@@ -199,7 +200,7 @@ The primary use-case realization for this system is the process of evaluating an
 4. The parser processes the token stream according to operator precedence and associativity rules.
 5. The evaluator computes the result of the parsed expression.
 6. The output component displays either:
-   - The correct numerical result
+   - The correct numerical result.
    - A descriptive error message if the expression is invalid.
 
 This realization demonstrates how the system components (input handler, tokenizer, parser, evaluator, and output handler) collaborate to implement the primary system functionality.
@@ -258,7 +259,7 @@ To further define the internal structure of the system, the following classes ar
   - Operation: handleError(type)
   - Responsibility: Detects and reports errors such as invalid syntax or division by zero.
 
-### Relationships Between Components
+### 5.2.1 Relationships Between Components
 
 - The Tokenizer produces Token objects that are used by the Parser.
 - The Parser constructs an Abstract Syntax Tree (AST) using ASTNode objects.
