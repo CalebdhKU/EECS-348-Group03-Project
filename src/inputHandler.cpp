@@ -3,6 +3,7 @@
 
 using namespace std;
 
+// Asks the user for the input, stored/returned as expression
 string InputHandler::getExpression() 
 {
     cout << "Enter an expression: ";
@@ -10,11 +11,7 @@ string InputHandler::getExpression()
     return expression;
 }
 
-void InputHandler::errorHandler()
-{
-
-}
-
+// Checks if the user wants to quit by typing q or Q
 bool InputHandler::shouldQuit() const 
 {
     return expression == "q" || expression == "Q";
