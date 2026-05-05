@@ -8,9 +8,8 @@ Test Case ID: TC01
 Description: Verify unary operator handling
 Test Data: -(2 * (-3))
 Expected Result: 6
-Actual Result: Inavlid character entered!
-Pass/Fail: Fail*
-* The test data with no spaces, -(2*(-3)) would have passed
+Actual Result: 6
+Pass/Fail: Pass
 
 ----------------------------------------------
 
@@ -19,8 +18,8 @@ Test Case ID: TC02
 Description: Verify basic addition
 Test Data: 3 + 4
 Expected Result: 7
-Actual Result: (To be filled during execution)
-Pass/Fail: (To be filled during execution)
+Actual Result: 7
+Pass/Fail: Pass
 
 ----------------------------------------------
 
@@ -29,8 +28,8 @@ Test Case ID: TC03
 Description: Verify parentheses override precedence
 Test Data: (3 + 5) * 2
 Expected Result: 16
-Actual Result: (To be filled during execution)
-Pass/Fail: (To be filled during execution)
+Actual Result: 16
+Pass/Fail: Pass
 
 ----------------------------------------------
 
@@ -40,8 +39,8 @@ Description: Verify exponentiation associativity (right-to-left)
 Test Data: 2 ** 3 ** 2
 Expected Result: 512
 (2^(3^2) = 2^9)
-Actual Result: (To be filled during execution)
-Pass/Fail: (To be filled during execution)
+Actual Result: 512
+Pass/Fail: Pass
 
 ----------------------------------------------
 
@@ -50,8 +49,8 @@ Test Case ID: TC05
 Description: Verify invalid character handling
 Test Data: 7 & 3
 Expected Result: Error: Invalid character
-Actual Result: (To be filled during execution)
-Pass/Fail: (To be filled during execution)
+Actual Result: Error: Invalid character entered!
+Pass/Fail: Pass
 
 ----------------------------------------------
 
@@ -60,8 +59,8 @@ Test Case ID: TC06
 Description: Verify multiplication has higher precedence than addition
 Test Data: 3 + 4 * 2
 Expected Result: 11
-Actual Result: (To be filled during execution)
-Pass/Fail: (To be filled during execution)
+Actual Result: 11
+Pass/Fail: Pass
 
 ----------------------------------------------
 
@@ -70,8 +69,8 @@ Test Case ID: TC07
 Description: Verify division operation
 Test Data: 20 / 5
 Expected Result: 4
-Actual Result: (To be filled during execution)
-Pass/Fail: (To be filled during execution)
+Actual Result: 4
+Pass/Fail: Pass
 
 ----------------------------------------------
 
@@ -80,8 +79,8 @@ Test Case ID: TC08
 Description: Verify modulo operation
 Test Data: 10 % 3
 Expected Result: 1
-Actual Result: (To be filled during execution)
-Pass/Fail: (To be filled during execution)
+Actual Result: 1
+Pass/Fail: Pass
 
 ----------------------------------------------
 
@@ -90,8 +89,8 @@ Test Case ID: TC09
 Description: Verify nested parentheses
 Test Data: (2 + (3 * (4 - 1)))
 Expected Result: 11
-Actual Result: (To be filled during execution)
-Pass/Fail: (To be filled during execution)
+Actual Result: 11
+Pass/Fail: Pass
 
 ----------------------------------------------
 
@@ -100,8 +99,8 @@ Test Case ID: TC10
 Description: Verify whitespace handling
 Test Data:   8   +   2 * 5
 Expected Result: 18
-Actual Result: (To be filled during execution)
-Pass/Fail: (To be filled during execution)
+Actual Result: 18
+Pass/Fail: Pass
 
 ----------------------------------------------
 
@@ -110,8 +109,8 @@ Test Case ID: TC11
 Description: Verify unary plus handling
 Test Data: +(5)
 Expected Result: 5
-Actual Result: (To be filled during execution)
-Pass/Fail: (To be filled during execution)
+Actual Result: 5
+Pass/Fail: Pass
 
 ----------------------------------------------
 
@@ -120,8 +119,8 @@ Test Case ID: TC12
 Description: Verify addition with a negative number
 Test Data: 5 + -3
 Expected Result: 2
-Actual Result: (To be filled during execution)
-Pass/Fail: (To be filled during execution)
+Actual Result: 2
+Pass/Fail: Pass
 
 ----------------------------------------------
 
@@ -130,8 +129,9 @@ Test Case ID: TC13
 Description: Verify invalid parentheses handling
 Test Data: (3 + 4
 Expected Result: Error: Mismatched parentheses
-Actual Result: (To be filled during execution)
-Pass/Fail: (To be filled during execution)
+Actual Result: Error: Unexpected token:
+Pass/Fail: Fail*
+* Didn't output correct error message
 
 ----------------------------------------------
 
@@ -140,8 +140,8 @@ Test Case ID: TC14
 Description: Verify division by zero handling
 Test Data: 10 / 0
 Expected Result: Error: Division by zero
-Actual Result: (To be filled during execution)
-Pass/Fail: (To be filled during execution)
+Actual Result: Error: Division by zero
+Pass/Fail: Pass
 
 ----------------------------------------------
 
@@ -150,8 +150,8 @@ Test Case ID: TC15
 Description: Verify a complex valid expression
 Test Data: 3 + 10 * 2 / (1 - 3) ** 2
 Expected Result: 8
-Actual Result: (To be filled during execution)
-Pass/Fail: (To be filled during execution)
+Actual Result: 8
+Pass/Fail: Pass
 
 ----------------------------------------------
 
@@ -160,8 +160,8 @@ Test Case ID: TC16
 Description: Verify a negative number output
 Test Data: 5 - 6
 Expected Result: -1
-Actual Result: (To be filled during execution)
-Pass/Fail: (To be filled during execution)
+Actual Result: -1
+Pass/Fail: Pass
 
 ----------------------------------------------
 
@@ -170,8 +170,8 @@ Test Case ID: TC17
 Description: Verify double negative multiplication
 Test Data: -7 * -9
 Expected Result: 63
-Actual Result: (To be filled during execution)
-Pass/Fail: (To be filled during execution)
+Actual Result: 63
+Pass/Fail: Pass
 
 ----------------------------------------------
 
@@ -180,7 +180,7 @@ Test Case ID: TC18
 Description: Verify negative number subtraction
 Test Data: 10 - -3
 Expected Result: 13
-Actual Result: (To be filled during execution)
-Pass/Fail: (To be filled during execution)
+Actual Result: 13
+Pass/Fail: Pass
 
 ----------------------------------------------
