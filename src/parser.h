@@ -53,6 +53,7 @@ struct Token {
     string value;
 };
 
+// Define a struct to represent a node in the Abstract Syntax Tree (AST).
 struct AST {
     Token node;
     AST* left;
