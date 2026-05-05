@@ -1,6 +1,7 @@
 #include "inputHandler.h"
 #include "tokenizer.h"
 #include "parser.h"
+#include "evaluator.h"
 #include <iostream>
 #include <vector>
 
@@ -38,9 +39,13 @@ int main()
             Tokenizer tokenizer( input );
             vector<string> tokens = tokenizer.getTokens();
 
-            // Parsing and evaluating
+            // Parsing the input to build a tree
             Parser parser( tokens );
-            // result variable from the parser?
+            AST* root = parser.parse();
+
+            // Evaluating the input tree to get result
+            Evaluator evaluator;
+            double result = evaluator.evaluate( root );
 
             // Outputting result
             cout << "Result: " << result << endl;
