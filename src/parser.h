@@ -53,6 +53,12 @@ struct Token {
     string value;
 };
 
+struct AST {
+    Token node;
+    AST* left;
+    AST* right;
+};
+
 // The Parser class is responsible for taking a vector of string tokens, converting them into a vector of Token structs, and providing methods for the parsing process.
 class Parser {
     private:
@@ -75,12 +81,6 @@ class Parser {
         Token getCurrentToken() const; // function to return the current token being processed by the parser.
         void nextToken(); // function to advance to the next token in the token vector, updating the position accordingly.
         AST* parse(); // function to parse the tokens and build an Abstract Syntax Tree (AST) representing the expression.
-};
-
-struct AST {
-    Token node;
-    AST* left;
-    AST* right;
 };
 
 #endif // PARSER_HEADER_HPP
