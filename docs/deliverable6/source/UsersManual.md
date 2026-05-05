@@ -20,7 +20,7 @@
 | Date | Version | Description | Author |
 |------|---------|------------|--------|
 | 04/01/2026 | 1.0 | Initial creation and conversion of Deliverable 6 into GitHub using Markdown format | Ivan Kullaya |
-| <dd/mm/yyyy> | x.x | <details> | <name> |
+| <05/05/2026> | 1.1 | Addition of Sections 5, 6, 7, 8 | Greeshma Kunduri |
 
 ---
 
@@ -116,24 +116,61 @@ or to define custom variables and functions.
 ---
 
 # 5. Troubleshooting
-This section should provide a list of common problems, if any, that users may encounter, and how to solve them.
-
+• Program doesn’t run
+Make sure it compiled correctly first. If it didn’t, fix the errors and try again. Also double check you’re running the right executable.
+• Invalid expression error
+This usually happens when something is wrong in the input. Common issues are missing operators (like 5 (2 + 3)), mismatched parentheses, or using invalid symbols like ^ or &.
+• Division by zero
+You get this when a number is divided by zero, like 10 / (5 - 5). Just change the expression so the denominator isn’t zero.
+• Wrong result
+This is usually because of order of operations. Try using parentheses to make it clearer, and remember exponentiation uses **, not ^.
+• Program crashes or stops
+Re-run the program and check your input formatting. If it keeps happening, recompile and try again with a simpler expression.
 ---
 
 # 6. Examples of uses
-This section should provide examples of how to use the software to evaluate different types of arithmetic 
-expressions.
+Here are some examples of how the program works.
+
+• 3 + 4 → 7
+• 10 - 2 → 8
+• 10 * 2 / 5 → 4
+• 8 - (5 - 2) → 5
+• (3 + 2) * 4 → 20
+• 2 ** 3 → 8
+• 4 * (3 + 2) % 7 - 1 → 5
+• -(+2) * (+3) → -6
+• 5 (2 + 3) → Error: Invalid expression
 
 ---
 
 # 7. Glossary
-This section should define any technical terms that are used in the manual. 
-
+• Arithmetic expression: A math problem made up of numbers and operators.
+• Operator: A symbol like +, -, *, /, %, or **.
+• Unary operator: An operator that works on one number, like -5.
+• Binary operator: An operator that works on two numbers, like 3 + 2.
+• CLI (Command Line Interface): A text-based way to interact with the program.
+• Parser: The part of the program that understands the structure of the expression.
+• Tokenization: Breaking input into numbers, operators, and parentheses.
+• PEMDAS: Order of operations (parentheses, exponents, multiply/divide, add/subtract).
+• AST: A tree structure used internally to evaluate expressions.
 ---
 
 # 8. FAQ
 This section should answer frequently asked questions about the software. 
-
+• What operators are supported?
++, -, *, /, %, and **.
+• Can I use decimals?
+No, only integers are supported right now.
+• What if I enter something wrong?
+The program will show an error instead of crashing.
+• Do I need parentheses?
+Not always, but they help control order of operations.
+• Why doesn’t ^ work?
+Because exponentiation uses ** in this program.
+• Can I enter multiple expressions at once?
+No, one expression at a time.
+• What happens if I divide by zero?
+You’ll get an error message.
 ---
 
 © Group 3, 2026
