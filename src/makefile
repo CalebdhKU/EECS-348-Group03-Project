@@ -1,5 +1,5 @@
 CXX = g++
-CXXFLAGS = -Wall -std=c++17
+CXXFLAGS = -Wall -std=c++17 -g
 
 OBJS = main.o inputHandler.o tokenizer.o parser.o evaluator.o
 
