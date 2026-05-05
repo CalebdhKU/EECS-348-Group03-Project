@@ -8,8 +8,9 @@ Test Case ID: TC01
 Description: Verify unary operator handling
 Test Data: -(2 * (-3))
 Expected Result: 6
-Actual Result: (To be filled during execution)
-Pass/Fail: (To be filled during execution)
+Actual Result: Inavlid character entered!
+Pass/Fail: Fail*
+* The test data with no spaces, -(2*(-3)) would have passed
 
 ----------------------------------------------
 
