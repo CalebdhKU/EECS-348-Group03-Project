@@ -55,10 +55,8 @@ vector<Token> Parser::convert(const vector<string>& input) {
                 throw invalid_argument("Invalid token: " + tokn);
             }
         }
-
-    result.push_back({Tokentype::EndOfExpression, ""}); // Add an EndOfExpression token at the end of the token vector as a sentinel.
-
     }
+    result.push_back({Tokentype::EndOfExpression, ""}); // Add an EndOfExpression token at the end of the token vector as a sentinel.
 
     return result;
 }
