@@ -23,6 +23,12 @@ vector<string> Tokenizer::getTokens()
         // Grabs one character from the input
         char ch = input[i];
 
+        // Ignores spaces between nunbers and operators
+        if ( ch == ' ' )
+        {
+            continue;
+        }
+
         // If the character is a number or decimal point, add into the number string. This allows us
         // to store numbers longer than one character as a singular token
         if ( isdigit(ch) || ch == '.' )
