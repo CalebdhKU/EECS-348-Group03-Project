@@ -4,6 +4,8 @@
 #include <string>
 #include <vector>
 
+using namespace std;
+
 // Tokenizer class takes a string input (via inputHandler) and breaks it into smaller pieces (tokens)
 class Tokenizer
 {
