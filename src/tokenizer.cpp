@@ -72,5 +72,12 @@ vector<string> Tokenizer::getTokens()
         }
     }
 
+    // If there's still a number being built after the loop, meaning number isn't empty, we push that 
+    // final number into the tokens list.
+    if ( number != "" )
+    {
+        tokens.push_back( number );
+    }
+
     return tokens;
 }
