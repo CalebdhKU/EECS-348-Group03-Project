@@ -1,4 +1,6 @@
-/* Implementation of the Parser class */
+/* Implementation of the Parser class
+Source: Recursive‑descent parser implemented with conceptual help from Microsoft Copilot.
+*/
 
 #include <stdexcept>
 
