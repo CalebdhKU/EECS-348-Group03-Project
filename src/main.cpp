@@ -4,6 +4,7 @@
 #include "evaluator.h"
 #include <iostream>
 #include <vector>
+#include <fstream>
 
 using namespace std;
 
@@ -50,6 +51,24 @@ int main()
             // Outputting result
             cout << "Result: " << result << endl;
             cout << "----------------------------------------------\n";
+
+            // Creates/Opens a text file called "history.txt" in append mode, which ensures that all
+            // results (of the new expression calculations) to be added at the end of the textfile,
+            // instead of overreading previous results.
+            ofstream historyFile( "history.txt", ios::app );
+
+            // If the file is open/opened successfully, the user's expression and result is outputted
+            // onto the textfile, then the file is closed. If the history textfile can't get opened,
+            // an error message is thrown to notify the user. 
+            if ( historyFile.is_open() )
+            {
+                historyFile << input << " = " << result << endl;
+                historyFile.close();
+            }
+            else
+            {
+                throw invalid_argument( "Error! Could not open 'history.txt'." );
+            }
         }
         // If an error occurs, it will be caught and outputted to the user using e.what() to specify
         // why the error occured.
