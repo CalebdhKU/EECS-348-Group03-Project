@@ -138,7 +138,7 @@ The evaluator should produce the exact expected result for valid expressions. Fo
 | TC10 | 18 | 18 | Pass |
 | TC11 | 5 | 5 | Pass |
 | TC12 | 2 | 2 | Pass |
-| TC13 | Error: Mismatched parentheses | Error: Unexpected token:  | Fail - Didn't output correct error message |
+| TC13 | Error: Mismatched parentheses | Error: Mismatched parentheses.  | Pass |
 | TC14 | Error: Division by zero | Error: Division by zero | Pass |
 | TC15 | 8 | 8 | Pass |
 | TC16 | -1 | -1 | Pass |
