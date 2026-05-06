@@ -24,6 +24,8 @@
 |------|---------|------------|--------|
 | 04/01/2026 | 1.0 | Initial creation and conversion of Deliverable 5 into GitHub using Markdown format | Ivan Kullaya |
 | 04/27/2026 | 1.1 | Rough draft of sections 1 through 5 | Aaron Trites |
+| 05/26/2026 | 1.2 | Updated test cases and improved document clarity and structure| Abina Arshad |
+
 
 ---
 
@@ -41,7 +43,7 @@
 
 This Test Case Specification document for the Arithmetic Expression Evaluator in C++ defines the test cases used to verify that the evaluator correctly parses, validates, and evaluates arithmetic expressions entered by a user through the command-line interface.
 
-The purpose of these test cases is to confirm that the evaluator handles normal arithmetic operations, operator precedence, parentheses, unary operators, exponentiation, modulo operations, whitespace, nested expressions, and invalid input conditions. These tests support the project goal of producing a reliable C++ parser and evaluator that follows standard arithmetic rules and provides error handling for unsupported or malformed expressions.
+The purpose of these test cases is to confirm that the evaluator handles normal arithmetic operations, operator precedence, parentheses, unary operators, exponentiation, modulo operations, whitespace, nested expressions, and invalid input conditions. These tests support the project goal of producing a reliable C++ parser and evaluator that follows standard arithmetic rules and provides error handling for unsupported or malformed expressions. These test cases are designed to be repeatable and independently verifiable.
 
 ---
 
@@ -113,7 +115,7 @@ Each test case uses a single arithmetic expression entered as command-line input
 | TC14 | Verify division by zero handling | 10 / 0 | Invalid arithmetic operation |
 | TC15 | Verify a complex valid expression | 3 + 10 * 2 / (1 - 3) ** 2 | Valid expression using precedence, parentheses, division, and exponentiation |
 | TC16 | Verify a negative number output | 5 - 6 | Valid expression with negative output |
-| TC17 | Verify double negative mulitplication | -7 * -9 | Valid expression with two negative factors |
+| TC17 | Verify double negative multiplication | -7 * -9 | Valid expression with two negative factors |
 | TC18 | Verify negative number subtraction | 10 - - 3 | Valid expression with double negative |
 
 ---
