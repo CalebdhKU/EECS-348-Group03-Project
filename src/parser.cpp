@@ -76,7 +76,7 @@ void Parser::nextToken() {
 // This function checks if the current token matches the expected type, and throws an error if it does not.
 void Parser::sentinel(Tokentype expected) {
     if ((getCurrentToken().type == Tokentype::EndOfExpression) && (expected == Tokentype::RightParenthesis)) {
-        throw invalid_argument("Mismatched parentheses. Missing right parenthesis.");
+        throw invalid_argument("Mismatched parentheses.");
     }
     else {
         if (getCurrentToken().type != expected) {
