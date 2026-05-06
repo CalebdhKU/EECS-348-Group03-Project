@@ -129,9 +129,8 @@ Test Case ID: TC13
 Description: Verify invalid parentheses handling
 Test Data: (3 + 4
 Expected Result: Error: Mismatched parentheses
-Actual Result: Error: Unexpected token:
-Pass/Fail: Fail*
-* Didn't output correct error message
+Actual Result: Error: Mismatched parentheses.
+Pass/Fail: Pass
 
 ----------------------------------------------
 
