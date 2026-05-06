@@ -126,24 +126,24 @@ The evaluator should produce the exact expected result for valid expressions. Fo
 
 | Test Case ID | Expected Output | Actual Output | Pass/Fail |
 |-------------|-----------------|---------------|-----------|
-| TC01 | 6 | To be filled during execution | To be filled during execution |
-| TC02 | 7 | To be filled during execution | To be filled during execution |
-| TC03 | 16 | To be filled during execution | To be filled during execution |
-| TC04 | 512 | To be filled during execution | To be filled during execution |
-| TC05 | Error: Invalid character | To be filled during execution | To be filled during execution |
-| TC06 | 11 | To be filled during execution | To be filled during execution |
-| TC07 | 4 | To be filled during execution | To be filled during execution |
-| TC08 | 1 | To be filled during execution | To be filled during execution |
-| TC09 | 11 | To be filled during execution | To be filled during execution |
-| TC10 | 18 | To be filled during execution | To be filled during execution |
-| TC11 | 5 | To be filled during execution | To be filled during execution |
-| TC12 | 2 | To be filled during execution | To be filled during execution |
-| TC13 | Error: Mismatched parentheses | To be filled during execution | To be filled during execution |
-| TC14 | Error: Division by zero | To be filled during execution | To be filled during execution |
-| TC15 | 8 | To be filled during execution | To be filled during execution |
-| TC16 | -1 | To be filled during execution | To be filled during execution |
-| TC17 | 63 | To be filled during execution | To be filled during execution |
-| TC18 | 13 | To be filled during execution | To be filled during execution |
+| TC01 | 6 | 6 | Pass |
+| TC02 | 7 | 7 | Pass |
+| TC03 | 16 | 16 | Pass |
+| TC04 | 512 | 512 | Pass |
+| TC05 | Error: Invalid character | Error: Invalid character entered! | Pass |
+| TC06 | 11 | 11 | Pass |
+| TC07 | 4 | 4 | Pass |
+| TC08 | 1 | 1 | Pass |
+| TC09 | 11 | 11 | Pass |
+| TC10 | 18 | 18 | Pass |
+| TC11 | 5 | 5 | Pass |
+| TC12 | 2 | 2 | Pass |
+| TC13 | Error: Mismatched parentheses | Error: Unexpected token:  | Fail - Didn't output correct error message |
+| TC14 | Error: Division by zero | Error: Division by zero | Pass |
+| TC15 | 8 | 8 | Pass |
+| TC16 | -1 | -1 | Pass |
+| TC17 | 63 | 63 | Pass |
+| TC18 | 13 | 13 | Pass |
 
 ---
 
