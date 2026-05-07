@@ -20,7 +20,8 @@
 | Date | Version | Description | Author |
 |------|---------|------------|--------|
 | 04/01/2026 | 1.0 | Initial creation and conversion of Deliverable 6 into GitHub using Markdown format | Ivan Kullaya |
-| <05/05/2026> | 1.1 | Addition of Sections 5, 6, 7, 8 | Greeshma Kunduri |
+| 05/05/2026 | 1.1 | Addition of Sections 5, 6, 7, 8 | Greeshma Kunduri |
+| 05/05/2026 | 1.2 | Revise UsersManual with detailed software instructions | Maha Jornaz |
 
 ---
 
