@@ -24,7 +24,8 @@
 |------|---------|------------|--------|
 | 04/01/2026 | 1.0 | Initial creation and conversion of Deliverable 5 into GitHub using Markdown format | Ivan Kullaya |
 | 04/27/2026 | 1.1 | Rough draft of sections 1 through 5 | Aaron Trites |
-| 05/26/2026 | 1.2 | Updated test cases and improved document clarity and structure| Abina Arshad |
+| 05/06/2026 | 1.2 | Updated test cases and improved document clarity and structure| Abina Arshad |
+| 05/06/2026 | 1.3 | Filled in actual outputs for test cases and fixed TC13 to output correct error message | Aaron Trites |
 
 
 ---
