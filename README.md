@@ -130,9 +130,9 @@ The program supports:
 - [x] Project Plan
 - [x] Software Requirements Specifications
 - [x] Software Architecture Design
-- [ ] Implementation
-- [ ] Test Cases
-- [ ] User Manual
+- [x] Implementation
+- [x] Test Cases
+- [x] User Manual
 
 See the [open issues](https://github.com/CalebdhKU/EECS-348-Group03-Project) for a full list of proposed features (and known issues).
 
