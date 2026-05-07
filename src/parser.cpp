@@ -50,6 +50,19 @@ vector<Token> Parser::convert(const vector<string>& input) {
             if (isdigit(tokn[0])) {
                 result.push_back({Tokentype::Number, tokn});
             }
+        
+            // Convert the "pi" token into its numeric value
+            else if ( tokn == "pi" )
+            {
+                result.push_back( { Tokentype::Number, "3.141592653589793238462643383279502884" } );
+            }
+
+            // Convert the "e" token into its numeric value
+            else if ( tokn == "e" )
+            {
+                result.push_back( { Tokentype::Number, "2.718281828459045235360287471352662497" } );
+            }
+
             // In case the tokenizer failed to separate tokens correctly, we can catch for invalid tokens.
             else {
                 throw invalid_argument("Invalid token: " + tokn);
@@ -175,3 +188,4 @@ AST* Parser::parseParentheses() {
 
     return nullptr; // If the current token is neither a number nor a left parenthesis, return nullptr to indicate an error in parsing.
 }
+

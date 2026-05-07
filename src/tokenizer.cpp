@@ -81,9 +81,49 @@ vector<string> Tokenizer::getTokens()
                 tokens.push_back( string( 1, ch ) );
             }
 
+            // Checks if the character is a letter, allowing us to find math constants pi and e by
+            // saving the input into the string word.
+            else if ( isalpha( ch ) )
+            {
+                string word = "";
+
+                // Loops the input until all of the characters are in the word
+                while ( i < input.length() && isalpha( input[i] ) )
+                {
+                    word += input[i];
+                    i++;
+                }
+
+                // Decrements one since the loop will include an extra space
+                i--;
+
+                // Check if the word is a math constant, pi or e, and if it is it is pushed back as
+                // a token and if not an error message is thrown. The if statements allow for implicit
+                // multiplication for math constants
+                if ( word == "pi" || word == "e" )
+                {
+                    if ( number != "" )
+                    {
+                        tokens.push_back( number );
+                        number = "";
+                        tokens.push_back( "*" );
+                    }
+
+                    if ( !tokens.empty() && tokens.back() == ")" )
+                    {
+                        tokens.push_back( "*" );
+                    }
+
+                    tokens.push_back( word );
+                }
+                else
+                {
+                    throw invalid_argument( "Invalid constant: " + word );
+                }
+            }
+
             // If there's any other characters from the user input, we throw an error message to tell
-            // the user. Note: If we're adding math constants (pi, e, etc.) they will need to be
-            // added above as an individual token and parsed.
+            // the user.
             else
             {
                 throw invalid_argument( "Invalid character entered!" );
@@ -100,3 +140,4 @@ vector<string> Tokenizer::getTokens()
 
     return tokens;
 }
+
