@@ -33,6 +33,10 @@ vector<string> Tokenizer::getTokens()
         // to store numbers longer than one character as a singular token
         if ( isdigit(ch) || ch == '.' )
         {
+            // If previous token was ')', we insert implicit multiplication
+            if (!tokens.empty() && tokens.back() == ")")
+                tokens.push_back("*");
+            
             number += ch;
         }
         else
@@ -65,6 +69,15 @@ vector<string> Tokenizer::getTokens()
             // Checks for other operators and parentheses, and pushes them back as individual tokens
             else if ( ch == '+' || ch == '-' || ch == '/' || ch == '%' || ch == '(' || ch == ')' )
             {
+                // If two opposite parentheses follow each other we need to add a multiplication symbol in between for implicit multiplication, 
+                // For example, if the user inputs "2(3+4)", we want to treat that as "2*(3+4)" or if the input is "(3)(4)", we want to treat that as "(3)*(4)".
+                if (!tokens.empty()){
+                    string prev_token = tokens.back();
+                    if ((isdigit(prev_token[0]) || prev_token == ")") && ch == '(') {
+                        tokens.push_back("*");
+                    }
+                }
+                
                 tokens.push_back( string( 1, ch ) );
             }
 
