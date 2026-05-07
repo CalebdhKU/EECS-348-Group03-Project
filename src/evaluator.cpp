@@ -6,7 +6,7 @@ using namespace std;
 
 double Evaluator::evaluate(AST* node) {
     if (node == nullptr) {
-        throw invalid_argument("Null node encountered during evaluation");
+        throw invalid_argument("Invalid expression");
     }
 
     // BASE CASE: leaf node is a number — just return its value
