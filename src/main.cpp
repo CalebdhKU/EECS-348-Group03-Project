@@ -29,6 +29,12 @@ int main()
             // Getting user input
             string input = inputHandler.getExpression();
 
+            // Checks if user input is empty
+            if ( input == "" )
+            {
+                throw invalid_argument( "Input cannot be empty!" );
+            }
+
             // Checking if user quits
             if ( inputHandler.shouldQuit() ) 
             {

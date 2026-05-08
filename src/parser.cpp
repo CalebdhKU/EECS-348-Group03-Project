@@ -186,6 +186,7 @@ AST* Parser::parseParentheses() {
         return node; // Return the AST for the expression inside the parentheses.
     }
 
-    return nullptr; // If the current token is neither a number nor a left parenthesis, return nullptr to indicate an error in parsing.
+    // If the current token is neither a number nor a left parenthesis, throw error message to indicate an error in parsing.
+    throw invalid_argument( "Invalid expression!" );
 }
 
