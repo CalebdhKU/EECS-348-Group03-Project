@@ -36,7 +36,7 @@ vector<Token> Parser::convert(const vector<string>& input) {
         else if (tokn == "%"){
             result.push_back({Tokentype::Modulo, tokn});
         }
-        else if (tokn == "^" || tokn == "**"){
+        else if (tokn == "**"){
             result.push_back({Tokentype::Power, tokn});
         }
         else if (tokn == "("){
@@ -153,7 +153,7 @@ AST* Parser::parseFactor() {
     return parsePower();
 }
 
-// This function parses an exponentiation operation, which consists of a factor followed by a '^' or '**' operator.
+// This function parses an exponentiation operation, which consists of a factor followed by a '**' operator
 AST* Parser::parsePower() {
     AST* left_node = parseParentheses(); // Parse the term by calling parseParentheses() and store the result as the left node.
 

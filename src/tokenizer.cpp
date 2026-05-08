@@ -102,14 +102,7 @@ vector<string> Tokenizer::getTokens()
                 // multiplication for math constants
                 if ( word == "pi" || word == "e" )
                 {
-                    if ( number != "" )
-                    {
-                        tokens.push_back( number );
-                        number = "";
-                        tokens.push_back( "*" );
-                    }
-
-                    if ( !tokens.empty() && tokens.back() == ")" )
+                    if ( !tokens.empty() && ( isdigit( tokens.back()[0] ) || tokens.back() == ")" ) )
                     {
                         tokens.push_back( "*" );
                     }
