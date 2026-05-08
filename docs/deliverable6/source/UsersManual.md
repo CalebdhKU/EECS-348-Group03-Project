@@ -111,8 +111,80 @@ Step 4: If the arithmetic expression is invalid, an error message will appear
 ---
 
 # 4. Advanced features
-This section should describe any advanced features of the software, such as the ability to save and load expressions, 
-or to define custom variables and functions. 
+Some advanced features that are included in the calculator are: 
+* Implicit multiplication e.g. (3 + 7)(6 / 2) is the same as (3 + 7) * (6 / 2)
+* Save previous expressions and results to a file
+* Math constants e.g. π and e
+* Handles floating point numbers
+  - It's required to add zero to the floating point number if it's less than 1.
+  - It can evaluate square roots if entered in as a decimal.
+
+<br>
+
+__How to Use Implicit Multiplicaiton__
+
+Step 1: enter an expression without any multiplication symbols.<br>
+Step 2: view the result. 
+
+Example:<br>
+Enter an expression: 2(1 + 4)<br>
+Result: 10
+
+<br>
+
+__How to Use the History Function__
+
+Step 1: enter several expressions.<br>
+Step 2: view each results.<br>
+Step 3: click on the history feature.<br>
+Step 3: view the history display.
+
+Example:<br>
+Enter an expression: 3 + 1 <br>
+Result: 4<br>
+Enter an expression: 2 / 1 <br>
+Result 1<br>
+
+<br>
+
+1. 3 + 1 = 4<br>
+2. 2 / 1 = 2
+
+<br>
+
+__How to Use Math Constants__
+
+Step 1: enter an expression using a math constant.<br>
+Step 2: view the result
+
+Example:<br>
+
+Enter an expression: 1 * π<br>
+Result: 3.1415
+
+<br>
+
+__How to Use Floating Point Numbers__
+
+Step 1: enter an expression using a decimal value (note: if the decimal value is less than 1, include a leading zero).<br>
+Step 2: view the result.
+
+Example:<br>
+
+Enter an expression: 0.1 + 3.1<br>
+Result: 3.2
+
+<br>
+
+__How to use Square Root Evaluation Through Decimals__
+
+Step 1: enter an expression that raises a value to the power 0.5.<br>
+Step 2: view the result.
+
+Example:<br>
+
+Enter an expression: 49 ** 0.5<br>
+Result: 7
 
 ---
 
