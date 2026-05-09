@@ -121,7 +121,7 @@ Some advanced features that are included in the calculator are:
 
 <br>
 
-__How to Use Implicit Multiplicaiton__
+__How to Use Implicit Multiplication__
 
 Step 1: enter an expression without any multiplication symbols.<br>
 Step 2: view the result. 
@@ -137,7 +137,7 @@ __How to Use the History Function__
 Step 1: enter several expressions.<br>
 Step 2: view each results.<br>
 Step 3: click on the history feature.<br>
-Step 3: view the history display.
+Step 4: view the history display.
 
 Example:<br>
 Enter an expression: 3 + 1 <br>
