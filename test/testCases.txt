@@ -183,3 +183,83 @@ Actual Result: 13
 Pass/Fail: Pass
 
 ----------------------------------------------
+
+Test Case ID: TC19
+
+Description: Verify invalid operator sequence
+Test Data: 5 + * 2
+Expected Result: Error: Invalid expression
+Actual Result: Error: Invalid expression!
+Pass/Fail: Pass
+
+----------------------------------------------
+
+Test Case ID: TC20
+
+Description: Verify unsupported operator
+Test Data: 7 ^ 9
+Expected Result: Error: Invalid character
+Actual Result: Error: Invalid character entered!
+Pass/Fail: Pass
+
+----------------------------------------------
+
+Test Case ID: TC21
+
+Description: Complex nested unary and exponentiation
+Test Data: -((2 + 3) ** 2 % 4)
+Expected Result: -1
+Actual Result: -1
+Pass/Fail: Pass
+
+----------------------------------------------
+
+Test Case ID: TC22
+
+Description: Verify implicit multiplication with parentheses
+Test Data: 2(3 + 4)
+Expected Result: 14
+Actual Result: 14
+Pass/Fail: Pass
+
+----------------------------------------------
+
+Test Case ID: TC23
+
+Description: Verify implicit multiplication between parentheses
+Test Data: (3 + 7)(6 / 2)
+Expected Result: 30
+Actual Result: 30
+Pass/Fail: Pass
+
+----------------------------------------------
+
+Test Case ID: TC24
+
+Description: Verify pi constant handling
+Test Data: 2pi
+Expected Result: 6.283185307
+Actual Result: 6.28319
+Pass/Fail: Pass
+
+----------------------------------------------
+
+Test Case ID: TC25
+
+Description: Verify e constant handling
+Test Data: 3e
+Expected Result: 8.154845485
+Actual Result: 8.15485
+Pass/Fail: Pass
+
+----------------------------------------------
+
+Test Case ID: TC26
+
+Description: Verify expression history file logging
+Test Data: 3 + 4
+Expected Result: Expression evaluates to 7 and is saved to the history file
+Actual Result: Expression evaluates to 7 and is saved to the history file
+Pass/Fail: Pass
+
+----------------------------------------------
