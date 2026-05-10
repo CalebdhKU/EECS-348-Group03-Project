@@ -55,7 +55,7 @@ This project is developed as part of EECS 348 – Software Engineering and focus
 | Aaron Trites | QA Testing Leader | Develops test plan and test cases, compares expected and actual results and ensures any issues/defects are resolved  | Monday-Thursday after 3:30 p.m. | Python/C# | Arduino and RaspberryPi |
 | Caleb Harmsen | GitHub Manager | Creates and manages the repository, maintains folder structure, handles merges and version history | Monday - Friday after 5:30 p.m. | C#/C++/Python | Arduino |
 | Greeshma Kunduri | Requirements Leader | Defines scope, objectives, constraints, prevents scope creep and ensures requirements are aligned with project deadline  | Tuesday-Wednesday after 5:30 p.m. | Python, C/C++ | Arduino |
-| Ivan Kullaya | Documentation Leader | Manages the UPEDU template, merges contributions and ensures clarity and consistency | Monday-Friday after 5 p.m. | C/C++, Python, HTML/CSS | Arduino |
+| Ivan Kullaya | Documentation Leader | Manages the UPEDU template, merges contributions and ensures clarity and consistency | Monday-Friday after 5 p.m. | C/C++, Python, HTML/CSS | Arduino and RaspberryPi |
 | Jerry Merveille | Technical Leader | Provides technical direction, tool recommendations, realistic timelines and will lead future implementation of projects | Tuesday after 5:30 p.m., Friday until 5:00 p.m | Python, Java, C/C++, HTML/CSS, React, SQL | Arduino and RaspberryPi|
 | Abina Arshad | Integration Leader | Ensures code from different team members integrates properly, prevents merge conflicts, and makes sure the program compiles and runs correctly across different systems. | Monday, Tuesday, Friday after 5:00 p.m. | Python, HTML/CSS, C, SQL | Arduino |
 | Maha Jornaz | Project Leader | Coordinates team meetings, records the team meeting logs, verifies all milestones are completed and is responsible for final submission | Monday-Wednesday after 4:00 p.m. | Python, C++, JavaScript/HTML | Arduino |
@@ -114,11 +114,32 @@ Output:
 
 7
 
+**Additional Examples:**
+
+Input:
+
+2pi
+
+Output:
+
+6.28319
+
+Input:
+
+2(3 + 4)
+
+Output:
+
+14
 
 The program supports:
 - +, -, *, /, %, **
 - Unary operators (+, -)
 - Nested parentheses
+- Error handling for invalid expressions
+- Implicit multiplication
+- Mathematical constants (pi, e)
+- Expression history logging to a text file
 - Error handling for invalid expressions
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -128,7 +149,7 @@ The program supports:
 ## Roadmap
 
 - [x] Project Plan
-- [x] Software Requirements Specifications
+- [x] Software Requirements Specification
 - [x] Software Architecture Design
 - [x] Implementation
 - [x] Test Cases
