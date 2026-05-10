@@ -1,1 +1,16 @@
+# Compiled object files
+*.o
+*.obj
+
+# Executable
+evaluator
+*.exe
+
+# Output/history files
+history.txt
+
+# macOS files
 .DS_Store
+
+# VS Code settings
+.vscode/
