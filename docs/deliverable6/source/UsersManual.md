@@ -1,3 +1,6 @@
+---
+
+<div align="right">
 
 # Group 3
 
@@ -6,31 +9,43 @@
 ---
 
 # Arithmetic Expression Evaluator in C++
-**Version:** 1.0   
-**Date:** 04/01/2026  
-**Document Identifier:** AEE-UM-1.0
+**Version:** 1.5   
+**Date:** 05/10/2026  
+**Document Identifier:** AEE-UM-1.5
 
 ---
 
 # User's Manual
-## Version 1.0
+## Version 1.5
 
 ---
 
 | Date | Version | Description | Author |
 |------|---------|------------|--------|
 | 04/01/2026 | 1.0 | Initial creation and conversion of Deliverable 6 into GitHub using Markdown format | Ivan Kullaya |
-| 05/05/2026 | 1.1 | Addition of Sections 5, 6, 7, 8 | Greeshma Kunduri |
-| 05/05/2026 | 1.2 | Revise UsersManual with detailed software instructions | Maha Jornaz |
+| 05/05/2026 | 1.1 | Addition of Sections 1, 2, 3 | Maha Jornaz |
+| 05/05/2026 | 1.2 | Addition of Sections 5, 6, 7, 8 | Greeshma Kunduri |
+| 05/08/2026 | 1.3 | Addition of Section 4 | Maha Jornaz |
+| 05/10/2026 | 1.4 | Revised sections/Improved formatting consistency prior to submission | Ivan Kullaya |
+| 05/10/2026 | 1.5 | Submission version of Deliverable 06 | Maha Jornaz |
 
 ---
 
 ## Table of Contents
 
 1. Purpose  
-2. Introduction 
+2. Introduction
+    - 2.1 Usage of Operators
 3. Getting started
-4. Advanced features
+    - 3.1 How to Install and Run
+      - 3.1.1 Features
+      - 3.1.2 System Requirements
+3. Advanced features
+    - 4.1 How to use Implicit Multiplication
+    - 4.2 How to use the History Textfile
+    - 4.3 How to use Math Constants
+    - 4.4 How to use Floating Point Numbers
+      - 4.4.1 How to Evaluate Roots using Decimals
 5. Troubleshooting
 6. Examples of uses
 7. Glossary
@@ -39,61 +54,26 @@
 ---
 
 # 1. Purpose
-The purpose of the user’s manual document is to guide students/users to understand how the arithmetic evaluator operates. The user inputs an expression of their choice, and the software returns a value or an error back to the user. It handles operator precedence (PEMDAS), arithmetic expressions, and errors. The document includes the following sections: Purpose, Introduction, Getting Started, Advanced Features, Troubleshooting, Examples, Glossary of Terms, and FAQ. 
+
+The purpose of the user manual document is to help students and users understand how the arithmetic evaluator operates. The user inputs an expression of their choice, and the software returns a value or an error back to the user. It handles operator precedence (PEMDAS), arithmetic expressions, and errors. The document includes the following sections: Purpose, Introduction, Getting Started, Advanced Features, Troubleshooting, Examples, Glossary of Terms, and FAQ. 
 
 ---
 
 # 2. Introduction
-__The software uses order of operations (PEMDAS) and other functions, which includes:__
 
-*	__()__ : is a parenthesis operator used to group numbers that need to be calculated first
-*	__**__ : is an exponential operator used to take a number’s power 
-*	__*__ : is a multiplication operator used to calculate the product
-*	__/__ : is a division operator used to calculate the quotient
-*	__+__ : is an addition operator used to calculate the sum
-*	__-__ : is a subtraction operator used to calculate the difference
-*	__%__ : is a modulo operator used to calculate the modulus
-*	__=__ : is an equal operator used to return the output of the expression
-*	__+__: is a unary positive operator used to keep a value positive
-*	__-__: is a unary begative operator used to keep a value negative
+**The software uses order of operations (PEMDAS) and supports the following operators and functions:**
 
-<br>
+1. __()__ is a parenthesis operator used to group numbers that need to be calculated first.
+2. __**__ is an exponential operator used to take a number’s power.
+3. __*__ is a multiplication operator used to calculate the product.
+4. __/__ is a division operator used to calculate the quotient.
+5. __+__ is an addition operator used to calculate the sum.
+6. __-__ is a subtraction operator used to calculate the difference.
+7. __%__ is a modulo operator used to calculate the remainder.
+8. __Unary +__ is a unary positive operator used to explicitly indicate a positive value
+9. __Unary -__ is a unary negative operator used to explicitly indicate a negative value
 
-__Features__
-* Handles order of operations (PEMDAS)
-* Defined error messages
-* Supports arithmetic expressions
-* Handles unary operators
-
-
-<br>
-
-__How to Install and Run__
-
-Have a C++ compiler downloaded and ready to be used. Download the source code from the GitHub Repository and upload it into the C++ compiler. Finally, execute the source code. 
-
-
----
-
-# 3. Getting started
-
-### __Steps__ 
-
-Step 1: Download the source code and compile it with a C++ compiler
-
-Step 2: Input any arithmetic expression 
-*	Enter expression: 4 + 1
-
-Step 3: After running the expression, the result should appear. 
-*	Result: 5
-
-Step 4: If the arithmetic expression is invalid, an error message will appear 
-*	Enter expression: 7 / 0 
-*	ERROR: Division by 0
-
-<br>
-
-### __Usage of Operators__
+## 2.1 Usage of Operators
 
 | Operator |  Description  | Expression |
 |----------|---------------|------------|
@@ -104,167 +84,262 @@ Step 4: If the arithmetic expression is invalid, an error message will appear
 |    +     |    Addition   |    5 + 1   |
 |    -     |  Subtraction  |    5 - 1   |
 |    %     |     Modulo    |    5 % 1   |
+|  Unary + | Positive unary operator | +(5) |
+|  Unary - | Negative unary operator | -(5) |
 
+---
 
+# 3. Getting started
 
+## 3.1 How to Install and Run
+
+Make sure a C++ compiler and the make utility are installed on your system. Download or clone the source code from the GitHub repository, open a terminal in the project directory, and use the Makefile to build the program.
+
+1. Download or clone the source code from the GitHub repository.
+2. Open a terminal in the project directory.
+3. Run the make command to build the program.
+4. Execute the generated executable file.
+
+    Example:
+      - make
+      - ./evaluator 
+
+5. Input any arithmetic expression.
+
+   Enter an expression: 4 + 1
+
+6. After running the expression, the result should appear. 
+
+     Result: 5
+
+7. If the arithmetic expression is invalid, an error message will appear.
+
+    Enter an expression: 7 / 0 
+  
+    Error: Division by zero
+
+### 3.1.1 Features
+- Handles order of operations (PEMDAS)
+- Defined error messages
+- Supports arithmetic expressions
+- Handles unary operators
+
+### 3.1.2 System Requirements
+- C++17 compatible compiler
+- make utility
+- Terminal or command prompt
 
 ---
 
 # 4. Advanced features
-Some advanced features that are included in the calculator are: 
-* Implicit multiplication e.g. (3 + 7)(6 / 2) is the same as (3 + 7) * (6 / 2)
-* Save previous expressions and results to a file
-* Math constants e.g. π and e
-* Handles floating point numbers
+
+Some advanced features that are included in the calculator are:
+- Implicit multiplication e.g. (3 + 7)(6 / 2) is the same as (3 + 7) * (6 / 2)
+- Saves previous expressions and results to a history file
+  - Expressions that resulted in an error will not be included in the history file
+- Math constants e.g. pi and e
+- Handles floating point numbers
   - It's required to add zero to the floating point number if it's less than 1.
-  - It can evaluate square roots if entered in as a decimal.
+  - It can evaluate roots when entered using decimal exponents.
 
-<br>
+## 4.1 How to use Implicit Multiplication
 
-__How to Use Implicit Multiplication__
+1. Enter an expression without any multiplication symbols.
+2. View the result. 
 
-Step 1: enter an expression without any multiplication symbols.<br>
-Step 2: view the result. 
+Example:
+- Enter an expression: 2(1 + 4)
+- Result: 10
 
-Example:<br>
-Enter an expression: 2(1 + 4)<br>
-Result: 10
+## 4.2 How to use the History Textfile
 
-<br>
+1. Enter several expressions.
+2. View each result individually.
+3. Open the generated/updated 'history.txt' textfile.
+4. View the previous expressions displayed.
 
-__How to Use the History Function__
+Example:
+- Enter an expression: 3 + 1
+- Result: 4
+- Enter an expression: (8*1
+- Result: Error: Mismatched parentheses!
+- Enter an expression: 2 / 1
+- Result: 2
 
-Step 1: enter several expressions.<br>
-Step 2: view each results.<br>
-Step 3: click on the history feature.<br>
-Step 4: view the history display.
-
-Example:<br>
-Enter an expression: 3 + 1 <br>
-Result: 4<br>
-Enter an expression: 2 / 1 <br>
-Result 1<br>
-
-<br>
-
-1. 3 + 1 = 4<br>
+(Open the generated/updated history.txt)
+1. 3 + 1 = 4
 2. 2 / 1 = 2
 
-<br>
+## 4.3 How to use Math Constants
 
-__How to Use Math Constants__
+1. Enter an expression using a math constant.
+2. View the result.
 
-Step 1: enter an expression using a math constant.<br>
-Step 2: view the result
+Example:
+- Enter an expression: 1 * pi
+- Result: 3.14159
+- Enter an expression: 3e
+- Result: 8.15485
 
-Example:<br>
+## 4.4 How to use Floating Point Numbers
 
-Enter an expression: 1 * π<br>
-Result: 3.1415
+1. Enter an expression using a decimal value.
+2. View the result.
 
-<br>
+Example:
+- Enter an expression: 0.1 + 3.1
+- Result: 3.2
 
-__How to Use Floating Point Numbers__
+### 4.4.1 How to Evaluate Roots using Decimals
 
-Step 1: enter an expression using a decimal value (note: if the decimal value is less than 1, include a leading zero).<br>
-Step 2: view the result.
+1. Enter an expression that raises a value to a fractional or decimal exponent.
+2. Use:
+    - 1/2 for square roots
+    - 1/3 for cube roots
+    - 1/n for other (n) root
+3. View the result.
 
-Example:<br>
-
-Enter an expression: 0.1 + 3.1<br>
-Result: 3.2
-
-<br>
-
-__How to use Square Root Evaluation Through Decimals__
-
-Step 1: enter an expression that raises a value to the power 0.5.<br>
-Step 2: view the result.
-
-Example:<br>
-
-Enter an expression: 49 ** 0.5<br>
-Result: 7
+Example:
+- Enter an expression: 49 ** 0.5
+- Result: 7
+- Enter an expression: 27 ** (1/3)
+- Result: 3
+- Enter an expression: 16 ** 0.25
+- Result: 2
 
 ---
 
 # 5. Troubleshooting
-* Program doesn’t run
-Make sure it compiled correctly first. If it didn’t, fix the errors and try again. Also double check you’re running the right executable.
 
-* Invalid expression error
+1. The program doesn’t run
+
+Make sure the program was built successfully using the make command. If errors appear during the build process, fix the reported issues and run make again. Also verify that you are running the correct executable file. If you use a macOS/Linux operating system, make sure you use ./ before the executable name when running the program in a terminal.
+
+2. Invalid expression error
+
 This usually happens when something is wrong in the input. Common issues are missing operators (like 5 (2 + 3)), mismatched parentheses, or using invalid symbols like ^ or &.
 
-* Division by zero
+3. Division by zero
+
 You get this when a number is divided by zero, like 10 / (5 - 5). Just change the expression so the denominator isn’t zero.
 
-* Wrong result
+4. Wrong result
+
 This is usually because of order of operations. Try using parentheses to make it clearer, and remember exponentiation uses **, not ^.
 
-* Program crashes or stops
+5. Program crashes or stops
+
 Re-run the program and check your input formatting. If it keeps happening, recompile and try again with a simpler expression.
+
+6. Invalid decimal formatting
+
+Decimal numbers less than 1 must include a leading zero. For example, use 0.5 instead of .5.
+
+7. History file is empty or not updating
+
+Only valid expressions are saved to history.txt. Expressions that produce errors will not be written to the file.
+
+8. Unexpected root calculation result
+
+Make sure fractional exponents are entered correctly. For example:
+
+49 ** 0.5 = 7
+
+27 ** (1/3) = 3
 
 ---
 
 # 6. Examples of uses
+
 Here are some examples of how the program works.
 
-* 3 + 4 → 7
-* 10 - 2 → 8
-* 10 * 2 / 5 → 4
-* 8 - (5 - 2) → 5
-* (3 + 2) * 4 → 20
-* 2 ** 3 → 8
-* 4 * (3 + 2) % 7 - 1 → 5
-* -(+2) * (+3) → -6
-* 5 (2 + 3) → Error: Invalid expression
+----------------------------------------------<br>
+Arithmetic Expression Evaluator<br>
+Enter 'q' to Quit<br>
+----------------------------------------------<br>
+Enter an expression: (3 + 2) * 4<br>
+Result: 20<br>
+----------------------------------------------<br>
+Enter an expression: 4 * (3 + 2) % 7 - 1<br>
+Result: 5<br>
+----------------------------------------------<br>
+Enter an expression: 5 (2 + 3)<br>
+Result: 25<br>
+----------------------------------------------<br>
+Enter an expression: 30 - 8 / ( 5 - 5 )<br>
+Error: Division by zero<br>
+----------------------------------------------<br>
+Enter an expression: q<br>
+Exiting program...<br>
 
 ---
 
 # 7. Glossary
-* Arithmetic expression: A math problem made up of numbers and operators.
 
-* Operator: A symbol like +, -, *, /, %, or **.
+- Arithmetic expression: A math problem made up of numbers and operators.
+- Binary operator: An operator that works on two numbers, like 3 + 2.
+- CLI (Command Line Interface): A text-based way to interact with the program.
+- Exponentiation: Raising a number to a power using **.
+- Floating point number: A number containing a decimal value.
+- Implicit multiplication: Multiplication without using the * symbol, such as 2(3 + 4).
+- Operand: A value used in a mathematical operation.
+- Operator: A symbol like +, -, *, /, %, or **.
+- PEMDAS: Order of operations (parentheses, exponents, multiply/divide, add/subtract).
+- Parser: The part of the program that understands the structure of the expression.
+- Parentheses: Symbols used to group parts of an expression.
+- Tokenization: Breaking input into numbers, operators, and parentheses.
+- Unary operator: An operator that works on one number, like -5.
 
-* Unary operator: An operator that works on one number, like -5.
-
-* Binary operator: An operator that works on two numbers, like 3 + 2.
-
-* CLI (Command Line Interface): A text-based way to interact with the program.
-
-* Parser: The part of the program that understands the structure of the expression.
-
-* Tokenization: Breaking input into numbers, operators, and parentheses.
-
-* PEMDAS: Order of operations (parentheses, exponents, multiply/divide, add/subtract).
-
-* AST: A tree structure used internally to evaluate expressions.
 
 ---
 
 # 8. FAQ
+
 This section should answer frequently asked questions about the software. 
 
-* What operators are supported?
+1. What operators are supported?
+
 +, -, *, /, %, and **.
 
-* Can I use decimals?
-No, only integers are supported right now.
+2. Can I use decimals?
 
-* What if I enter something wrong?
-The program will show an error instead of crashing.
+Yes, as long as the number includes a leading zero.
 
-* Do I need parentheses?
+3. What if I enter something wrong?
+
+The program will show an error message instead of crashing.
+
+4. Do I need parentheses?
+
 Not always, but they help control order of operations.
 
-* Why doesn’t ^ work?
+5. Why doesn’t ^ work?
+
 Because exponentiation uses ** in this program.
 
-* Can I enter multiple expressions at once?
-No, one expression at a time.
+6. Can I enter multiple expressions at once?
 
-* What happens if I divide by zero?
-You’ll get an error message.
+No, only one expression at a time.
+
+7. What happens if I divide by zero?
+
+You will receive an error message.
+
+8. Can I use spaces in expressions?
+
+Yes, spaces are ignored and optional in most expressions.
+
+9. Does the calculator support negative numbers?
+
+Yes, unary operators allow expressions like -5 + 2.
+
+10. Are invalid expressions saved to history.txt?
+
+No, expressions that result in errors are not saved.
+
+11. Can I use nested parentheses?
+
+Yes, the calculator supports multiple levels of nested parentheses.
 
 ---
 
